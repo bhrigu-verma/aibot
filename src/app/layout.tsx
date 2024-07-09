@@ -17,9 +17,9 @@ export default function RootLayout({
   children,
 }:Readonly<{children:React.ReactNode}>)  {
   return (
-    <ClerkProvider >
+   
       <html lang="en">
-       
+        <ClerkProvider >
         <body className={jakarta.className} suppressHydrationWarning>
         <Suspense fallback={<div>Loading...</div>}>
         <ThemeProvider
@@ -28,20 +28,20 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange>
              
-          <SignedOut>
+          {/* <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
             <UserButton />
-          </SignedIn>
+          </SignedIn> */}
           {children}
           
             <Toaster/>
           </ThemeProvider>
           </Suspense>
           </body>
-        
+          </ClerkProvider>
       </html>
-      </ClerkProvider>
+      
   )
 }

@@ -34,11 +34,6 @@ export const onCompleteUserRegistration = async (
   }
 }
 
-/**
- * Logs in the user and retrieves user information and account domains.
- * @returns An object containing the status code, authenticated user information, and account domains.
- *          If an error occurs, it returns an object with a status code of 400.
- */
 export const onLoginUser = async () => {
   const user = await currentUser()
   if (!user) redirectToSignIn()
