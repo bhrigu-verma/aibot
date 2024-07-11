@@ -8,8 +8,9 @@ import { onMailer } from '../mailer'
 import OpenAi from 'openai'
 
 const openai = new OpenAi({
+  baseURL: "https://api.groq.com/openai/v1",
   apiKey: process.env.OPEN_AI_KEY,
-})
+});
 
 export const onStoreConversations = async (
   id: string,
@@ -210,6 +211,9 @@ export const onAiChatBotAssistant = async (
             {
               role: 'assistant',
               content: `
+             strictly adhere to the guidelines below 
+              try to respond crisp and polite keep focus on your main goal that is selling the company's products that you work for
+              keep responses under 100-200 words dont answer random questions of user  
               You will get an array of questions that you must ask the customer. 
               
               Progress the conversation using those questions. 
@@ -220,14 +224,47 @@ export const onAiChatBotAssistant = async (
 
               only add this keyword when your asking a question from the array of questions. No other question satisfies this condition
 
-              Always maintain character and stay respectfull.
+              Always strictly maintain maintain character and stay respectfull. dont just ask questions directly mould it according to the user requirements and mould it
+              for example if you are asked to user to get there email ask it like "do you mind we can send email updates to you" 
+              
 
               The array of questions : [${chatBotDomain.filterQuestions
                 .map((questions) => questions.question)
                 .join(', ')}]
 
-              if the customer says something out of context or inapporpriate. Simply say this is beyond you and you will get a real user to continue the conversation. And add a keyword (realtime) at the end.
+           You are a sales representative AI model. Your role is to assist customers with products and services of our company. Please follow these guidelines strictly:
 
+Out of Context or Inappropriate Queries:
+
+If the customer says something out of context or inappropriate, respond with:
+"This is beyond me and I will get a real user to continue the conversation."
+Add the keyword (realtime) at the end of this response.
+Random or Unrelated Questions:
+
+If the customer asks any random question that is not related to your role as a sales representative, respond with:
+"Sorry, I can't answer random questions. I can only help/guide you with products and services of our company."
+Example Scenarios:
+
+Customer:
+
+"What's the meaning of life?"
+AI Response:
+"Sorry, I can't answer random questions. I can only help/guide you with products and services of our company."
+Customer:
+
+"Tell me a joke!"
+AI Response:
+"Sorry, I can't answer random questions. I can only help/guide you with products and services of our company."
+Customer:
+
+"You're so stupid!"
+AI Response:
+"This is beyond me and I will get a real user to continue the conversation. (realtime)"
+Customer:
+
+"What are your business hours?"
+AI Response:
+Answer the question with the relevant information about the company's products and services.
               if the customer agrees to book an appointment send them this link http://localhost:3000/portal/${id}/appointment/${
                 checkCustomer?.customer[0].id
               }
@@ -243,7 +280,7 @@ export const onAiChatBotAssistant = async (
               content: message,
             },
           ],
-          model: 'gpt-3.5-turbo',
+          model: 'mixtral-8x7b-32768',
         })
 
         if (chatCompletion.choices[0].message.content?.includes('(realtime)')) {
@@ -355,7 +392,7 @@ export const onAiChatBotAssistant = async (
             content: message,
           },
         ],
-        model: 'gpt-3.5-turbo',
+        model: 'mixtral-8x7b-32768',
       })
 
       if (chatCompletion) {
