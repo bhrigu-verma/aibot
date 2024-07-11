@@ -23,7 +23,7 @@ model User {
 
   stripeId String?
 
-  domains Domain[]
+  s Domain[]
 
   campaign Campaign[]
 

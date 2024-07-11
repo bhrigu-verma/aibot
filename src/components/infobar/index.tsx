@@ -1,5 +1,6 @@
 import React from 'react'
 import BreadCrumb from './bread-crumb'
+import { UserButton } from '@clerk/nextjs'
 import { Card } from '../ui/card'
 import { Headphones, Star, Trash } from 'lucide-react'
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
@@ -17,7 +18,8 @@ const InfoBar = (props: Props) => {
             <Star></Star>
           </Card>
         </div>
-        <Avatar>
+        <UserButton />
+        <Avatar>  
           <AvatarFallback className="bg-orange text-white">
             <Headphones />
           </AvatarFallback>
