@@ -28,7 +28,7 @@ export const MinMenu = ({
   domains,
 }: MinMenuProps) => {
   return (
-    <div className="p-3 flex flex-col items-center h-full">
+    <div className="p-10 flex flex-col items-center h-full z-10">
       <span className="animate-fade-in opacity-0 delay-300 fill-mode-forwards cursor-pointer">
         <AiFillAppstore  onClick={onShrink} />
       </span>
@@ -42,10 +42,10 @@ export const MinMenu = ({
               current={current}
             />
           ))}
-          {/* <DomainMenu
+          <DomainMenu
             min
-           // domains={domains}
-          /> */}
+           domains={domains}
+          />
         </div>
         <div className="flex flex-col">
           <MenuItem
