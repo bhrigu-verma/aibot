@@ -7,26 +7,35 @@ type Props = {
 }
 
 const OTPInput = ({ otp, setOtp }: Props) => {
-  const generateOTPSlots = (numSlots) => {
-    return Array.from({ length: numSlots }, (_, index) => (
-      <div key={index}>
-        <InputOTPSlot index={index} />
-      </div>
-    ));
-  };
-
   return (
     <InputOTP
       maxLength={6}
       value={otp}
       onChange={(otp) => setOtp(otp)}
     >
+
       <div className="flex gap-3">
-        {generateOTPSlots(6)}
+        <div>
+          <InputOTPSlot index={0} />
+        </div>
+        <div>
+          <InputOTPSlot index={1} />
+        </div>
+        <div>
+          <InputOTPSlot index={2} />
+        </div>
+        <div>
+          <InputOTPSlot index={3} />
+        </div>
+        <div>
+          <InputOTPSlot index={4} />
+        </div>
+        <div>
+          <InputOTPSlot index={5} />
+        </div>
       </div>
     </InputOTP>
   )
 }
 
 export default OTPInput
-
