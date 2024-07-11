@@ -72,7 +72,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
   ) => {
     console.log(errors)
     return (
-      <div className="h-[400px] w-[450px] flex flex-col bg-white rounded-xl mr-[80px] border-[1px] overflow-hidden">
+      <div className="h-[90%] w-[450px] mt-5 flex flex-col bg-zinc-600 rounded-xl  border-[1px] overflow-hidden">
         <div className="flex justify-between px-4 pt-4">
           <div className="flex gap-2">
             <Avatar className="w-20 h-20">
@@ -84,7 +84,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
             </Avatar>
             <div className="flex items-start flex-col">
               <h3 className="text-lg font-bold leading-none">
-                Sales Rep - Web Prodigies
+                Sales Rep - Acumen.ai
               </h3>
               <p className="text-sm">{domainName.split('.com')[0]}</p>
               {realtimeMode?.mode && (
@@ -134,12 +134,12 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
                 <div className="flex justify-between">
                   <Input
                     {...register('content')}
-                    placeholder="Type your message..."
-                    className="focus-visible:ring-0 flex-1 p-0 focus-visible:ring-offset-0 bg-porcelain rounded-none outline-none border-none"
+                    placeholder="   any qns about our buisness?..."
+                    className="rounded-lg focus-visible:ring-0 flex-1 p-0 focus-visible:ring-offset-0 bg-porcelain  outline-none border-none"
                   />
                   <Button
                     type="submit"
-                    className="mt-3"
+                    className=""
                   >
                     <Send />
                   </Button>
@@ -178,7 +178,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
           </TabsContent>
         </TabsMenu>
         <div className="flex justify-center ">
-          <p className="text-gray-400 text-xs">Powered By Web Prodigies</p>
+          <p className="text-gray-400 text-xs">Powered By AcumenAi</p>
         </div>
       </div>
     )
