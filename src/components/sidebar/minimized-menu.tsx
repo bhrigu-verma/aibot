@@ -28,11 +28,12 @@ export const MinMenu = ({
   domains,
 }: MinMenuProps) => {
   return (
-    <div className="p-10 flex flex-col items-center h-full z-10">
-      <span className="animate-fade-in opacity-0 delay-300 fill-mode-forwards cursor-pointer">
+    <div className="p-10 flex flex-col items-center h-full">
+      <span className="animate-fade-in  delay-300 fill-mode-forwards cursor-pointer">
         <AiFillAppstore  onClick={onShrink} />
+        <p className='text-black'> hello </p>
       </span>
-      <div className="animate-fade-in opacity-0 delay-300 fill-mode-forwards flex flex-col justify-between h-full pt-10">
+      <div className="animate-fade-in  delay-300 fill-mode-forwards flex flex-col justify-between h-full pt-10">
         <div className="flex flex-col">
           {SIDE_BAR_MENU.map((menu, key) => (
             <MenuItem

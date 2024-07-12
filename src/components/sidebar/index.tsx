@@ -22,19 +22,28 @@ const SideBar = ({ domains }: Props) => {
   return (
     <div
       className={cn(
-        'bg-cream bg-white h-full w-[60px] fill-mode-forwards fixed md:relative flex',
-        
+        'bg-cream dark:bg-neutral-950 h-full w-[60px] fill-mode-forwards fixed md:relative',
+        expand == undefined && '',
+        expand == true
+          ? 'animate-open-sidebar'
+          : expand == false && 'animate-close-sidebar'
       )}
     >
-      
-      {/* {expand ? ( */}
+      {expand ? (
         <MaxMenu
           domains={domains}
           current={page!}
           onExpand={onExpand}
           onSignOut={onSignOut}
         />
-    
+      ) : (
+        <MinMenu
+          domains={domains}
+          onShrink={onExpand}
+          current={page!}
+          onSignOut={onSignOut}
+        />
+      )}
     </div>
   )
 }

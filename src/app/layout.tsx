@@ -6,6 +6,7 @@ import {
   SignedOut,
   UserButton
 } from '@clerk/nextjs'
+import { Loading } from '@/components/ui/loading'
 import './globals.css'
 import {Plus_Jakarta_Sans} from 'next/font/google'
 import { Toaster } from '@/components/ui/toaster'
@@ -21,7 +22,7 @@ export default function RootLayout({
       <html lang="en">
         <ClerkProvider >
         <body className={jakarta.className} suppressHydrationWarning>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div className='mr-[50%]'>loading...</div>}>
         <ThemeProvider
             attribute='class'
             defaultTheme='system'

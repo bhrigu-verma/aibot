@@ -23,8 +23,9 @@ const MaxMenu = ({ current, domains, onExpand, onSignOut }: Props) => {
   return (
     <div className="py-3 px-4 flex flex-col h-full">
       <div className="flex justify-between items-center">
-        <Image
-          src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-electronic-link-tool-image_1131799.jpg"
+        <div >LOGO0000</div>
+        {/* <Image
+          src=""
           alt="LOGO"
           sizes="100vw"
           className="animate-fade-in opacity-0 delay-300 fill-mode-forwards"
@@ -34,7 +35,7 @@ const MaxMenu = ({ current, domains, onExpand, onSignOut }: Props) => {
           }}
           width={0}
           height={0}
-        />
+        /> */}
         <Menu
           className="cursor-pointer animate-fade-in opacity-0 delay-300 fill-mode-forwards"
           onClick={onExpand}
