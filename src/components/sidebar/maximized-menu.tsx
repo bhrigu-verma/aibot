@@ -23,9 +23,8 @@ const MaxMenu = ({ current, domains, onExpand, onSignOut }: Props) => {
   return (
     <div className="py-3 px-4 flex flex-col h-full">
       <div className="flex justify-between items-center">
-        <div >LOGO0000</div>
-        {/* <Image
-          src=""
+        <Image
+          src="/images/logo.png"
           alt="LOGO"
           sizes="100vw"
           className="animate-fade-in opacity-0 delay-300 fill-mode-forwards"
@@ -35,7 +34,7 @@ const MaxMenu = ({ current, domains, onExpand, onSignOut }: Props) => {
           }}
           width={0}
           height={0}
-        /> */}
+        />
         <Menu
           className="cursor-pointer animate-fade-in opacity-0 delay-300 fill-mode-forwards"
           onClick={onExpand}
