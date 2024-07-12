@@ -28,7 +28,7 @@ const DomainMenu = ({ domains, min }: Props) => {
   return (
     <div className={cn('flex flex-col gap-3', min ? 'mt-6' : 'mt-3')}>
       <div className="flex justify-between w-full items-center">
-        {!min && <p className="text-xs text-gray-500">DOMAINS</p>}
+        {!min && <p className="text-xs text-gray-100">DOMAINS</p>}
         <AppDrawer
           description="add in your domain address to integrate your chatbot"
           title="Add your business domain"
@@ -49,7 +49,7 @@ const DomainMenu = ({ domains, min }: Props) => {
                 label="Domain"
                 name="domain"
                 errors={errors}
-                placeholder="mydomain.com"
+                placeholder="bhriguverma.com"
                 type="text"
               />
               <UploadButton
@@ -74,11 +74,12 @@ const DomainMenu = ({ domains, min }: Props) => {
               href={`/settings/${domain.name.split('.')[0]}`}
               key={domain.id}
               className={cn(
-                'flex gap-3 hover:bg-white rounded-full transition duration-100 ease-in-out cursor-pointer ',
+                'flex gap-3  rounded-full transition duration-100 ease-in-out cursor-pointer ',
                 !min ? 'p-2' : 'py-2',
                 domain.name.split('.')[0] == isDomain && 'bg-white'
               )}
             >
+             
               <Image
                 src={`https://ucarecdn.com/${domain.icon}/`}
                 alt="logo"

@@ -43,6 +43,7 @@
     "@remixicon/react": "^4.2.0",
     "@stripe/react-stripe-js": "^2.7.1",
     "@stripe/stripe-js": "^3.4.1",
+    "@svgr/webpack": "^8.1.0",
     "@types/nodemailer": "^6.4.15",
     "@uploadcare/blocks": "^0.40.0",
     "@uploadcare/react-uploader": "^0.5.2",
