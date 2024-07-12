@@ -1,7 +1,7 @@
 import { SIDE_BAR_MENU } from '@/constants/menu'
 
 import React from 'react'
-import { AiFillAppstore } from "react-icons/ai";
+
 import { LogOut, MonitorSmartphone } from 'lucide-react'
 import { MenuLogo } from '@/icons/menu-logo'
 import MenuItem from './menu-item'
@@ -28,12 +28,11 @@ export const MinMenu = ({
   domains,
 }: MinMenuProps) => {
   return (
-    <div className="p-10 flex flex-col items-center h-full">
-      <span className="animate-fade-in  delay-300 fill-mode-forwards cursor-pointer">
-        <AiFillAppstore  onClick={onShrink} />
-        <p className='text-black'> hello </p>
+    <div className="p-3 flex flex-col items-center h-full">
+      <span className="animate-fade-in opacity-0 delay-300 fill-mode-forwards cursor-pointer">
+        <MenuLogo onClick={onShrink} />
       </span>
-      <div className="animate-fade-in  delay-300 fill-mode-forwards flex flex-col justify-between h-full pt-10">
+      <div className="animate-fade-in opacity-0 delay-300 fill-mode-forwards flex flex-col justify-between h-full pt-10">
         <div className="flex flex-col">
           {SIDE_BAR_MENU.map((menu, key) => (
             <MenuItem
@@ -45,14 +44,14 @@ export const MinMenu = ({
           ))}
           <DomainMenu
             min
-           domains={domains}
+            domains={domains}
           />
         </div>
         <div className="flex flex-col">
           <MenuItem
             size="min"
             label="Sign out"
-            icon={<AiFillAppstore />}
+            icon={<LogOut />}
             onSignOut={onSignOut}
           />
           <MenuItem
