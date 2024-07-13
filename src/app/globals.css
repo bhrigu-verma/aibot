@@ -19,6 +19,21 @@ body {
   scrollbar-width: none;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49494c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #080233;
+  border-radius: 10px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -91,7 +106,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 .chat-bubble {
   background-color: #f1f1f1;
   padding: 16px 28px;
