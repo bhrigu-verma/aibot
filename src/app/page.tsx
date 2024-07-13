@@ -162,9 +162,9 @@ export default function Home() {
 
     </section >
     {/* payment plans create a fomo free for first 100 registrations  */}
-    <section className="flex flex-col mt-[15vw] max-w-full h-full justify-center">
-      <h1 className="text-center justify-center text-4xl font-bold flex " > our plans </h1>
-
+    <section className="flex flex-col  max-w-full h-full justify-center">
+     <h1 className="text-center justify-center text-4xl font-bold flex " > Plans we Offer </h1>
+    <h1 className="text-center justify-center text-2xl font-bold flex"> currently offering free Ultimate plan for first 100 buinesses who register</h1>
     </section>
 {/* 
       <section className="flex justify-center items-center flex-col gap-4 mt-10">
@@ -173,7 +173,8 @@ export default function Home() {
           Our straightforward pricing plans are tailored to meet your needs. If you're not ready to commit you can get started for free.
         </p>
       </section> */}
-      {/* <div className="flex  justify-center gap-4 flex-wrap mt-6">
+      <div className="flex  justify-center gap-4 flex-wrap mt-6">
+      
         {pricingCards.map((card) => (
           <Card
             key={card.title}
@@ -214,7 +215,7 @@ export default function Home() {
             </CardFooter>
           </Card> 
          ))}
-      </div> */}
+      </div> 
       </main>
      {/* </Suspense> 
     
