@@ -25,10 +25,10 @@ const InfoBar = (props: Props) => {
           </AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage
+          {/* <AvatarImage
             src="https://github.com/shadcn.png"
             alt="@shadcn"
-          />
+          /> */}
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </div>

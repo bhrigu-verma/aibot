@@ -1,7 +1,7 @@
 import { SIDE_BAR_MENU } from '@/constants/menu'
 
 import React from 'react'
-
+//import { useUser } from '@clerk/clerk-react';
 import { LogOut, MonitorSmartphone } from 'lucide-react'
 import { MenuLogo } from '@/icons/menu-logo'
 import MenuItem from './menu-item'
@@ -30,7 +30,7 @@ export const MinMenu = ({
   return (
     <div className="pt-3 flex flex-col items-center h-full">
       <span className=" fill-mode-forwards cursor-pointer">
-        <MenuLogo onClick={onShrink} />
+        <MenuLogo/>
       </span>
       <div className="fill-mode-forwards flex flex-col justify-between h-full pt-10">
         <div className="flex flex-col">

@@ -3,6 +3,8 @@
 import { GlareCard } from "@/components/ui/glare-card";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+
 //accertinity imports
 // import Typewriter from 'typewriter-effect';
 import NavBar from '@/components/navbar';
@@ -124,10 +126,10 @@ export default function Home() {
     </div>
         
     <section>
-      <div className="flex select-none mt-10 ">
-      <div className="w-[60%]  height-full">
+      <div className="flex select-none ">
+      <div className="w-[60%]  height-full mt-10">
         
-        <div className="text-zinc-300 top-5 mt-[50px] ml-5 text-[95px] gap-1 font-bold">Your own AI 
+        <div className="text-zinc-300 top-5 md:mt-[60px] mt-[40px] md:ml-10 ml-5 text-[95px] gap-1 font-bold">Your own AI 
            <TypewriterEffectSmooth words={words} /></div>
         <p className='text-zinc-300 top-5 mt-5 ml-5 text-lg font-medium'>Want to Integrate AI in your  <Typewriter
           words={['Wordpress','html','Reactjs','NextApp']}
@@ -145,15 +147,59 @@ export default function Home() {
           Signup
         </button>
       </div>
-      <div className="w-[40%] mt-10">
-      <GlareCard className="flex flex-col items-center justify-center">
+      <div className="w-[40%] mr-10 mb-3">
+      {/* <GlareCard className="flex flex-col items-center justify-center">
 
       <p className="text-white font-bold  text-[40px] mt-4">Acumen Ai</p>
-    </GlareCard>
+    </GlareCard> */}
+    <CardContainer className="inter-var">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardItem
+          translateZ="60"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
+        >
+         Add power and automation to your website  
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        >
+          Ai addition is now just a click away comes with powerful monitoring
+        </CardItem>
+        <CardItem translateZ="100" className="w-full mt-4">
+          <Image
+            src="/images/app-ui.png"
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
+          />
+        </CardItem>
+        <div className="flex justify-between items-center mt-20">
+          <CardItem
+            translateZ={30}
+            as={Link}
+            href="/signup"
+            target="__blank"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            Try now →
+          </CardItem>
+          <CardItem
+            translateZ={30}
+            as="button"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+          >
+            Sign up
+          </CardItem>
+        </div>
+      </CardBody>
+    </CardContainer>
     
       </div></div>
     </section>
-    <section className="flex flex-col mt-[15vw] max-w-full h-full justify-center">
+    <section className="flex flex-col mt-[10vw] max-w-full h-full justify-center">
     <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500">AcumenAi</div> ?</div>
     <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_80%_70%_at_60%_0%,#000_70%,transparent_100%)] ">
       <StickyScroll content={content} />

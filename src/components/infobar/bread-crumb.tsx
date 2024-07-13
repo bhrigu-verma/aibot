@@ -3,10 +3,15 @@ import useSideBar from '@/context/use-sidebar'
 import React from 'react'
 import { Loader } from '../loader'
 import { Switch } from '../ui/switch'
+import { useUser } from '@clerk/clerk-react';
 
 type Props = {}
+// Log user object to check available properties
 
 const BreadCrumb = (props: Props) => {
+
+  
+    
   const {
     chatRoom,
     expand,
@@ -17,10 +22,15 @@ const BreadCrumb = (props: Props) => {
     onSignOut,
     realtime,
   } = useSideBar()
+ 
   return (
+    
     <div className="flex flex-col ">
       <div className="flex gap-5 items-center">
-        <h2 className="text-3xl font-bold capitalize">{page}</h2>
+        
+        {/* <h2>Welcome 
+        </h2> */}
+        <h2 className="text-3xl mt-2 ml-2 text-center font-bold capitalize">{page}</h2>
         {page === 'conversation' && chatRoom && (
           <Loader
             loading={loading}
@@ -38,7 +48,7 @@ const BreadCrumb = (props: Props) => {
         {page == 'settings'
           ? 'Manage your account settings, preferences and integrations'
           : page == 'dashboard'
-          ? 'A detailed overview of your metrics, usage, customers and more'
+          ? 'An overview of your metrics, usage, customers and more'
           : page == 'appointment'
           ? 'View and edit all your appointments'
           : page == 'email-marketing'
