@@ -98,7 +98,7 @@ export default function Home() {
     },
   ];
   return (
-   <div>
+   <div className="">
     {/* <Layout>
       <Suspense fallback={<div>Loading Navbar...</div>}> */}
     <main>
@@ -107,7 +107,7 @@ export default function Home() {
       <div className="  flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter text-neutral-200">
         ACUMEN AI 
       </div>
-      <ul className="gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-400 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
+      <ul className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-400 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <Link href="/home">Home</Link>
         <Link href="/home">Pricing</Link>
         <Link href="/documentation">Documentation</Link>
@@ -155,7 +155,7 @@ export default function Home() {
     </section>
     <section className="flex flex-col mt-[15vw] max-w-full h-full justify-center">
     <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500">AcumenAi</div> ?</div>
-    <div className="p-10">
+    <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_80%_70%_at_60%_0%,#000_70%,transparent_100%)] ">
       <StickyScroll content={content} />
     </div>
 
@@ -164,7 +164,7 @@ export default function Home() {
     {/* payment plans create a fomo free for first 100 registrations  */}
     <section className="flex flex-col  max-w-full h-full justify-center">
      <h1 className="text-center justify-center text-4xl font-bold flex " > Plans we Offer </h1>
-    <h1 className="text-center justify-center text-2xl font-bold flex"> currently offering free Ultimate plan for first 100 buinesses who register</h1>
+    <h1 className="text-center justify-center text-lg font-medium flex"> currently offering free Ultimate plan for first 100 buinesses according to registered time</h1>
     </section>
 {/* 
       <section className="flex justify-center items-center flex-col gap-4 mt-10">
@@ -173,7 +173,7 @@ export default function Home() {
           Our straightforward pricing plans are tailored to meet your needs. If you're not ready to commit you can get started for free.
         </p>
       </section> */}
-      <div className="flex  justify-center gap-4 flex-wrap mt-6">
+      <div className="flex p-6 justify-center gap-4 flex-wrap mt-6">
       
         {pricingCards.map((card) => (
           <Card
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
               <Link
                 href={`/dashbord?plan=${card.title}`}
-                className="bg-[#f3d299] border-orange border-2 p-2 w-full text-center font-bold rounded-md"
+                className="bg-[#e69408] border-orange border-2 p-2 w-full text-center font-bold rounded-md"
               >
                 Get Started
               </Link>
