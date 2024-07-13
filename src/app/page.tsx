@@ -29,23 +29,13 @@ import { Typewriter } from 'react-simple-typewriter'
 export default function Home() {
   const content = [
     {
-      title: "Collaborative Editing",
+      title: "Control and power",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        " 🎉 Acumen AI services offer you full control over your chatbot, allowing you to track website performance and monitor sales like never before! 🚀📈 ",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Collaborative Editing
-        </div>
-      ),
-    },
-    {
-      title: "Real time changes",
-      description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-      content: (
-        <div className="h-full w-full  flex items-center justify-center text-white">
-          <Image
-            src="/linear.webp"
+           <Image
+            src="/images/app-ui.png"
             width={300}
             height={300}
             className="h-full w-full object-cover"
@@ -55,22 +45,66 @@ export default function Home() {
       ),
     },
     {
-      title: "Version control",
+      title: "Lead generation",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Extend your chatbot's functionality with custom branding. Change the icon, train it on your specific questions, and tailor it to your needs. The bot is smart enough to recognize emails and extract contact info from chats. ",
       content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Version control
+        <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+         src="/images/lead.jpg"
+         width={300}
+         height={300}
+         className="h-full w-full object-cover"
+         alt="linear board demo"
+       />
+     </div>
+      ),
+    },
+    {
+      title: "Robust pricing",
+      description:
+        "💼 Our business plans start at just ₹199 per month—cheaper than a Netflix subscription! 🎉 Get all these amazing features and more to elevate your business to the next level. 🚀",
+      content: (
+        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <Image
+         src="/images/email.jpg"
+         width={300}
+         height={300}
+         className="h-full w-full object-cover"
+         alt="linear board demo"
+       />
+     </div>
+      ),
+    },
+    {
+      title: "Customization",
+      description:
+        "Extend your chatbot's functionality by incorporating your branding. You can customize the chatbot icon, train the bot on your specific question set, and tailor it to meet your unique needs.",
+      content: (
+        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+           <Image
+            src="/images/pasted.png"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
         </div>
       ),
     },
     {
-      title: "Running out of content",
+      title: "Email-Marketing",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        " we provide robust email marketing tools so you can effortlessly create and manage campaigns directly from our platform. 📧📈🚀",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
+           <Image
+            src="/images/email.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
         </div>
       ),
     },
