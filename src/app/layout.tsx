@@ -1,4 +1,10 @@
-
+import { Roboto } from 'next/font/google'
+ 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
 import {
   ClerkProvider,
   SignInButton,
@@ -8,20 +14,19 @@ import {
 } from '@clerk/nextjs'
 import { Loading } from '@/components/ui/loading'
 import './globals.css'
-import {Plus_Jakarta_Sans} from 'next/font/google'
+
 import { Toaster } from '@/components/ui/toaster'
 import { ThemeProvider } from '@/context/them-provider'
 import { Suspense } from 'react';
-const jakarta = Plus_Jakarta_Sans
-({subsets:['latin']})
+
 export default function RootLayout({
   children,
 }:Readonly<{children:React.ReactNode}>)  {
   return (
    
-      <html lang="en">
+      <html lang="en" >
         <ClerkProvider >
-        <body className={jakarta.className} suppressHydrationWarning>
+        <body className={roboto.className} suppressHydrationWarning>
         <Suspense fallback={<div className='mr-[50%]'>loading...</div>}>
         <ThemeProvider
             attribute='class'

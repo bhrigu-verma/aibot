@@ -1,8 +1,12 @@
 //accertinity imports
 "use client"
 import { GlareCard } from "@/components/ui/glare-card";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+import {Roboto} from '@next/font/google';
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 //accertinity imports
@@ -25,8 +29,403 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Typewriter } from 'react-simple-typewriter'
-
+//import { PlaywriteCU } from '@next/font/google';
+// const playwriteCU = PlaywriteCU({ 
+//   weight: ['100', '400'], 
+//   subsets: ['latin'] 
+// });
+const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
+  ssr: false,
+});
 export default function Home() {
+//globe
+const globeConfig = {
+  pointSize: 4,
+  globeColor: "#062056",
+  showAtmosphere: true,
+  atmosphereColor: "#FFFFFF",
+  atmosphereAltitude: 0.1,
+  emissive: "#062056",
+  emissiveIntensity: 0.1,
+  shininess: 0.9,
+  polygonColor: "rgba(255,255,255,0.7)",
+  ambientLight: "#38bdf8",
+  directionalLeftLight: "#ffffff",
+  directionalTopLight: "#ffffff",
+  pointLight: "#ffffff",
+  arcTime: 1000,
+  arcLength: 0.9,
+  rings: 1,
+  maxRings: 3,
+  initialPosition: { lat: 22.3193, lng: 114.1694 },
+  autoRotate: true,
+  autoRotateSpeed: 0.5,
+};
+const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
+const sampleArcs = [
+  {
+    order: 1,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -22.9068,
+    endLng: -43.1729,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 1,
+    startLat: 28.6139,
+    startLng: 77.209,
+    endLat: 3.139,
+    endLng: 101.6869,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 1,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -1.303396,
+    endLng: 36.852443,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 3.139,
+    endLng: 101.6869,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: -15.785493,
+    startLng: -47.909029,
+    endLat: 36.162809,
+    endLng: -115.119411,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: -33.8688,
+    startLng: 151.2093,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: 21.3099,
+    startLng: -157.8581,
+    endLat: 40.7128,
+    endLng: -74.006,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: 11.986597,
+    startLng: 8.571831,
+    endLat: -15.595412,
+    endLng: -56.05918,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: -34.6037,
+    startLng: -58.3816,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 48.8566,
+    endLng: -2.3522,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 14.5995,
+    startLng: 120.9842,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: -33.8688,
+    endLng: 151.2093,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 48.8566,
+    endLng: -2.3522,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: -15.432563,
+    startLng: 28.315853,
+    endLat: 1.094136,
+    endLng: -63.34546,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: 37.5665,
+    startLng: 126.978,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -15.595412,
+    endLng: -56.05918,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: 48.8566,
+    startLng: -2.3522,
+    endLat: 52.52,
+    endLng: 13.405,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: 52.52,
+    startLng: 13.405,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: -8.833221,
+    startLng: 13.264837,
+    endLat: -33.936138,
+    endLng: 18.436529,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: 49.2827,
+    startLng: -123.1207,
+    endLat: 52.3676,
+    endLng: 4.9041,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: 40.7128,
+    endLng: -74.006,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: -22.9068,
+    endLng: -43.1729,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: -34.6037,
+    endLng: -58.3816,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: -22.9068,
+    startLng: -43.1729,
+    endLat: 28.6139,
+    endLng: 77.209,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 31.2304,
+    endLng: 121.4737,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 52.3676,
+    endLng: 4.9041,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: 41.9028,
+    startLng: 12.4964,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 31.2304,
+    endLng: 121.4737,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 1.3521,
+    endLng: 103.8198,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 37.7749,
+    endLng: -122.4194,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 35.6762,
+    startLng: 139.6503,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: 52.52,
+    startLng: 13.405,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: 11.986597,
+    startLng: 8.571831,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: -22.9068,
+    startLng: -43.1729,
+    endLat: -34.6037,
+    endLng: -58.3816,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 14,
+    startLat: -33.936138,
+    startLng: 18.436529,
+    endLat: 21.395643,
+    endLng: 39.883798,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+];
+
+//globe
   const content = [
     {
       title: "Control and power",
@@ -134,14 +533,20 @@ export default function Home() {
     },
   ];
   return (
-   <div className="">
+   <div className="bg-[#0A0A0A]">
     {/* <Layout>
       <Suspense fallback={<div>Loading Navbar...</div>}> */}
-    <main>
+    <main >
 
    <div className="flex gap-5 justify-between items-center px-7 py-1 font-bold border-b border-solid border-zinc-100 leading-[154.5%] max-md:flex-wrap max-md:px-5">
       <div className="  flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter text-neutral-200">
-        ACUMEN AI 
+      <Image
+            src="/images/logo.png"
+            width={100}
+            height={70}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
       </div>
       <ul className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-400 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <Link href="/home">Home</Link>
@@ -170,18 +575,23 @@ export default function Home() {
           loop={false}
           cursor
           cursorStyle='_'
-          typeSpeed={50}
-          deleteSpeed={45}
-          delaySpeed={1000}
+          typeSpeed={30}
+          deleteSpeed={30}
+          delaySpeed={2000}
         /> website? It's now a click away.</p>
-        <button className="w-40 m-6 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-          Join now
+        <button className=" mt-2 w-40 m-6 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
+        Join now
+        </Link></button>
+        <button className=" m-2 w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
+        <Link href="/sign-in" >
+        Sign In
+        </Link>
         </button>
-        <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-          Signup
-        </button>
+        
+
       </div>
       <div className="w-[40%] mr-10 mb-3">
+      <BackgroundBeams />
       {/* <GlareCard className="flex flex-col items-center justify-center">
 
       <p className="text-white font-bold  text-[40px] mt-4">Acumen Ai</p>
@@ -211,7 +621,7 @@ export default function Home() {
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
-          <CardItem
+          {/* <CardItem
             translateZ={30}
             as={Link}
             href="/signup"
@@ -219,14 +629,14 @@ export default function Home() {
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
             Try now →
-          </CardItem>
-          <CardItem
+          </CardItem> */}
+          {/* <CardItem
             translateZ={30}
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
             Sign up
-          </CardItem>
+          </CardItem> */}
         </div>
       </CardBody>
     </CardContainer>
@@ -235,24 +645,56 @@ export default function Home() {
     </section>
     <section className="flex flex-col mt-[10vw] max-w-full h-full justify-center">
     <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500">AcumenAi</div> ?</div>
-    <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_80%_70%_at_60%_0%,#000_70%,transparent_100%)] ">
+    <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_90%_80%_at_70%_0%,#000_70%,transparent_100%)] ">
       <StickyScroll content={content} />
     </div>
 
 
     </section >
     {/* payment plans create a fomo free for first 100 registrations  */}
-    <section className="flex flex-col  max-w-full h-full justify-center">
+   
+
+      <section className="flex justify-center items-center flex-col gap-4 mt-10">
+        <div><div className="  height-full mt-5 justfiy-center">
+          <div className=" flex justify-center text-5xl font-bold text-center m-3 p-4 "> Our <h1 className="text-blue-500"> Vision</h1> </div>
+          <p className="text-2xl  ml-5 mr-5" >At Acumen AI, we make cutting-edge AI accessible for small startups and businesses. We simplify AI integration by eliminating the need for complex authentication setups, database configurations, and costly engineering resources. Our platform provides robust, real-time data monitoring, allowing you to focus on your core business. Effortlessly gain actionable insights and extract valuable lead details with Acumen AI.</p>
+        </div>
+        <div className="  height-full justify-items-center">
+
+
+        <div className="flex  flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-[#0A0A0A] bg-white relative w-full">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 20,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="div"
+        >
+          
+         {/* text */}
+        </motion.div>
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+          <World data={sampleArcs} globeConfig={globeConfig} />
+        </div>
+      </div>
+    </div>
+        </div>
+        </div>
+      
+      </section> 
+      <section className="flex flex-col  max-w-full h-full justify-center">
      <h1 className="text-center justify-center text-4xl font-bold flex " > Plans we Offer </h1>
     <h1 className="text-center justify-center text-lg font-medium flex"> currently offering free Ultimate plan for first 100 buinesses according to registered time</h1>
     </section>
-{/* 
-      <section className="flex justify-center items-center flex-col gap-4 mt-10">
-        <h2 className="text-4xl text-center">Choose what fits you right</h2>
-        <p className="text-muted-foreground text-center max-w-lg">
-          Our straightforward pricing plans are tailored to meet your needs. If you're not ready to commit you can get started for free.
-        </p>
-      </section> */}
       <div className="flex p-6 justify-center gap-4 flex-wrap mt-6">
       
         {pricingCards.map((card) => (
@@ -297,8 +739,6 @@ export default function Home() {
          ))}
       </div> 
       </main>
-     {/* </Suspense> 
-    
-     </Layout>*/}  </div>  
+      </div>  
   );
 }
