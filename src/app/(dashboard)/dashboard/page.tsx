@@ -32,6 +32,7 @@ const Page = async (props: Props) => {
       <InfoBar />
       <div className="overflow-y-auto w-full chat-window flex-1 h-0">
         <div className="flex gap-5 flex-wrap">
+          {/* changes: you can replace these cards with hove-effect cards */}
           <DashboardCard
             value={clients || 0}
             title="Potential Clients"

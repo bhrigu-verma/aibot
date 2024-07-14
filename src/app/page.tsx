@@ -1,9 +1,13 @@
 //accertinity imports
 "use client"
 import { GlareCard } from "@/components/ui/glare-card";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { HeroHighlight, Highlight } from '@/components/ui/hero-highlight'
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { motion } from "framer-motion";
+import { FlipWords } from "@/components/ui/flip-words";
+import  { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import {Roboto} from '@next/font/google';
@@ -29,6 +33,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Typewriter } from 'react-simple-typewriter'
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 //import { PlaywriteCU } from '@next/font/google';
 // const playwriteCU = PlaywriteCU({ 
 //   weight: ['100', '400'], 
@@ -424,7 +429,61 @@ const sampleArcs = [
     color: colors[Math.floor(Math.random() * (colors.length - 1))],
   },
 ];
-
+const worrds = ["Next js", "React", "Html", "Wordpress"];
+const testimonials = [
+  
+    {
+    quote: "Artificial intelligence is not a substitute for human intelligence; it is a tool to amplify human creativity and ingenuity.",
+    name: "Fei-Fei Li",
+    title: "Co-Director of the Stanford Institute for Human-Centered Artificial Intelligence"
+    },
+    {
+    quote: "Forget artificial intelligence – in the brave new world of big data, it's artificial idiocy we should be looking out for.",
+    name: "Tom Chatfield",
+    title: "Author and Tech Philosopher"
+    },
+    {
+    quote: "AI is a mirror, reflecting not only our intellect, but our values and fears.",
+    name: "Ravi Narayanan",
+    title: "VP of Insights and Analytics, Nisum"
+    },
+    {
+    quote: "Artificial intelligence holds immense promise for tackling some of society's most pressing challenges, from climate change to healthcare disparities. Let's leverage AI responsibly to create a more equitable world.",
+    name: "Katherine Gorman",
+    title: "Co-founder and Executive Producer of 'Talking Machines'"
+    },
+    {
+    quote: "AI will change the way we work and run our businesses in the same way that the introduction of the internet did. AI decision-making in particular has the potential to raise global economic output, and is projected to add a staggering USD 13 trillion to the global economy by 2030.",
+    name: "Richard Potter",
+    title: "CEO & co-founder at Peak"
+    },
+    {
+    quote: "AI has the power to unlock unprecedented productivity and innovation across all industries. At UiPath, we believe in democratizing access to AI, making it accessible and easy to use for everyone, regardless of technical expertise.",
+    name: "Param Kahlon",
+    title: "Chief Product Officer at UiPath"
+    },
+    {
+    quote: "Artificial intelligence is not just about efficiency gains, it's about opening up new possibilities, unlocking human potential and solving some of society's biggest challenges.",
+    name: "Yoshua Bengio",
+    title: "Computer scientist and Turing Award laureate"
+    },
+    {
+    quote: "As artificial intelligence evolves, we must remember that its power lies not in replacing human intelligence, but in augmenting it. The true potential of AI lies in its ability to amplify human creativity and ingenuity.",
+    name: "Ginni Rometty",
+    title: "Executive Chairman at IBM"
+    },
+    {
+    quote: "AI and automation are not just tools in their toolbox; they are truly change enablers that can transform the way small businesses operate and compete.",
+    name: "Satya Nadella",
+    title: "CEO at Microsoft"
+    },
+    {
+    quote: "Responsible AI is not just about liability — it's about ensuring what you are building is enabling human flourishing.",
+    name: "Rumman Chowdhury",
+    title: "CEO at Parity AI"
+    }
+    
+];
 //globe
   const content = [
     {
@@ -508,18 +567,10 @@ const sampleArcs = [
       ),
     },
   ];
-  const woords=[
-    {text:" Want",},
-    {text:" to",},
-    {text:" integrate ",},
-    {
-      text: "AI",
-      className: "text-blue-500 dark:text-blue-500",
-    }, {text:" in your",},{text:" website",},
-  ]
+ const wordds=`At Acumen AI, we make cutting-edge AI accessible for small startups and businesses. We simplify AI integration by eliminating the need for complex authentication setups, database configurations, and costly engineering resources. Our platform provides robust, real-time data monitoring, allowing you to focus on your core business. Effortlessly gain actionable insights and extract valuable lead details with Acumen AI`;
   const words = [
     {
-      text: "Agent ",
+      text: "salesperson",
     },
     
    
@@ -540,13 +591,7 @@ const sampleArcs = [
 
    <div className="flex gap-5 justify-between items-center px-7 py-1 font-bold border-b border-solid border-zinc-100 leading-[154.5%] max-md:flex-wrap max-md:px-5">
       <div className="  flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter text-neutral-200">
-      <Image
-            src="/images/logo.png"
-            width={100}
-            height={70}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
+     <h1 className="text-blue-500 dark:text-blue-500"> Acumen.Ai</h1>
       </div>
       <ul className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-400 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <Link href="/home">Home</Link>
@@ -566,27 +611,59 @@ const sampleArcs = [
         
     <section>
       <div className="flex select-none ">
-      <div className="w-[60%]  height-full mt-10">
-        
-        <div className="text-zinc-300 top-5 md:mt-[60px] mt-[40px] md:ml-10 ml-5 text-[95px] gap-1 font-bold">Your own AI 
-           <TypewriterEffectSmooth words={words} /></div>
-        <p className='text-zinc-300 top-5 mt-5 ml-5 text-lg font-medium'>Want to Integrate AI in your  <Typewriter
-          words={['Wordpress','html','Reactjs','NextApp']}
+      <div className="w-[60%]  height-full ">
+        {/* niche wla div change krke vo */}
+        <HeroHighlight>
+      <motion.h1
+        initial={{
+          opacity: 0,
+          y: 20,
+        }}
+        animate={{
+          opacity: 1,
+          y: [20, -5, 0],
+        }}
+        transition={{
+          duration: 0.5,
+          ease: [0.4, 0.0, 0.2, 1],
+        }}
+        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+      >
+        Don&apos;t have time and money to handle customer service we got you with {" "}
+        <Highlight className="text-black dark:text-white">
+          Acumen Ai 
+        </Highlight>
+      </motion.h1>
+    </HeroHighlight>
+    <div className=" flex justify-items-start ">
+      <div className="text-xl flex ml-[8rem] mb-4 pb-8 font-normal text-neutral-600 dark:text-neutral-400">
+        Start Integrating Ai in your  <FlipWords words={worrds} /> websites now!
+       
+         with Acumen Ai 
+      </div>
+        {/* <p className='text-neutral-700 text-xl dark:text-white max-w-4xl leading-relaxed lg:leading-snug ml-3 mb-2 mx-auto'>Want to Integrate AI in your  <Typewriter
+          words={['Wordpress','html','Reactjs','Next js']}
           loop={false}
           cursor
           cursorStyle='_'
           typeSpeed={30}
           deleteSpeed={30}
           delaySpeed={2000}
-        /> website? It's now a click away.</p>
-        <button className=" mt-2 w-40 m-6 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
+        // eslint-disable-next-line react/no-unescaped-entities
+        /> website? It's now a click away.</p> */}
+        
+    </div>
+    <div className="ml-[12rem]">
+    <button className=" mt-2 w-40 m-10  h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
         Join now
         </Link></button>
-        <button className=" m-2 w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
+        <button className=" m-2 w-40  h-10 rounded-xl bg-white text-black border border-black  text-sm">
         <Link href="/sign-in" >
         Sign In
         </Link>
         </button>
+    </div>
+      
         
 
       </div>
@@ -643,27 +720,36 @@ const sampleArcs = [
     
       </div></div>
     </section>
-    <section className="flex flex-col mt-[10vw] max-w-full h-full justify-center">
+    {/* infinite cards */}
+    <div className="h-[35rem] rounded-md flex flex-col antialiased bg-white dark:bg-[#0A0A0A] dark:bg-grid-white/[0.05] items-center  relative overflow-hidden">
+    <div className="justify-start text-4xl font-bold flex ">Why should i use <p className= "text-blue-500 dark:text-blue-500"> Ai</p> ?</div>
+     
+      <InfiniteMovingCards
+        items={testimonials}
+        direction="right"
+        speed="normal"
+      />
+    </div>
+    {/* what we provide */}
+    <section className="flex flex-col mt-5 max-w-full h-full justify-center">
     <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500">AcumenAi</div> ?</div>
     <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_90%_80%_at_70%_0%,#000_70%,transparent_100%)] ">
       <StickyScroll content={content} />
     </div>
 
-
+{/* our vision */}
     </section >
     {/* payment plans create a fomo free for first 100 registrations  */}
    
 
       <section className="flex justify-center items-center flex-col gap-4 mt-10">
-        <div><div className="  height-full mt-5 justfiy-center">
-          <div className=" flex justify-center text-5xl font-bold text-center m-3 p-4 "> Our <h1 className="text-blue-500"> Vision</h1> </div>
-          <p className="text-2xl  ml-5 mr-5" >At Acumen AI, we make cutting-edge AI accessible for small startups and businesses. We simplify AI integration by eliminating the need for complex authentication setups, database configurations, and costly engineering resources. Our platform provides robust, real-time data monitoring, allowing you to focus on your core business. Effortlessly gain actionable insights and extract valuable lead details with Acumen AI.</p>
-        </div>
+        <div className="  height-full mt-5 justfiy-center">
+        
         <div className="  height-full justify-items-center">
 
 
-        <div className="flex  flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-[#0A0A0A] bg-white relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+        <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-[#0A0A0A] bg-white relative w-full">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] w-full px-4">
         <motion.div
           initial={{
             opacity: 0,
@@ -678,11 +764,15 @@ const sampleArcs = [
           }}
           className="div"
         >
-          
-         {/* text */}
+          <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+           Our Vision
+          </h2>
+          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200  mt-2 mx-auto">
+          At Acumen AI, we make AI accessible for small startups and businesses. We simplify AI integration by removing the need for complex setups and costly resources. Our platform provides real-time data monitoring, allowing you to focus on your core business and gain actionable insights effortlessly.
+          </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-[#0A0A0A] to-white z-40" />
+        <div className="absolute w-full -bottom-20  md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
@@ -738,6 +828,11 @@ const sampleArcs = [
           </Card> 
          ))}
       </div> 
+      <section className="flex justify-center bg-black ">
+        <Link href="mailto:vermatechnologies11@gmail.com" className="md:text-xl text-sm text-zinc-500 p-2 w-1/3 ml-3"> Connect for buisness </Link>
+        <Link href="mailto:bhriguverma11@gmail.com" className="md:text-xl text-sm text-zinc-500 p-2 w-1/3 ml-3">Connect for work</Link>
+        <Link href="https://www.linkedin.com/in/bhrigu-verma-89090a273/"  className="md:text-xl text-sm text-zinc-500 p-2 w-1/3 ml-3">Connect on Linkedin </Link>
+      </section>
       </main>
       </div>  
   );
