@@ -35,16 +35,16 @@ export const SIDE_BAR_MENU: SIDE_BAR_MENU_PROPS[] = [
     icon: <SettingsIcon />,
     path: 'settings',
   },
-  {
-    label: 'Appointments',
-    icon: <CalIcon />,
-    path: 'appointment',
-  },
-  {
-    label: 'Email Marketing',
-    icon: <EmailIcon />,
-    path: 'email-marketing',
-  },
+  // {
+  //   label: 'Appointments',
+  //   icon: <CalIcon />,
+  //   path: 'appointment',
+  // },
+  // {
+  //   label: 'Email Marketing',
+  //   icon: <EmailIcon />,
+  //   path: 'email-marketing',
+  // },
 ]
 
 type TABS_MENU_PROPS = {
