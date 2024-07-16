@@ -6,7 +6,7 @@ import {
 } from '@/schemas/conversation.schema'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useEffect, useRef, useState } from 'react'
-import { UploadClient } from '@uploadcare/upload-client'
+import { UploadClient } from '@uploadcare/upload-client'f
 
 import { useForm } from 'react-hook-form'
 
