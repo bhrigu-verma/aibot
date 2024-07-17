@@ -19,7 +19,7 @@ const CodeSnippet = ({ id }: Props) => {
     document.head.append(style);
     }
     
-    iframeStyles('
+    iframeStyles('//add your custom styles here
         .chat-frame {
             position: fixed;
             bottom: 50px;

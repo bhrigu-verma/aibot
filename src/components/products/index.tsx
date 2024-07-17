@@ -25,7 +25,7 @@ const ProductTable = ({ id, products }: Props) => {
   return (
     <div>
       <div>
-        <h2 className="font-bold text-2xl">Products</h2>
+        <h2 className="font-bold text-2xl mb-10">Products</h2>
         <p className="text-sm font-light">
           Add products to your store and set them live to accept payments from
           customers.

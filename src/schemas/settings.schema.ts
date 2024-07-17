@@ -1,15 +1,16 @@
 import { z } from 'zod'
 
-export const MAX_UPLOAD_SIZE = 1024 * 1024 * 2 // 2MB
-export const ACCEPTED_FILE_TYPES = ['image/png', 'image/jpg', 'image/jpeg']
+export const MAX_UPLOAD_SIZE = 1024 * 1024 * 2 //allow kar only upto 2MB ghar ka S3 nhi hai 
+export const ACCEPTED_FILE_TYPES = ['image/png', 'image/jpg', 'image/jpeg','image/xlms']
 
-export type DomainSettingsProps = {
-  domain?: string
-  image?: any
-  welcomeMessage?: string
-}
+
 
 export type HelpDeskQuestionsProps = {
+  question: string
+  answer: string
+}
+
+export type DetaillsProps = {
   question: string
   answer: string
 }
@@ -19,7 +20,11 @@ export type AddProductProps = {
   image: any
   price: string
 }
-
+export type DomainSettingsProps = {
+  domain?: string
+  image?: any
+  welcomeMessage?: string
+}
 export type FilterQuestionsProps = {
   question: string
 }
@@ -44,7 +49,7 @@ export const AddDomainSchema = z.object({
 })
 
 export const DomainSettingsSchema = z
-  .object({
+.object({
     domain: z
       .string()
       .min(4, { message: 'A domain must have atleast 3 characters' })
@@ -84,6 +89,10 @@ export const DomainSettingsSchema = z
   )
 
 export const HelpDeskQuestionsSchema = z.object({
+  question: z.string().min(1, { message: 'Question cannot be left empty' }),
+  answer: z.string().min(1, { message: 'Question cannot be left empty' }),
+})
+export const DetaillsSchema = z.object({
   question: z.string().min(1, { message: 'Question cannot be left empty' }),
   answer: z.string().min(1, { message: 'Question cannot be left empty' }),
 })

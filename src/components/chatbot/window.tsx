@@ -41,6 +41,12 @@ type Props = {
     answer: string
     domainId: string | null
   }[]
+  detaill: {
+    id: string
+    question: string
+    answer: string
+    domainId: string | null
+  }[]
   setChat: React.Dispatch<
     React.SetStateAction<
       {
@@ -72,7 +78,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
   ) => {
     console.log(errors)
     return (
-      <div className="h-[90%] w-[450px] mt-5 flex flex-col bg-zinc-600 rounded-xl  border-[1px] overflow-hidden">
+      <div className="h-[600px] w-[500px] mt-5 flex flex-col bg-zinc-600 rounded-xl  border-[1px] overflow-hidden">
         <div className="flex justify-between px-4 pt-4">
           <div className="flex gap-2">
             <Avatar className="w-20 h-20">
@@ -95,7 +101,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
               )}
             </div>
           </div>
-          <div className="relative w-16 h-16">
+          <div className="relative w-12 h-12">
             <Image
               src="https://ucarecdn.com/019dd17d-b69b-4dea-a16b-60e0f25de1e9/propuser.png"
               fill
@@ -158,7 +164,7 @@ export const BotWindow = forwardRef<HTMLDivElement, Props>(
           </TabsContent>
 
           <TabsContent value="helpdesk">
-            <div className="h-[485px] overflow-y-auto overflow-x-hidden p-4 flex flex-col gap-4">
+            <div className="h-[400px] overflow-y-auto overflow-x-hidden p-4 flex flex-col gap-4">
               <div>
                 <CardTitle>Help Desk</CardTitle>
                 <CardDescription>

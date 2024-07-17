@@ -4,11 +4,14 @@ import {
   onCreateHelpDeskQuestion,
   onCreateNewDomainProduct,
   onDeleteUserDomain,
+  
   onGetAllFilterQuestions,
   onGetAllHelpDeskQuestions,
+  onGetAllDetaills,
   onUpdateDomain,
   onUpdatePassword,
   onUpdateWelcomeMessage,
+  onCreateDetaillQuestion,
 } from '@/actions/settings'
 import { useToast } from '@/components/ui/use-toast'
 import {
@@ -20,6 +23,8 @@ import {
   AddProductSchema,
   DomainSettingsProps,
   DomainSettingsSchema,
+  DetaillsProps,
+  DetaillsSchema,
   FilterQuestionsProps,
   FilterQuestionsSchema,
   HelpDeskQuestionsProps,
@@ -204,6 +209,61 @@ export const useHelpDesk = (id: string) => {
     loading,
   }
 }
+export const useDetaills = (id: string) => {
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+    reset,
+  } = useForm<DetaillsProps>({
+    resolver: zodResolver(DetaillsSchema),
+  })
+  const { toast } = useToast()
+
+  const [loading, setLoading] = useState<boolean>(false)
+  const [isQuestions, setIsQuestions] = useState<
+    { id: string; question: string; answer: string }[]
+  >([])
+  const onSubmitQuestion = handleSubmit(async (values) => {
+    setLoading(true)
+    const question = await onCreateDetaillQuestion(
+      id,
+      values.question,
+      values.answer
+    )
+    if (question) {
+      setIsQuestions(question.questions!)
+      toast({
+        title: question.status == 200 ? 'Success' : 'Error',
+        description: question.message,
+      })
+      setLoading(false)
+      reset()
+    }
+  })
+
+  const onGetQuestions = async () => {
+    setLoading(true)
+    const questions = await onGetAllDetaills(id)
+    if (questions) {
+      setIsQuestions(questions.questions)
+      setLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    onGetQuestions()
+  }, [])
+
+  return {
+    register,
+    onSubmitQuestion,
+    errors,
+    isQuestions,
+    loading,
+  }
+}
+
 
 export const useFilterQuestions = (id: string) => {
   const {

@@ -29,6 +29,9 @@ const BotTrainingForm = ({ id }: Props) => {
         <TabsContent value="questions">
           <FilterQuestions id={id} />
         </TabsContent>
+        <TabsContent value="tell ai about your buisness">
+          <FilterQuestions id={id} />
+        </TabsContent>
       </TabsMenu>
     </div>
   )

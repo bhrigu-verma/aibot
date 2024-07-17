@@ -22,7 +22,7 @@ const Bubble = ({ message, createdAt }: Props) => {
   return (
     <div
       className={cn(
-        'flex gap-2 items-end',
+        'flex  items-end',
         message.role == 'assistant' ? 'self-start' : 'self-end flex-row-reverse'
       )}
     >

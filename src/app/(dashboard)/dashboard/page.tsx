@@ -41,19 +41,17 @@ const Page = async (props: Props) => {
           <DashboardCard
             value={products! * clients! || 0}
             sales
-            title="Pipline Value"
+            title="Potential sales"
             icon={<DollarSign />}
           />
-          <DashboardCard
-            value={bookings || 0}
-            title="Appointments"
-            icon={<CalIcon />}
-          />
-          <DashboardCard
+          
+        
+           <DashboardCard
             value={sales || 0}
             sales
-            title="Total Sales"
+            title="Emails cost Incurred "
             icon={<DollarSign />}
+            
           />
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 py-10">

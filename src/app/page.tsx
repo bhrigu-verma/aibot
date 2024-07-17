@@ -1,5 +1,6 @@
 //accertinity imports
 "use client"
+
 import { GlareCard } from "@/components/ui/glare-card";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { BackgroundBeams } from "@/components/ui/background-beams";
@@ -429,7 +430,7 @@ const sampleArcs = [
     color: colors[Math.floor(Math.random() * (colors.length - 1))],
   },
 ];
-const worrds = ["Next js", "React", "Html", "Wordpress"];
+const worrds = ["Next js websites", "React websites", "Html websites", "Wordpress websites","personal website"];
 const testimonials = [
   
     {
@@ -593,8 +594,8 @@ const testimonials = [
       <div className="  flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter text-neutral-200">
      <h1 className="text-blue-500 dark:text-blue-500"> Acumen.Ai</h1>
       </div>
-      <ul className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-400 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
-        <Link href="/home">Home</Link>
+      <ul className="bg-gradient-to-r z-10 from-primary to-secondary-foreground text-transparent bg-clip-text relative gap-5 justify-between self-stretch my-auto text-sm leading-5 text-neutral-200 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
+        <Link href="/dashboard">Home</Link>
         <Link href="/home">Pricing</Link>
         <Link href="/documentation">Documentation</Link>
         <Link href="/home">Features</Link>
@@ -603,15 +604,17 @@ const testimonials = [
     
       <Link
         href="/dashboard"
-        className="bg-orange px-4 py-2 rounded-sm text-white"
+        className="bg-orange px-4 z-10 py-2 rounded-sm text-white"
       >
-        Free Trial
+        Start now for free!
       </Link>
     </div>
         
     <section>
-      <div className="flex select-none ">
-      <div className="w-[60%]  height-full ">
+      <div className="select-none md:flex justify-center ">
+      <div className="md:w-[60%] z-5  height-full ">
+        <div className="opacity-75 justify-center flex  align-center mt-5 md:text-md text-sm mx-4 px-1"> "Ai is future of Customer Services and Businesses that do not adopt this solution may miss out on opportunities to improve efficiency and stay competitive in the market"- Forbes</div>
+        
         {/* niche wla div change krke vo */}
         <HeroHighlight>
       <motion.h1
@@ -627,20 +630,22 @@ const testimonials = [
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        Don&apos;t have time and money to handle customer service we got you with {" "}
+        Don&apos;t have time and money to handle and hire customer service we got you with {" "}
         <Highlight className="text-black dark:text-white">
           Acumen Ai 
         </Highlight>
       </motion.h1>
     </HeroHighlight>
-    <div className=" flex justify-items-start ">
+    <div className=" flex-col justify-items-start ">
       <div className="text-xl flex ml-[8rem] mb-4 pb-8 font-normal text-neutral-600 dark:text-neutral-400">
-        Start Integrating Ai in your  <FlipWords words={worrds} /> websites now!
+        Start Integrating Ai in your  <FlipWords words={worrds} />  now!
        
-         with Acumen Ai 
+       with Acumen Ai 
+       
       </div>
+      {/* <div className="align-items-center  justify-center mx-5 ">We're live now with the powerful chatbot integration and customization fratures  and working on the Ai calling services especcially for India </div> */}
         {/* <p className='text-neutral-700 text-xl dark:text-white max-w-4xl leading-relaxed lg:leading-snug ml-3 mb-2 mx-auto'>Want to Integrate AI in your  <Typewriter
           words={['Wordpress','html','Reactjs','Next js']}
           loop={false}
@@ -651,24 +656,23 @@ const testimonials = [
           delaySpeed={2000}
         // eslint-disable-next-line react/no-unescaped-entities
         /> website? It's now a click away.</p> */}
-        
-    </div>
-    <div className="ml-[12rem]">
-    <button className=" mt-2 w-40 m-10  h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
+        </div>
+    {/*  <BackgroundBeams /> */}
+    {/* <div className="z-10 ml-[12rem]"> */}
+    {/* <button className=" mt-2 w-40 m-10 z-10 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
         Join now
         </Link></button>
-        <button className=" m-2 w-40  h-10 rounded-xl bg-white text-black border border-black  text-sm">
-        <Link href="/sign-in" >
+       
+      
+        <Link className=" m-2 z-10 w-40  h-10 rounded-xl bg-white text-black border border-black  text-sm" href="/sign-in" >
         Sign In
         </Link>
-        </button>
-    </div>
-      
         
-
-      </div>
-      <div className="w-[40%] mr-10 mb-3">
-      <BackgroundBeams />
+    </div>*/}
+      
+      </div> 
+      <div className="md:w-[40%] ">
+     
       {/* <GlareCard className="flex flex-col items-center justify-center">
 
       <p className="text-white font-bold  text-[40px] mt-4">Acumen Ai</p>
@@ -698,22 +702,23 @@ const testimonials = [
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
-          {/* <CardItem
+          <CardItem
             translateZ={30}
             as={Link}
-            href="/signup"
+            href="/sign-up"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
             Try now →
-          </CardItem> */}
-          {/* <CardItem
+          </CardItem> 
+           <CardItem
             translateZ={30}
-            as="button"
+            as={Link}
+            href="/auth/sign-in"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
-            Sign up
-          </CardItem> */}
+            Sign in
+          </CardItem>
         </div>
       </CardBody>
     </CardContainer>
@@ -722,7 +727,7 @@ const testimonials = [
     </section>
     {/* infinite cards */}
     <div className="h-[35rem] rounded-md flex flex-col antialiased bg-white dark:bg-[#0A0A0A] dark:bg-grid-white/[0.05] items-center  relative overflow-hidden">
-    <div className="justify-start text-4xl font-bold flex ">Why should i use <p className= "text-blue-500 dark:text-blue-500"> Ai</p> ?</div>
+    <div className="justify-start text-4xl font-bold flex ">Why should i use <p className= "text-blue-500 dark:text-blue-500 ml-2"> Ai</p> ?</div>
      
       <InfiniteMovingCards
         items={testimonials}
@@ -732,7 +737,7 @@ const testimonials = [
     </div>
     {/* what we provide */}
     <section className="flex flex-col mt-5 max-w-full h-full justify-center">
-    <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500">AcumenAi</div> ?</div>
+    <div className="text-center justify-center text-4xl font-bold flex ">Why choose <div className= "text-blue-500 dark:text-blue-500 ml-2"> AcumenAi</div> ?</div>
     <div className="p-10   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:6rem_6rem] [mask-image:radial-gradient(ellipse_90%_80%_at_70%_0%,#000_70%,transparent_100%)] ">
       <StickyScroll content={content} />
     </div>
@@ -742,7 +747,7 @@ const testimonials = [
     {/* payment plans create a fomo free for first 100 registrations  */}
    
 
-      <section className="flex justify-center items-center flex-col gap-4 mt-10">
+      {/* <section className="flex justify-center items-center flex-col gap-4 mt-10">
         <div className="  height-full mt-5 justfiy-center">
         
         <div className="  height-full justify-items-center">
@@ -780,7 +785,7 @@ const testimonials = [
         </div>
         </div>
       
-      </section> 
+      </section>  */}
       <section className="flex flex-col  max-w-full h-full justify-center">
      <h1 className="text-center justify-center text-4xl font-bold flex " > Plans we Offer </h1>
     <h1 className="text-center justify-center text-lg font-medium flex"> currently offering free Ultimate plan for first 100 buinesses according to registered time</h1>

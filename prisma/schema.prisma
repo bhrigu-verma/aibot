@@ -36,6 +36,7 @@ model Domain {
   icon String
 
   chatBot         ChatBot?
+  detaill          Detaill[] 
   helpdesk        HelpDesk[]
   filterQuestions FilterQuestions[]
   products        Product[]
@@ -53,6 +54,7 @@ model ChatBot {
   icon           String?
   background     String?
   textColor      String?
+  detaill       Boolean @default(false)
   helpdesk       Boolean @default(false)
   Domain         Domain? @relation(fields: [domainId], references: [id], onDelete: Cascade)
   domainId       String? @unique @db.Uuid
@@ -74,7 +76,14 @@ model HelpDesk {
   Domain   Domain? @relation(fields: [domainId], references: [id], onDelete: Cascade)
   domainId String? @db.Uuid
 }
+model Detaill {
+  id       String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  question String
+  answer   String
 
+  Domain   Domain? @relation(fields: [domainId], references: [id], onDelete: Cascade)
+  domainId String? @db.Uuid
+}
 model FilterQuestions {
   id       String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   question String

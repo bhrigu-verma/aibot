@@ -211,9 +211,10 @@ export const onAiChatBotAssistant = async (
             {
               role: 'assistant',
               content: `
+              you are highly trained ai bot wpecially designed to 
              strictly adhere to the guidelines below 
               try to respond crisp and polite keep focus on your main goal that is selling the company's products that you work for
-              keep responses under 100-200 words dont answer random questions of user  
+              keep responses under 50-100 words dont answer random questions of user  
               You will get an array of questions that you must ask the customer. 
               
               Progress the conversation using those questions. 
@@ -227,8 +228,7 @@ export const onAiChatBotAssistant = async (
               Always strictly maintain maintain character and stay respectfull. dont just ask questions directly mould it according to the user requirements and mould it
               for example if you are asked to user to get there email ask it like "do you mind we can send email updates to you" 
               
-
-              The array of questions : [${chatBotDomain.filterQuestions
+                           The array of questions : [${chatBotDomain.filterQuestions
                 .map((questions) => questions.question)
                 .join(', ')}]
 

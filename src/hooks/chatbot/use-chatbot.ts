@@ -6,7 +6,7 @@ import {
 } from '@/schemas/conversation.schema'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useEffect, useRef, useState } from 'react'
-import { UploadClient } from '@uploadcare/upload-client'f
+import { UploadClient } from '@uploadcare/upload-client'
 
 import { useForm } from 'react-hook-form'
 
@@ -35,6 +35,12 @@ export const useChatBot = () => {
           helpdesk: boolean
         } | null
         helpdesk: {
+          id: string
+          question: string
+          answer: string
+          domainId: string | null
+        }[]
+        detaill: {
           id: string
           question: string
           answer: string
@@ -71,8 +77,8 @@ export const useChatBot = () => {
   useEffect(() => {
     postToParent(
       JSON.stringify({
-        width: botOpened ? 550 : 80,
-        height: botOpened ? 800 : 80,
+        width: botOpened ? 500 : 80,
+        height: botOpened ? 530 : 80,
       })
     )
   }, [botOpened])
