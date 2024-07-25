@@ -77,6 +77,7 @@ const Page = async (props: Props) => {
               </div>
               <p className="text-sm">See more</p>
             </div>
+            <div className=></div>
             <Separator orientation="horizontal" />
             {transactions &&
               transactions.data.map((transaction) => (

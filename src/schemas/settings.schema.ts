@@ -100,7 +100,6 @@ export const DetaillsSchema = z.object({
 export const FilterQuestionsSchema = z.object({
   question: z.string().min(1, { message: 'Question cannot be left empty' }),
 })
-
 export const AddProductSchema = z.object({
   name: z
     .string()
