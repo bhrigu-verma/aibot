@@ -657,7 +657,7 @@ const testimonials = [
         // eslint-disable-next-line react/no-unescaped-entities
         /> website? It's now a click away.</p> */}
         </div>
-    {/*  <BackgroundBeams /> */}
+     <BackgroundBeams />
     {/* <div className="z-10 ml-[12rem]"> */}
     {/* <button className=" mt-2 w-40 m-10 z-10 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">   <Link href="/sign-up" >
         Join now

@@ -52,7 +52,7 @@ export const DomainSettingsSchema = z
 .object({
     domain: z
       .string()
-      .min(4, { message: 'A domain must have atleast 3 characters' })
+      .min(4, { message: 'A domain must be atleast 3 characters long' })
       .refine(
         (value) =>
           /^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+[A-Za-z]{2,3}$/.test(value ?? ''),
