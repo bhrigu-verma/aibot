@@ -90,7 +90,7 @@ const Page = async (props: Props) => {
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 py-10">
           <div>
             <div>
-              <h2 className="font-bold text-2xl">Plan Usage</h2>
+              <h2 className="font-bold text-2xl px-2">Plan Usage</h2>
               <p className="text-sm font-light">
                 A detailed overview of your metrics, usage, customers and more
               </p>
@@ -103,14 +103,14 @@ const Page = async (props: Props) => {
             />
           </div>
           <div className="flex flex-col">
-            <div className="w-full flex justify-between items-start mb-5">
+            {/* <div className="w-full flex justify-between items-start mb-5">
               <div className="flex gap-3 items-center">
                 <TransactionsIcon />
                 <p className="font-bold">Recent Transactions</p>
               </div>
               <p className="text-sm">See more</p>
-            </div>
-            {transactions &&
+            </div> */}
+            {/* {transactions &&
               transactions.data.map((transaction) => (
                 <div
                   className="flex gap-3 w-full justify-between items-center border-b-2 py-5"
@@ -123,9 +123,10 @@ const Page = async (props: Props) => {
                     ${transaction.amount / 100}
                   </p>
                 </div>
-              ))}
+              ))} */}
                  <Separator orientation="horizontal" />
-            <div className="w-full flex justify-between items-start mt-5"> 
+                 <div className="font-bold text-white pt-2 text-xl"> Latest Models we can support </div>
+            <div className="w-full flex justify-start items-start mt-1"> 
             <HoverEffect items={projects} />
                </div>
 
