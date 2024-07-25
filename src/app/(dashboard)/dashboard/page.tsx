@@ -92,7 +92,10 @@ const Page = async (props: Props) => {
                 </div>
               ))}
                  <Separator orientation="horizontal" />
-            <div className="w-full flex justify-between items-start mt-5"> hello</div>
+            <div className="w-full flex justify-between items-start mt-5"> 
+              <div className="flex">Our options for Models</div>
+              <div>image</div>
+               </div>
 
          
             
