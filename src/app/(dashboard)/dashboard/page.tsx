@@ -1,4 +1,6 @@
+
 import { getUserAppointments } from '@/actions/appointment'
+import { HoverEffect } from "@/components/ui/card-hover-effect";
 import {
   getUserBalance,
   getUserClients,
@@ -26,7 +28,38 @@ const Page = async (props: Props) => {
   const plan = await getUserPlanInfo()
   const transactions = await getUserTransactions()
   const products = await getUserTotalProductPrices()
-
+  const projects = [
+    {
+    title: "LLaMA 3.1 - Meta's largest open-source AI model with 65 billion parameters, ideal for customer service automation.",
+    description: "High performance for complex queries.",
+    link: "https://meta.com/llama"
+    },
+    {
+    title: "Mistral - A 7 billion parameter model excelling in instruction-following tasks, perfect for self-hosting. ",
+    description: "Efficient for real-time applications.",
+    link: "https://mistral.ai"
+    },
+    {
+    title: "Orca - Microsoft's 13 billion parameter model achieving performance on par with GPT-4 for many tasks.",
+    description: "Runs on consumer hardware.",
+    link: "https://microsoft.com/orca"
+    },
+    {
+    title: "PaLM - Google's 540 billion parameter model designed for complex reasoning tasks and coding. ",
+    description: "High, requires substantial resources.",
+    link: "https://google.com/palm"
+    },
+    {
+    title: "Phi-1 - Microsoft's 1.3 billion parameter model specializing in Python coding with high-quality training.",
+    description: "Limited but efficient for specific tasks.",
+    link: "https://microsoft.com/phi-1"
+    },
+    {
+    title: "StableLM - Stability AI's models range from 3 to 175 billion parameters, focusing on transparency and accessibility. ",
+    description: "Varies by model size.",
+    link: "https://stability.ai/stablelm"
+    }
+    ];
   return (
     <>
       <InfoBar />
@@ -93,8 +126,7 @@ const Page = async (props: Props) => {
               ))}
                  <Separator orientation="horizontal" />
             <div className="w-full flex justify-between items-start mt-5"> 
-              <div className="flex">Our options for Models</div>
-              <div>image</div>
+            <HoverEffect items={projects} />
                </div>
 
          
