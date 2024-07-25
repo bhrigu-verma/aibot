@@ -77,8 +77,6 @@ const Page = async (props: Props) => {
               </div>
               <p className="text-sm">See more</p>
             </div>
-            <div className=></div>
-            <Separator orientation="horizontal" />
             {transactions &&
               transactions.data.map((transaction) => (
                 <div
@@ -93,6 +91,10 @@ const Page = async (props: Props) => {
                   </p>
                 </div>
               ))}
+            <div className="w-full flex justify-between items-start mt-5"> hello</div>
+
+            <Separator orientation="horizontal" />
+            
           </div>
         </div>
       </div>
