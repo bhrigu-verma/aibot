@@ -613,7 +613,8 @@ const testimonials = [
     <section>
       <div className="select-none md:flex justify-center ">
       <div className="md:w-[60%] z-5  height-full ">
-        <div className="opacity-75 justify-center flex  align-center mt-5 md:text-md text-sm mx-4 px-1"> "Ai is future of Customer Services and Businesses that do not adopt this solution may miss out on opportunities to improve efficiency and stay competitive in the market"- Forbes</div>
+        <div className="opacity-75 justify-center flex  align-center mt-5 md:text-md text-sm mx-4 px-1">&quot;AI is the future of Customer Services and Businesses that do not adopt this solution may miss out on opportunities to improve efficiency and stay competitive in the market&quot; - Forbes
+        </div>
         
         {/* niche wla div change krke vo */}
         <HeroHighlight>
