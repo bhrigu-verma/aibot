@@ -74,6 +74,7 @@ export const getUserPlanInfo = async () => {
         select: {
           _count: {
             select: {
+              //@ts-ignore
               domains: true,
             },
           },

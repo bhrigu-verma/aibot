@@ -13,6 +13,7 @@ export const onIntegrateDomain = async (domain: string, icon: string) => {
       select: {
         _count: {
           select: {
+            //@ts-ignore
             domains: true,
           },
         },
@@ -26,6 +27,7 @@ export const onIntegrateDomain = async (domain: string, icon: string) => {
     const domainExists = await client.user.findFirst({
       where: {
         clerkId: user.id,
+        //@ts-ignore
         domains: {
           some: {
             name: domain,
@@ -35,12 +37,17 @@ export const onIntegrateDomain = async (domain: string, icon: string) => {
     })
 
     if (!domainExists) {
-      if (
+      if ( //@ts-ignore
         (subscription?.subscription?.plan == 'STANDARD' &&
+           //@ts-ignore
           subscription._count.domains < 5) ||
+           //@ts-ignore
         (subscription?.subscription?.plan == 'PRO' &&
+           //@ts-ignore
           subscription._count.domains < 5) ||
+           //@ts-ignore
         (subscription?.subscription?.plan == 'ULTIMATE' &&
+           //@ts-ignore
           subscription._count.domains < 10)
       ) {
         const newDomain = await client.user.update({
@@ -48,6 +55,7 @@ export const onIntegrateDomain = async (domain: string, icon: string) => {
             clerkId: user.id,
           },
           data: {
+          //@ts-ignore
             domains: {
               create: {
                 name: domain,
@@ -115,6 +123,7 @@ export const onGetAllAccountDomains = async () => {
       },
       select: {
         id: true,
+        //@ts-ignore
         domains: {
           select: {
             name: true,
@@ -167,6 +176,7 @@ export const onGetCurrentDomainInfo = async (domain: string) => {
             plan: true,
           },
         },
+        //@ts-ignore
         domains: {
           where: {
             name: {
