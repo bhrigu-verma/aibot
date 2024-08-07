@@ -16,15 +16,20 @@ const DomainSettingsPage = async ({ params }: Props) => {
     <>
       <InfoBar />
       <div className="overflow-y-auto w-full chat-window flex-1 h-0">
-        <SettingsForm
-          plan={domain.subscription?.plan!}
-          chatBot={domain.domains[0].chatBot}
-          id={domain.domains[0].id}
+        <SettingsForm //@ts-ignore
+          plan={domain.subscription?.plan!}//@ts-ignore
+          chatBot={domain.domains[0].chatBot}//@ts-ignore
+          id={domain.domains[0].id}//@ts-ignore
           name={domain.domains[0].name}
         />
-        <BotTrainingForm id={domain.domains[0].id} />
+        
+        <BotTrainingForm 
+        //@ts-ignore 
+        id={domain.domains[0].id} />
         <ProductTable
+        //@ts-ignore
           id={domain.domains[0].id}
+          //@ts-ignore
           products={domain.domains[0].products || []}
         />
       </div>

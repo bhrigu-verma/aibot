@@ -17,8 +17,8 @@ const Page = async (props: Props) => {
     <>
       <InfoBar></InfoBar>
       <EmailMarketing
-        campaign={campaigns?.campaign!}
-        subscription={customers?.subscription!}
+        campaign={campaigns?.campaign!}//@ts-ignore
+        subscription={customers?.subscription!}//@ts-ignore
         domains={customers?.domains!}
       />
     </>

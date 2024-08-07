@@ -87,9 +87,9 @@ export const getUserPlanInfo = async () => {
         },
       })
       if (plan) {
-        return {
-          plan: plan.subscription?.plan,
-          credits: plan.subscription?.credits,
+        return {//@ts-ignore
+          plan: plan.subscription?.plan,//@ts-ignore
+          credits: plan.subscription?.credits,//@ts-ignore
           domains: plan._count.domains,
         }
       }

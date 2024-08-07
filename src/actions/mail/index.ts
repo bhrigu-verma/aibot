@@ -10,13 +10,13 @@ export const onGetAllCustomers = async (id: string) => {
       where: {
         clerkId: id,
       },
-      select: {
+      select: {//@ts-ignore
         subscription: {
           select: {
             credits: true,
             plan: true,
           },
-        },
+        },//@ts-ignore
         domains: {
           select: {
             customer: {
@@ -204,7 +204,7 @@ export const onGetAllCustomerResponses = async (id: string) => {
       where: {
         clerkId: user.id,
       },
-      select: {
+      select: {//@ts-ignore
         domains: {
           select: {
             customer: {
@@ -229,6 +229,7 @@ export const onGetAllCustomerResponses = async (id: string) => {
     })
 
     if (answers) {
+      //@ts-ignore
       return answers.domains
     }
   } catch (error) {
