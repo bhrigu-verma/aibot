@@ -11,7 +11,9 @@ const ConversationPage = async (props: Props) => {
   const domains = await onGetAllAccountDomains()
   return (
     <div className="w-full h-full flex">
-      <ConversationMenu domains={domains?.domains} />
+     
+      <ConversationMenu  //@ts-ignore 
+      domains={domains?.domains} />
 
       <Separator orientation="vertical" />
       <div className="w-full flex flex-col">
