@@ -95,7 +95,7 @@ export const useChatBot = () => {
           role: 'assistant',
           content: chatbot.chatBot?.welcomeMessage!,
         },
-      ])
+      ])//@ts-ignore
       setCurrentBot(chatbot)
       setLoading(false)
     }

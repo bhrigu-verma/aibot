@@ -1,3 +1,5 @@
+// src/components/ui/Loading.tsx
+
 import React from 'react';
 
 interface LoadingProps {
@@ -13,4 +15,4 @@ const Loading: React.FC<LoadingProps> = ({ message = 'Loading...' }) => {
   );
 };
 
-export default Loading;
+export {Loading};  // Default export

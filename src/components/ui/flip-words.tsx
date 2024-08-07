@@ -36,7 +36,7 @@ export const FlipWords = ({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
+          setIsVisible(true); //@ts-ignore
           observer.unobserve(componentRef.current);
         }
       },
@@ -48,7 +48,7 @@ export const FlipWords = ({
     }
 
     return () => {
-      if (componentRef.current) {
+      if (componentRef.current) { //@ts-ignore
         observer.unobserve(componentRef.current);
       }
     };

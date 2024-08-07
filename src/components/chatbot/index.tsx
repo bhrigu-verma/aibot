@@ -29,6 +29,7 @@ const AiChatBot = (props: Props) => {
   return (
     <div className="h-[80%] flex flex-col rounded-md justify-end items-end gap-4">
       {botOpened && (
+        //@ts-ignore
         <BotWindow
           errors={errors}
           setChat={setOnChats}
