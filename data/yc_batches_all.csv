@@ -1,0 +1,834 @@
+Company Name,Batch,YC Profile URL,Website,Description,Status,Industries,Team Size,Location
+Indemni,W24,https://www.ycombinator.com/companies/indemni,http://www.indemni.com,Cargo Theft and Fraud Prevention Platform,Active,B2B; Supply Chain and Logistics,7,"Mission St, San Francisco, CA, USA"
+ParcelBio,W24,https://www.ycombinator.com/companies/parcelbio,https://parcelbio.com/,Next-generation mRNA medicines,Active,Healthcare; Therapeutics,5,
+K-Scale Labs,W24,https://www.ycombinator.com/companies/k-scale-labs,https://kscale.dev/,Open-source humanoid robots,Active,Consumer; Consumer Electronics,10,"Palo Alto, CA, USA"
+Marr Labs,W24,https://www.ycombinator.com/companies/marr-labs,https://www.marrlabs.com/,AI-voice agents that are indistinguishable from humans.,Active,B2B,9,"San Francisco, CA, USA"
+Forge Rewards,W24,https://www.ycombinator.com/companies/forge-rewards,https://www.joinforge.app/,Starbucks app for restaurants,Active,B2B,2,"San Francisco, CA, USA"
+Dropback,W24,https://www.ycombinator.com/companies/dropback,https://www.dropback.com,The front office software suite for college sports,Active,Fintech,2,
+RetailReady,W24,https://www.ycombinator.com/companies/retailready,https://www.retailreadyai.com/,An AI-powered supply chain compliance engine,Active,B2B; Supply Chain and Logistics,12,
+Same,W24,https://www.ycombinator.com/companies/same,https://same.new,Build products without coding,Active,Consumer; Content,5,"San Francisco, CA, USA"
+NowHouse,W24,https://www.ycombinator.com/companies/nowhouse,https://www.nowhouse.io,NowHouse helps stock brokerages settle trades instantly.,Active,Fintech,,
+GetCrux,W24,https://www.ycombinator.com/companies/getcrux,http://getcrux.ai/,AI Creative Strategist,Active,B2B; Analytics,9,"San Francisco, CA, USA"
+Reprompt,W24,https://www.ycombinator.com/companies/reprompt,https://repromptai.com,AI Agents for Location,Active,"B2B; Engineering, Product and Design",3,
+InspectMind AI,W24,https://www.ycombinator.com/companies/inspectmind-ai,https://www.inspectmind.ai,AI agent for construction drawings review,Active,Real Estate and Construction; Construction,3,"San Francisco, CA, USA"
+Yarn,W24,https://www.ycombinator.com/companies/yarn-2,https://www.yarn.so,Make sales and marketing videos with AI.,Active,B2B,6,"New York, NY, USA"
+Blacksmith,W24,https://www.ycombinator.com/companies/blacksmith,https://blacksmith.sh/,The fastest way to run your GitHub Actions,Active,B2B; Infrastructure,3,
+CrowdVolt,W24,https://www.ycombinator.com/companies/crowdvolt,https://crowdvolt.com/,The integration layer for live events infrastructure ,Active,Consumer,8,"New York, NY, USA"
+kater.ai,W24,https://www.ycombinator.com/companies/kater-ai,https://www.kater.ai,Deliver complete data analysis from a single question,Active,B2B; Analytics,3,"San Francisco, CA, USA"
+Mathos,W24,https://www.ycombinator.com/companies/mathos,https://info.mathos.ai/,Ultimate AI Math Problem Solver to Revolutionize Personalized Learning,Active,Education,5,"Santa Clara, CA, USA"
+Tower,W24,https://www.ycombinator.com/companies/tower,https://withtower.com,M&A due diligence platform powered by AI,Active,B2B; Legal,2,"San Francisco, CA, USA"
+Quivr,W24,https://www.ycombinator.com/companies/quivr,https://www.quivr.app/,AI-powered auto-resolutions and reply suggestions for customer…,Active,B2B; Productivity,5,"Paris, France"
+Dragoneye,W24,https://www.ycombinator.com/companies/dragoneye,https://dragoneye.ai/,Custom video detection models in less than 5 minutes,Active,"B2B; Engineering, Product and Design",2,"New York, NY, USA"
+renderlet,W24,https://www.ycombinator.com/companies/renderlet,http://renderlet.com,Build interactive applications that run anywhere,Active,"B2B; Engineering, Product and Design",2,"Broad St, New York, NY, USA"
+Latted,W24,https://www.ycombinator.com/companies/latted,https://latted.com,A Unified Editor For AI Video,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+The New Money Company,W24,https://www.ycombinator.com/companies/the-new-money-company,https://newmoneycompany.com,Invoicing that pays you even if your buyer doesn’t,Active,Fintech; Payments,4,"San Francisco, CA, USA"
+Forge,W24,https://www.ycombinator.com/companies/forge,https://www.forgehq.com/,Getting companies refunds on tariffs & duties,Active,B2B; Supply Chain and Logistics,3,"New York, NY, USA"
+Integuru,W24,https://www.ycombinator.com/companies/integuru,https://www.integuru.ai,Integrate with any website via network requests,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+VoxOps AI,W24,https://www.ycombinator.com/companies/voxops-ai,https://www.voxopsai.com/,Voice AI for Automotive,Active,B2B,6,"London, UK"
+Granza Bio,W24,https://www.ycombinator.com/companies/granza-bio,https://www.granzabio.com/,Reprogramming Immunity for Target-Specific Medicines,Active,Healthcare; Therapeutics,7,"San Francisco, CA, USA"
+Haplotype Labs,W24,https://www.ycombinator.com/companies/haplotype-labs,https://www.haplotypelabs.com/,Personalized prevention using genetics and AI,Active,Healthcare; Diagnostics,1,
+Healia,W24,https://www.ycombinator.com/companies/healia,https://www.healiahealth.com/,Modern health insurance for dual income families,Active,Fintech; Insurance,15,"Columbus, OH, USA"
+TrueClaim,W24,https://www.ycombinator.com/companies/trueclaim,https://www.trytrueclaim.com,"Transparent, AI-powered healthcare TPA.",Active,Healthcare,8,"San Francisco, CA, USA"
+CoCrafter,W24,https://www.ycombinator.com/companies/cocrafter,https://cocrafter.com/,B2B construction marketplace to match contractors and subcontractors.,Active,Real Estate and Construction; Construction,9,"Munich, Germany"
+Reform,W24,https://www.ycombinator.com/companies/reform,https://www.reformhq.com,Workflow automation. Built for logistics.,Active,B2B; Supply Chain and Logistics,11,"San Francisco, CA, USA"
+Piramidal,W24,https://www.ycombinator.com/companies/piramidal,https://piramidal.ai,Foundation Model for the Brain,Active,Healthcare,10,"New York, NY, USA"
+Junction Bioscience,W24,https://www.ycombinator.com/companies/junction-bioscience,https://www.junction.bio/,AI Hypothesis Engine for Molecular Discovery,Active,Healthcare; Therapeutics,1,
+OddsView,W24,https://www.ycombinator.com/companies/oddsview,https://oddsview.com,The Bloomberg Terminal of Sports Betting,Active,Consumer,5,"New York, NY, USA"
+Silogy,W24,https://www.ycombinator.com/companies/silogy,https://silogy.io,An AI-powered test and debug platform for chip developers,Active,"B2B; Engineering, Product and Design",3,"New York, NY, USA"
+Senso,W24,https://www.ycombinator.com/companies/senso,http://www.senso.ai,Control what AI says about you,Active,B2B,8,"Toronto, ON, Canada"
+Eris Biotech,W24,https://www.ycombinator.com/companies/eris-biotech,http://www.erisbio.com,Our drugs engage the immune system to fight tumors,Active,Healthcare; Therapeutics,2,"Lehi, UT, USA"
+Powder,W24,https://www.ycombinator.com/companies/powder,https://www.powderfi.com/,AI Agents for precise document analysis,Active,Fintech; Asset Management,6,
+OpenFoundry,W24,https://www.ycombinator.com/companies/openfoundry,https://www.openfoundry.ai/,The fastest developer experience for building on open source AI.,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Polar,W24,https://www.ycombinator.com/companies/polar,https://www.polarfi.com,The smarter way to manage USD earnings globally,Active,Fintech; Consumer Finance,2,"San Francisco, CA, USA"
+Penciled,W24,https://www.ycombinator.com/companies/penciled,https://penciled.com,AI front office assistant for physical therapy,Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+Magic Hour,W24,https://www.ycombinator.com/companies/magic-hour,https://magichour.ai,Platform for AI video generation.,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Ryse,W24,https://www.ycombinator.com/companies/ryse,https://www.rysemarket.com/,The secondary market for real estate leases,Active,B2B,13,"New York, NY, USA"
+Datacurve,W24,https://www.ycombinator.com/companies/datacurve,https://datacurve.ai/,Frontier coding data for training and evaluating LLMs,Active,B2B,4,"San Francisco, CA, USA"
+Marblism,W24,https://www.ycombinator.com/companies/marblism,https://marblism.com,AI Employees who love overtime,Active,"B2B; Engineering, Product and Design",5,"San Francisco, CA, USA"
+CommodityAI,W24,https://www.ycombinator.com/companies/commodityai,https://commodityai.io/,AI that automates commodity operations,Active,B2B; Operations,6,"San Francisco, CA, USA"
+Veles,W24,https://www.ycombinator.com/companies/veles,http://www.getveles.com,The Sales Calculator,Active,B2B; Sales,5,"Santa Barbara, CA, USA"
+Miden,W24,https://www.ycombinator.com/companies/miden,http://www.miden.co,Card issuer processor and banking stack for businesses in Sub-…,Active,Fintech,19,"15a Ajanaku St, Opebi, Ikeja 101233, Lagos, Nigeria"
+Fluently,W24,https://www.ycombinator.com/companies/fluently,https://getfluently.app/,Your personal English tutor,Active,Consumer,2,
+Basepilot,W24,https://www.ycombinator.com/companies/basepilot,https://www.basepilot.com/,"AI coworkers to automate browser work, in minutes.",Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Aqua Voice,W24,https://www.ycombinator.com/companies/aqua-voice,https://aquavoice.com,Frontier Voice Input - write 4x faster than typing.,Active,Consumer,5,"San Francisco, CA, USA"
+xPay,W24,https://www.ycombinator.com/companies/xpay,https://www.xpaycheckout.com/,"International Billing Ops, Sales Tax and Payments for SaaS businesses",Active,Fintech; Payments,3,
+Deepnight,W24,https://www.ycombinator.com/companies/deepnight,https://www.deepnight.ai/,Building The Next Generation of Night Vision Devices,Active,Industrials; Defense,12,"San Francisco, CA, USA"
+Vista Power,W24,https://www.ycombinator.com/companies/vista-power,https://vistapower.com,Batteries and solar for $0 upfront to help businesses save money,Active,Industrials; Energy,3,"San Francisco, CA, USA"
+Adapted,W24,https://www.ycombinator.com/companies/adapted,https://adapted.app,Helping athletes stay durable,Active,Consumer,2,"San Francisco, CA, USA"
+Ocular AI,W24,https://www.ycombinator.com/companies/ocular-ai,https://useocular.com,"AI-Native Data Engine for LLMs, Computer Vision, & Enterprise AI",Active,B2B,6,"San Francisco, CA, USA"
+Retell AI,W24,https://www.ycombinator.com/companies/retell-ai,https://retellai.com,Supercharge Your Contact Center Operations with AI Phone Agents,Active,B2B; Infrastructure,24,
+Rove,W24,https://www.ycombinator.com/companies/rove,http://rovecard.com,Travel the world for free.,Active,"Consumer; Travel, Leisure and Tourism",4,"New York, NY, USA"
+camelAI,W24,https://www.ycombinator.com/companies/camelai,https://camelai.com/,AI Business Intelligence agent. Get actionable insights in minutes.,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Spark,W24,https://www.ycombinator.com/companies/spark,https://www.sparkhq.ai,AI-powered workflows for energy infrastructure,Active,B2B,5,
+Downlink,W24,https://www.ycombinator.com/companies/downlink,https://downlink.dev/,Make your LLMs 3x faster.,Active,B2B; Infrastructure,1,"San Francisco, CA, USA"
+Terrakotta,W24,https://www.ycombinator.com/companies/terrakotta,https://www.terrakotta.ai/,AI platform for phone-first sellers,Active,B2B; Sales,5,"Shoreline, WA, USA"
+Stacksync,W24,https://www.ycombinator.com/companies/stacksync,https://www.stacksync.com/,Real-time and two-way sync between CRMs and Databases,Active,"B2B; Engineering, Product and Design",9,"San Francisco, CA, USA"
+Hatchet,W24,https://www.ycombinator.com/companies/hatchet-run,https://hatchet.run,Background task orchestration and visibility,Active,B2B; Infrastructure,7,"New York, NY, USA"
+Shepherd,W24,https://www.ycombinator.com/companies/shepherd-2,https://www.shepherd.study,Every student's personalized learning assistant,Active,Education,5,
+Sonauto,W24,https://www.ycombinator.com/companies/sonauto,https://sonauto.ai/,Create hit songs with AI,Active,Consumer; Content,4,
+Velorum Therapeutics,W24,https://www.ycombinator.com/companies/velorum-therapeutics,https://www.velorumtx.com/,Breakthrough medicines unlocking the biology of heme,Active,Healthcare; Therapeutics,5,"San Francisco, CA, USA"
+Zep AI,W24,https://www.ycombinator.com/companies/zep-ai,https://www.getzep.com/,Agent Context Is Hard. We Fixed It.,Active,B2B,5,"San Francisco, CA, USA"
+Openmart,W24,https://www.ycombinator.com/companies/openmart,https://www.openmart.com,Local business data intelligence platform,Active,B2B,6,"Foster City, CA, USA"
+Triply,W24,https://www.ycombinator.com/companies/triply,https://business.triply.co/,Operating system for travel businesses in Africa with embedded finance,Active,B2B; Operations,18,"Nairobi, Kenya"
+Deep24,W24,https://www.ycombinator.com/companies/deep24,https://deep24.com,AI coach for your entire life,Active,Education,2,
+Thorntale,W24,https://www.ycombinator.com/companies/thorntale,https://thorntale.com,"The world's best presentation editor, powered by AI.",Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Alai,W24,https://www.ycombinator.com/companies/alai,https://getalai.com,Create high quality presentations quickly using AI,Active,B2B,5,
+Lumetric,W24,https://www.ycombinator.com/companies/lumetric,https://www.lumetric.ai,The AI Analyst to Review Your Spreadsheets,Active,B2B,2,"San Francisco, CA, USA"
+Sample,W24,https://www.ycombinator.com/companies/sample,https://samplehc.com,Flexible systems for clinical reasoning.,Active,Healthcare; Healthcare IT,5,"San Francisco, CA, USA"
+Brainbase Labs,W24,https://www.ycombinator.com/companies/brainbase-labs,https://brainbaselabs.com,The AI Labor Company,Active,B2B,5,"San Francisco, CA, USA"
+Focal,W24,https://www.ycombinator.com/companies/focal,https://focalml.com,AI video creation tool for TV shows and movies,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Givefront,W24,https://www.ycombinator.com/companies/givefront,https://givefront.com,Nonprofit Financial Management,Active,Fintech; Banking and Exchange,4,
+Cleva,W24,https://www.ycombinator.com/companies/cleva,https://www.getcleva.com,USD banking platform for Africa,Active,Fintech,30,"Lagos, Nigeria"
+Oma Care,W24,https://www.ycombinator.com/companies/oma-care,https://www.omacare.com,Get paid for taking care of your parents. ,Active,Healthcare; Healthcare Services,2,
+Artos,W24,https://www.ycombinator.com/companies/artos,https://www.artosai.com/,"Authoring documents for life sciences in minutes, not months.",Active,B2B,7,
+Model ML,W24,https://www.ycombinator.com/companies/model-ml,https://www.modelml.com/,AI Workspace for Financial Services.,Active,B2B,50,"London, UK"
+BetterBasket,W24,https://www.ycombinator.com/companies/betterbasket,http://www.betterbasket.com,Smart grocery pricing with AI,Active,B2B; Analytics,5,"San Francisco, CA, USA"
+Circleback,W24,https://www.ycombinator.com/companies/circleback,https://circleback.ai,AI-powered meeting notes and automations,Active,B2B; Productivity,8,
+JustAI,W24,https://www.ycombinator.com/companies/justai,https://getjust.ai,Agentic Marketing Platform,Active,B2B; Marketing,5,"San Francisco, CA, USA"
+Risotto,W24,https://www.ycombinator.com/companies/risotto,https://tryrisotto.com,Risotto auto-solves IT support requests using AI,Active,B2B; Operations,3,"San Francisco, CA, USA"
+DianaHR,W24,https://www.ycombinator.com/companies/dianahr,http://www.dianahr.ai,An AI-Powered HR Person ,Active,B2B; Human Resources,3,"156 2nd St, San Francisco, CA 94105, USA"
+HeartByte,W24,https://www.ycombinator.com/companies/heartbyte,https://www.storioai.com,GenAI Interactive story. Creator write fictions 10x faster.,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Yondu,W24,https://www.ycombinator.com/companies/yondu,https://yondu.ai/,Robots to Automate Fulfillment,Active,Industrials; Manufacturing and Robotics,12,"Los Angeles, CA, USA"
+Raindrop,W24,https://www.ycombinator.com/companies/raindrop,https://www.raindrop.ai,Sentry for AI Agents,Active,"B2B; Engineering, Product and Design",6,"San Francisco, CA, USA"
+Chunkr,W24,https://www.ycombinator.com/companies/chunkr,https://chunkr.ai/,Open source API service to parse complex documents,Active,"B2B; Engineering, Product and Design",3,
+Centauri AI,W24,https://www.ycombinator.com/companies/centauri-ai,https://centauri-ai.tech,The Modern ETL and Data Science Platform for Finance,Active,Fintech; Asset Management,5,
+ProSights,W24,https://www.ycombinator.com/companies/prosights,https://prosights.co/,ProSights is an AI-native data extraction tool for financial…,Active,B2B; Productivity,14,"New York, NY, USA"
+Manifold Freight,W24,https://www.ycombinator.com/companies/manifold-freight,https://www.manifoldfreight.com/,Aggregating Spot Freight Opportunities for Carriers,Active,B2B; Supply Chain and Logistics,3,"Seattle, WA, USA"
+EdgeTrace,W24,https://www.ycombinator.com/companies/edgetrace,https://edgetrace.ai,Describe It. Find It. Act On It.,Active,B2B,4,
+Clarum,W24,https://www.ycombinator.com/companies/clarum,https://clarum.ai,"Investment Due Diligence & Research, Accelerated by AI.",Active,B2B; Finance and Accounting,3,"San Francisco, CA, USA"
+Opencall.ai,W24,https://www.ycombinator.com/companies/opencall-ai,https://opencall.ai,AI Workforce for Services Businesses,Active,B2B,9,
+Voicepanel,W24,https://www.ycombinator.com/companies/voicepanel,https://voicepanel.com,AI agents for customer research,Active,B2B; Analytics,3,
+OffDeal,W24,https://www.ycombinator.com/companies/offdeal,https://offdeal.io,AI-native investment bank for small businesses,Active,B2B,15,"New York, NY, USA"
+Delve,W24,https://www.ycombinator.com/companies/delve,https://delve.co/?utm_source=yc&utm_medium=bio&utm_campaign=delve,AI that makes compliance effortless,Active,B2B; Security,33,"San Francisco, CA, USA"
+Andy AI,W24,https://www.ycombinator.com/companies/andy-ai,https://with-andy.com,Faster clinical documentation for home health nurses,Active,Healthcare; Healthcare IT,5,"380 Alabama St, San Francisco, CA 94110, USA"
+Hazel,W24,https://www.ycombinator.com/companies/hazel-2,https://hazelai.com,AI-enabled procurement for government,Active,Government,5,"New York, NY, USA"
+Shiboleth,W24,https://www.ycombinator.com/companies/shiboleth,https://www.shiboleth.ai/,Shiboleth automates lending compliance for financial institutions…,Active,B2B; Security,5,
+Aftercare,W24,https://www.ycombinator.com/companies/aftercare,https://getaftercare.com,Conversational AI surveys with intelligent follow-up questions,Active,B2B,3,"San Francisco, CA, USA"
+Soundry AI,W24,https://www.ycombinator.com/companies/soundry-ai,https://soundry.ai/,Professional Quality AI Music Creation,Active,Consumer; Content,3,"Seattle, WA, USA"
+Elodin,W24,https://www.ycombinator.com/companies/elodin,https://elodin.systems/,Unified flight software and hardware for the mission of tomorrow,Active,Industrials; Aviation and Space,5,"San Francisco, CA, USA"
+Conduit,W24,https://www.ycombinator.com/companies/conduit-ai,https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator,Conversational AI agents for Customer Service.,Active,B2B,18,"San Francisco, CA, USA"
+Tensorfuse,W24,https://www.ycombinator.com/companies/tensorfuse,https://www.tensorfuse.io/,Run serverless GPUs on your own cloud,Active,"B2B; Engineering, Product and Design",2,
+Toma,W24,https://www.ycombinator.com/companies/toma,http://www.toma.com/,AI for Underserved Industries,Active,B2B; Operations,20,"San Francisco, CA, USA"
+Carma,W24,https://www.ycombinator.com/companies/carma,https://www.joincarma.com/,The AI Operating System For Modern Fleets.,Active,B2B; Operations,15,"San Francisco, CA, USA"
+Preloop,W24,https://www.ycombinator.com/companies/preloop,https://www.preloop.com,Translate your experimental scripts into production ML services,Active,"B2B; Engineering, Product and Design",2,
+Superagent,W24,https://www.ycombinator.com/companies/superagent,https://superagent.sh/,Red teaming for AI agents,Active,B2B; Security,2,"800 Indiana St, San Francisco, CA 94107, USA"
+Bilanc,W24,https://www.ycombinator.com/companies/bilanc,https://www.bilanc.co,AI-Powered Engineering Productivity,Active,"B2B; Engineering, Product and Design",3,
+Sagaland,W24,https://www.ycombinator.com/companies/sagaland,https://sagaland.ai,Interactive Fiction,Active,Consumer,2,"2261 Market St #5744, San Francisco, CA 94114, USA"
+Browser Buddy,W24,https://www.ycombinator.com/companies/browser-buddy,https://www.browserbuddy.com/,A recommendation system for great Internet writing,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Astro Mechanica,W24,https://www.ycombinator.com/companies/astro-mechanica,https://astromecha.co/,Supersonics for the new Jet Age,Active,Industrials; Aviation and Space,52,"San Francisco, CA, USA"
+CodeAnt AI,W24,https://www.ycombinator.com/companies/codeant-ai,https://codeant.ai/,AI Code Health Platform,Active,"B2B; Engineering, Product and Design",10,"San Francisco, CA, USA"
+Draftaid,W24,https://www.ycombinator.com/companies/draftaid,https://draftaid.io/,Go from 3D models to CAD drawings using AI,Active,"B2B; Engineering, Product and Design",3,"Toronto, ON, Canada"
+Metofico,W24,https://www.ycombinator.com/companies/metofico,https://metofico.com/,No Code Data Analysis for Life Science Research,Active,"B2B; Engineering, Product and Design",2,"London, UK"
+Ellipsis,W24,https://www.ycombinator.com/companies/ellipsis,https://ellipsis.dev,AI code reviews & bug fixes,Active,"B2B; Engineering, Product and Design",2,
+Dime,W24,https://www.ycombinator.com/companies/dime-2,https://www.dimehealth.ai/,Dime automates administrative busywork at healthcare clinics,Active,B2B,5,"New York, NY, USA"
+Solari AI,W24,https://www.ycombinator.com/companies/solari-ai,https://www.usesolari.ai/,Gives non-technical team members agents that work right out of the box,Active,"B2B; Engineering, Product and Design",1,"New York, NY, USA"
+Pythagora,W24,https://www.ycombinator.com/companies/pythagora,https://pythagora.ai/,Worlds first all-in-one AI development platform.,Active,"B2B; Engineering, Product and Design",7,
+Open,W24,https://www.ycombinator.com/companies/open,https://open.cx,Enterprise AI customer support,Active,"B2B; Engineering, Product and Design",7,"San Francisco, CA, USA"
+Aedilic,W24,https://www.ycombinator.com/companies/aedilic,https://www.nonescape.com,Open-Source AI-generated image/deepfake detection,Active,B2B; Security,2,"San Francisco, CA, USA"
+Salvy,W24,https://www.ycombinator.com/companies/salvy,https://www.salvy.com.br,Mobile carrier for businesses in Brazil,Active,B2B; Operations,27,"Curitiba, State of Paraná, Brazil"
+Centralize,W24,https://www.ycombinator.com/companies/centralize,https://www.usecentralize.com/,The AI-powered deal collaboration platform for high ACV revenue teams,Active,B2B; Sales,6,"San Francisco, CA, USA"
+phospho,W24,https://www.ycombinator.com/companies/phospho,https://phospho.ai,Give brains to robots,Active,B2B,2,"San Francisco, CA, USA"
+Firebender,W24,https://www.ycombinator.com/companies/firebender,https://firebender.com,Most powerful coding agent for Android engineers,Active,"B2B; Engineering, Product and Design",5,
+Aether,W24,https://www.ycombinator.com/companies/aether,https://www.tryaether.co/,AI sales platform for home services,Active,"B2B; Engineering, Product and Design",8,"San Francisco, CA, USA"
+Parallel,W24,https://www.ycombinator.com/companies/parallel,https://www.beparallel.com/?utm_source=ycombinator&utm_medium=directory,AI agents for healthcare admin,Active,Healthcare; Healthcare IT,6,"Paris, France"
+Vibrant Labs,W24,https://www.ycombinator.com/companies/vibrant-labs,https://vibrantlabs.com/,RL environments for long horizon AI Agents,Active,B2B; Infrastructure,2,"San Francisco, CA, USA"
+sync.,W24,https://www.ycombinator.com/companies/sync-2,https://sync.so/,AI lipsync tool for video content creators,Active,B2B,13,"San Francisco, CA, USA"
+PandasAI,W24,https://www.ycombinator.com/companies/pandasai,https://pandas-ai.com,PandasAI is an open-source conversational data analysis platform with…,Active,B2B; Analytics,3,"Munich, Germany"
+Infinity,W24,https://www.ycombinator.com/companies/infinity,https://www.infinityapp.in/,Business banking for cross-border SMBs & Startups,Active,Fintech; Payments,15,"Bengaluru, Karnataka, India"
+InQuery,W24,https://www.ycombinator.com/companies/inquery-2,https://www.inquery.ai/,Intelligent Medical Record Reviews,Active,Healthcare; Healthcare IT,4,
+14.ai,W24,https://www.ycombinator.com/companies/14-ai,https://14.ai,AI Customer Service Agency for Your B2C Business,Active,B2B; Infrastructure,3,"San Francisco, CA, USA"
+Tamarind Bio,W24,https://www.ycombinator.com/companies/tamarind-bio,https://www.tamarind.bio,AI Inference Platform for Drug Discovery,Active,B2B,10,
+Clarion,W24,https://www.ycombinator.com/companies/clarion,https://clarionhealth.com,The AI communication layer for healthcare,Active,Healthcare; Healthcare IT,14,"New York, NY, USA"
+Consul,W24,https://www.ycombinator.com/companies/consul,https://onconsul.com,The Stablecoin Payouts Platform,Active,Fintech; Payments,2,"New York, NY, USA"
+Scout,W24,https://www.ycombinator.com/companies/cpgscout,https://cpgscout.ai/,AI insights for consumer products,Active,B2B; Retail,3,"San Francisco, CA, USA"
+Decipher AI,W24,https://www.ycombinator.com/companies/decipher-ai,https://getdecipher.com,QA agents that write tests 10x faster with zero maintenance,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+LemonSlice,W24,https://www.ycombinator.com/companies/lemonslice,https://www.lemonslice.com,Give your voice agents a face,Active,B2B,8,"California St, San Francisco, CA, USA"
+Pillar,W24,https://www.ycombinator.com/companies/trypillar,https://trypillar.com/,Your App's Copilot,Active,"B2B; Engineering, Product and Design",,"San Francisco, CA, USA"
+Speck,W24,https://www.ycombinator.com/companies/speck,https://speck.sh,AI Notetaker that automates all your admin work,Active,B2B; Productivity,3,"San Francisco, CA, USA"
+Guide Labs,W24,https://www.ycombinator.com/companies/guide-labs,https://www.guidelabs.ai/,Interpretable AI models and agents,Active,B2B,9,"San Francisco, CA, USA"
+OmniAI,W24,https://www.ycombinator.com/companies/omniai,https://getomni.ai,AI Agents for Commercial Lending,Active,B2B; Finance and Accounting,5,"San Francisco, CA, USA"
+Respan,W24,https://www.ycombinator.com/companies/respan,https://respan.ai,"Self-driving observability, evals, and gateway for AI agents",Active,B2B; Infrastructure,10,"San Francisco, CA, USA"
+PromptArmor,W24,https://www.ycombinator.com/companies/promptarmor,https://promptarmor.com/,LLM Security and Compliance,Active,B2B; Security,,
+Zaymo,W24,https://www.ycombinator.com/companies/zaymo,https://zaymo.com,Interactive email builder for ecommerce brands,Active,B2B; Marketing,11,"Lehi, UT, USA"
+Glimmer,W24,https://www.ycombinator.com/companies/glimmer,https://www.withglimmer.com/,AI search for massive PDFs,Active,B2B,2,"San Francisco, CA, USA"
+Meticulate,W24,https://www.ycombinator.com/companies/meticulate,https://meticulate.ai/,Making it easy for B2B sales teams to send stellar outbound,Active,B2B,5,"San Francisco, CA, USA"
+CloudCruise,W24,https://www.ycombinator.com/companies/cloudcruise,https://cloudcruise.com,The developer platform for fast and reliable browser agents,Active,B2B,3,"San Francisco, CA, USA"
+Attunement,W24,https://www.ycombinator.com/companies/attunement,http://attunement.ai,"We automate compliance for behavioral health, saving clinicians hours…",Active,Healthcare,3,"San Francisco, CA, USA"
+Lucite,W24,https://www.ycombinator.com/companies/lucite,https://www.lucite.ai/,Supercharging Insurance Brokers & Advisors,Active,B2B,4,"New York, NY, USA"
+OneGrep,W24,https://www.ycombinator.com/companies/onegrep,https://www.onegrep.dev,AI Agent for DevOps Workflow Automation,Active,"B2B; Engineering, Product and Design",2,"New York, NY, USA"
+Tusk,W24,https://www.ycombinator.com/companies/tusk,https://usetusk.ai,AI agent that generates unit and integration tests,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+PartnerHQ,W24,https://www.ycombinator.com/companies/partnerhq,https://trypartnerhq.com,A marketplace for B2B businesses to buy warm intros. ,Active,B2B; Sales,4,
+atopile,W24,https://www.ycombinator.com/companies/atopile,http://atopile.io,We make tools to design electronics circuit boards with code,Active,"B2B; Engineering, Product and Design",5,"San Francisco, CA, USA"
+Copper Health,W24,https://www.ycombinator.com/companies/copper-health,https://www.copperhealth.co/,Modern patient engagement and remote therapeutic monitoring platform,Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+SynsoryBio,W24,https://www.ycombinator.com/companies/synsorybio,https://www.synsorybio.com/,"""If-then"" conditional logic for protein drugs",Active,Healthcare; Therapeutics,2,"Cambridge, MA, USA"
+Yoneda Labs,W24,https://www.ycombinator.com/companies/yoneda-labs,https://www.yonedalabs.com,Foundation Model for Chemical Manufacturing,Active,B2B,3,
+TokenOwl,W24,https://www.ycombinator.com/companies/tokenowl,https://tokenowl.ai,AI portfolio tools for the next generation of finance,Active,Fintech,2,"New York, NY, USA"
+Topo,W24,https://www.ycombinator.com/companies/topo,https://www.topo.io/,AI Agents for outbound working by your side,Active,B2B; Sales,12,"Paris, France"
+Trellis AI,W24,https://www.ycombinator.com/companies/trellis-ai,https://runtrellis.com/,AI for streamlining healthcare paperwork,Active,B2B,25,
+Ecliptor,W24,https://www.ycombinator.com/companies/ecliptor,https://ecliptor.ai,AI and Embeddings. ,Active,B2B; Sales,2,"San Francisco, CA, USA"
+Greenboard,W24,https://www.ycombinator.com/companies/greenboard,https://www.greenboard.com,Modern OS for the financial back office. ,Active,Fintech,26,"New York, NY, USA"
+Eggnog,W24,https://www.ycombinator.com/companies/eggnog,https://www.eggnog.ai,Youtube for AI-generated content,Active,Consumer,2,"New York, NY, USA"
+Artisan,W24,https://www.ycombinator.com/companies/artisan,https://artisan.co/?utm_source=ycombinator,"AI employees called Artisans, starting with an AI BDR",Active,B2B,37,"San Francisco, CA, USA"
+Octolane AI,W24,https://www.ycombinator.com/companies/octolane-ai,https://www.octolane.com,Self-Driving AI CRM,Active,B2B; Sales,5,"San Francisco, CA, USA"
+SuretyNow,W24,https://www.ycombinator.com/companies/suretynow,https://suretynow.com/,The Modern Surety Bond Platform,Active,Fintech; Insurance,4,"Austin, TX, USA"
+ROE,W24,https://www.ycombinator.com/companies/roe,https://getroe.ai,AI for risk and compliance,Active,B2B; Infrastructure,9,"San Mateo, CA, USA"
+FurtherAI,W24,https://www.ycombinator.com/companies/furtherai,https://www.furtherai.com/,AI Workforce for the Insurance Industry,Active,B2B,8,"San Francisco, CA, USA"
+Arini,W24,https://www.ycombinator.com/companies/arini,https://www.arini.ai,AI receptionist for dentists,Active,Healthcare; Healthcare IT,17,"San Francisco, CA, USA"
+Paradigm,W24,https://www.ycombinator.com/companies/paradigm,https://www.paradigmai.com/,A reimagined workspace with AI at its core,Active,B2B,8,
+PointOne,W24,https://www.ycombinator.com/companies/pointone,https://pointone.com/,AI Time Platform for Law Firms,Active,B2B; Infrastructure,15,"New York, NY, USA"
+Avery,W24,https://www.ycombinator.com/companies/avery,https://callavery.com,AI Contact Center for Residential Property Managers,Active,Real Estate and Construction; Housing and Real Estate,3,"Austin, TX, USA"
+Wavelength,W24,https://www.ycombinator.com/companies/wavelength,https://wavelength.cx/,Build Magical Customer Experiences,Active,B2B; Operations,3,"San Francisco, CA, USA"
+MathDash,W24,https://www.ycombinator.com/companies/mathdash,https://mathdash.com,Learning Platform for Math Competitions,Active,Education,2,"San Francisco, CA, USA"
+Leaping,W24,https://www.ycombinator.com/companies/leaping,https://www.leaping.io/,Automate bug resolution,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Basalt,W24,https://www.ycombinator.com/companies/basalt,https://basalt.space/,Constellations as a Service,Active,Industrials; Aviation and Space,5,"San Francisco, CA, USA"
+Carousel Technologies,W24,https://www.ycombinator.com/companies/carousel-technologies,https://usecarousel.com,AI Assistant for Excel,Active,B2B; Finance and Accounting,4,"205 W 76th St, New York, NY 10023, USA"
+Agentic Labs,W24,https://www.ycombinator.com/companies/agentic-labs-2,https://agenticlabs.com,AI system design tools for dev teams,Active,"B2B; Engineering, Product and Design",2,"New York, NY, USA"
+Fractal Labs,W24,https://www.ycombinator.com/companies/fractal-labs,https://fractal-labs.gg/,,Active,Consumer,4,
+Pivot Robotics,W24,https://www.ycombinator.com/companies/pivot-robotics,https://pivotrobotics.com,AI for Robot Arms in Factories,Active,Industrials; Manufacturing and Robotics,6,"San Francisco, CA, USA"
+Aidy,W24,https://www.ycombinator.com/companies/aidy,https://www.aidyhq.com/,Mobile app helping people better manage chronic health conditions,Active,Healthcare; Consumer Health and Wellness,2,"San Francisco, CA, USA"
+Buster,W24,https://www.ycombinator.com/companies/buster,http://buster.so,AI platform for analytics engineering,Active,B2B; Analytics,4,"Salt Lake City, UT, USA"
+Garage,W24,https://www.ycombinator.com/companies/garage-2,https://www.shopgarage.com/,Building the marketplace that powers America’s most essential assets,Active,B2B,20,"New York, NY, USA"
+"Argon AI, Inc.",W24,https://www.ycombinator.com/companies/argon-ai-inc,https://www.argon-ai.com/,AI for Pharma Intelligence ,Active,Healthcare,2,
+nCompass Technologies,W24,https://www.ycombinator.com/companies/ncompass-technologies,https://www.ncompass.tech,Optimize performance on GPUs - 10x faster,Active,"B2B; Engineering, Product and Design",3,"New York, NY, USA"
+Lumen Payments,W24,https://www.ycombinator.com/companies/lumen-payments,https://getlumen.dev,Fastest way to implement payments in your product.,Active,Fintech,2,"Berlin, Germany"
+Alex,W24,https://www.ycombinator.com/companies/alex-com,https://alex.com,Your AI recruiter for interviewing and identifying the best talent,Active,B2B; Recruiting and Talent,30,"San Francisco, CA, USA"
+malibou,W24,https://www.ycombinator.com/companies/malibou,https://www.malibou.co,the first all-in-one payroll and HR software for French SMBs,Active,B2B; Human Resources,2,"117 Quai de Valmy, 75010 Paris, France"
+Newton,W24,https://www.ycombinator.com/companies/newton,https://joinnewton.com,AI-powered phone platform for dentists,Active,B2B,4,
+Tile,W24,https://www.ycombinator.com/companies/tile,https://tile.sh,AI-first notebook for building operational data apps,Active,B2B; Analytics,2,"New York, NY, USA"
+Tuesday Lab,W24,https://www.ycombinator.com/companies/tuesday-lab,https://www.tuesdaylab.com,Delightful robots,Active,Consumer; Consumer Electronics,5,"New York, NY, USA"
+Momentic,W24,https://www.ycombinator.com/companies/momentic,https://momentic.ai,The AI-native automated testing platform,Active,"B2B; Engineering, Product and Design",12,"San Francisco, CA, USA"
+Reducto,W24,https://www.ycombinator.com/companies/reducto,https://reducto.ai,The most accurate API to parse documents,Active,"B2B; Engineering, Product and Design",30,"San Francisco, CA, USA"
+Andon Labs,W24,https://www.ycombinator.com/companies/andon-labs,https://andonlabs.com/,Autonomous organizations without humans in the loop,Active,"B2B; Engineering, Product and Design",8,"San Francisco, CA, USA"
+Maia,W24,https://www.ycombinator.com/companies/maia,https://www.ourmaia.com/,AI relationship app that keeps couples together,Active,Healthcare; Consumer Health and Wellness,2,"San Francisco, CA, USA"
+Nuanced,W24,https://www.ycombinator.com/companies/nuanced,https://www.nuanced.dev/,Nuanced makes AI coding agents and tools smarter with static analysis.,Active,B2B,2,"San Francisco, CA, USA"
+Precip,W24,https://www.ycombinator.com/companies/precip,https://precip.ai,High precision AI weather models,Active,B2B,3,
+Tracecat,W24,https://www.ycombinator.com/companies/tracecat,https://tracecat.com,Automate work with secure AI agents,Active,B2B; Productivity,,"San Francisco, CA, USA"
+Kabilah,W24,https://www.ycombinator.com/companies/kabilah,https://www.kabilah.com,Pioneering Generative AI for Nursing,Active,Healthcare,,
+Sonia,W24,https://www.ycombinator.com/companies/sonia,https://soniahealth.com,AI Therapy,Active,Healthcare; Consumer Health and Wellness,6,"San Francisco, CA, USA"
+Maihem,W24,https://www.ycombinator.com/companies/maihem,https://www.maihem.com,Adaptive AI welding robots for manufacturers of any scale,Active,Industrials; Manufacturing and Robotics,3,"London, UK"
+ion design,W24,https://www.ycombinator.com/companies/ion-design,https://www.ion.design/,AI that creates & tests 100s of landing pages for your product,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Duckie,W24,https://www.ycombinator.com/companies/duckie,https://duckie.ai/,Build AI Support Agents in Minutes,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Happenstance,W24,https://www.ycombinator.com/companies/happenstance,https://happenstance.ai,People search powered by AI,Active,Consumer,3,
+Ubicloud,W24,https://www.ycombinator.com/companies/ubicloud,https://www.ubicloud.com,Open source alternative to AWS,Active,B2B; Infrastructure,15,
+Greptile,W24,https://www.ycombinator.com/companies/greptile,https://www.greptile.com,AI code review agent with complete context of your codebase,Active,"B2B; Engineering, Product and Design",20,"San Francisco, CA, USA"
+Cora,W24,https://www.ycombinator.com/companies/cora,https://www.corahealth.app/download,AI Fitness Coach,Active,Consumer,3,"San Francisco, CA, USA"
+ego,W24,https://www.ycombinator.com/companies/ego,https://egoai.com,"Character AI + Roblox :persistent, sapient AI characters in 3D worlds ",Active,Consumer,9,"San Francisco, CA, USA"
+Legora (formerly Leya),W24,https://www.ycombinator.com/companies/legora,https://www.legora.com/,The AI workspace for lawyers,Active,B2B; Legal,65,"Stockholm, Sweden"
+Scritch,W24,https://www.ycombinator.com/companies/scritch,https://www.scritchai.com,AI operating system for veterinary care,Active,Healthcare,,"San Francisco, CA, USA"
+Tesseral,W24,https://www.ycombinator.com/companies/tesseral,https://tesseral.com,The open source platform for managing identity in business software,Active,B2B,5,"San Francisco, CA, USA"
+Relari,W24,https://www.ycombinator.com/companies/relari,https://www.nuvi.dev/,AI Agent Builder for Software 3.0,Active,B2B,2,"San Francisco, CA, USA"
+DryMerge,W24,https://www.ycombinator.com/companies/drymerge,https://www.drymerge.com,AI that updates your CRM for you,Active,B2B,4,"San Francisco, CA, USA"
+Navier AI,W24,https://www.ycombinator.com/companies/navier-ai,http://navier.ai,Agent-Driven Engineering,Active,Industrials; Aviation and Space,7,"San Francisco, CA, USA"
+Upsolve AI,W24,https://www.ycombinator.com/companies/upsolve-ai,https://upsolve.ai/,Embed GenBI in Your SaaS App,Active,B2B; Analytics,5,
+Event Horizon Labs,W24,https://www.ycombinator.com/companies/event-horizon-labs,https://www.ehl.markets/,AI-native hedge fund using agents to automate quant research—at scale,Active,Fintech; Asset Management,4,"San Francisco, CA, USA"
+Gumloop,W24,https://www.ycombinator.com/companies/gumloop,https://www.gumloop.com/,A no-code platform for automating workflows with AI,Active,B2B,15,"San Francisco, CA, USA"
+Driver,W24,https://www.ycombinator.com/companies/driver,https://www.driver.ai/,Context for Codebases,Active,B2B,15,"Austin, TX, USA"
+Onyx,W24,https://www.ycombinator.com/companies/onyx,https://www.onyx.app/,Open Source AI Chat,Active,B2B; Productivity,20,"San Francisco, CA, USA"
+jo,W24,https://www.ycombinator.com/companies/jo,https://askjo.ai,jo is a voice-first digital personality that works alongside you…,Active,Consumer,2,"Menlo Park, CA, USA"
+Yenmo,W24,https://www.ycombinator.com/companies/yenmo,https://yenmo.in/,Secured consumer lending in India,Active,Fintech; Credit and Lending,5,"Bengaluru, Karnataka, India"
+GovernGPT,W24,https://www.ycombinator.com/companies/governgpt,https://www.governgpt.com/,The RFP Platform Asset Managers Adopt,Active,Fintech,6,"Montreal, QC, Canada"
+Arcane,W24,https://www.ycombinator.com/companies/arcane,https://www.rohanmehta.com/,AI powered games,Acquired,Consumer; Gaming,2,"New York, NY, USA"
+Trieve,W24,https://www.ycombinator.com/companies/trieve,https://trieve.ai,"All-in-one API for search, RAG, & recommendations",Acquired,B2B; Infrastructure,7,"San Francisco, CA, USA"
+Resonance,W24,https://www.ycombinator.com/companies/resonance,https://www.useresonance.com/,Self-improving content bank for marketing,Acquired,B2B; Marketing,2,"San Francisco, CA, USA"
+StarJar,W24,https://www.ycombinator.com/companies/starjar,https://www.starjar.io/,Starjar automates inbound document processing workflows for hospitals,Acquired,B2B,11,
+Verse Therapy,W24,https://www.ycombinator.com/companies/verse-therapy,https://versetherapy.com,Connecting All Ages with Speech Language Pathologists,Acquired,Healthcare; Healthcare IT,3,"San Francisco, CA, USA"
+Lumona,W24,https://www.ycombinator.com/companies/lumona,https://www.lumona.ai,AI-enabled search engine featuring insights from social media.,Inactive,Consumer,1,"Cambridge, MA, USA"
+Fileforge,W24,https://www.ycombinator.com/companies/fileforge,https://www.fileforge.com/,API For PDF Document Workflows,Inactive,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+BiteSight,W24,https://www.ycombinator.com/companies/bitesight,http://bitesight.com,The video-first food delivery app. Imagine TikTok meets DoorDash.,Inactive,Consumer; Social,4,"New York, NY, USA"
+Abel,W24,https://www.ycombinator.com/companies/abel,https://www.tryabel.com,Transforming document review for litigation teams,Inactive,B2B; Legal,2,"San Francisco, CA, USA"
+Wuri,W24,https://www.ycombinator.com/companies/wuri,https://www.wuri.in/,"App to read fiction stories as visual novels with images, videos,…",Inactive,Consumer; Content,7,
+crmCopilot,W24,https://www.ycombinator.com/companies/crmcopilot,https://www.crmcopilot.co?utm_source=yc,Give Salesforce the AI upgrade it deserves,Inactive,B2B; Sales,2,"San Francisco, CA, USA"
+Toolify,W24,https://www.ycombinator.com/companies/toolify,https://toolify.sh,Build internal tools with AI,Inactive,"B2B; Engineering, Product and Design",2,"Bengaluru, Karnataka, India"
+Celest,W24,https://www.ycombinator.com/companies/celest,https://celest.dev,The Vercel of Flutter,Inactive,B2B; Infrastructure,1,"San Francisco, CA, USA"
+Selera Medical,W24,https://www.ycombinator.com/companies/selera-medical,http://www.seleramedical.com,"One-time, device-based treatment for heart failure",Inactive,Healthcare; Medical Devices,2,"Mountain View, CA, USA"
+Engines,W24,https://www.ycombinator.com/companies/engines,https://engines.dev,Setup any repo with one command,Inactive,B2B; Infrastructure,2,"San Francisco, CA, USA"
+Blume Benefits,W24,https://www.ycombinator.com/companies/blume-benefits,https://www.blumebenefits.com/,The AI copilot for health insurance brokers.,Inactive,Fintech; Insurance,3,"San Francisco, CA, USA"
+Patchwork,W24,https://www.ycombinator.com/companies/patchwork,https://atpatchwork.com/,Your team’s AI powered communication tool,Inactive,B2B; Productivity,2,"Hayes St, San Francisco, CA, USA"
+DGI Apparel,W24,https://www.ycombinator.com/companies/dgi-apparel,https://www.dgiapparel.com/,Expedia for ordering blank apparel,Inactive,B2B; Supply Chain and Logistics,4,"New York, NY, USA"
+Mango Health,W24,https://www.ycombinator.com/companies/mango-health,https://themangohealth.com,AI Therapy for OCD,Inactive,Healthcare,2,
+Quary,W24,https://www.ycombinator.com/companies/quary,https://www.quary.dev,The first in-browser analytics engineering platform,Inactive,B2B; Analytics,2,"London, UK"
+Stitch Technologies,W24,https://www.ycombinator.com/companies/stitch-technologies,https://www.stitch.tech,-,Inactive,"B2B; Engineering, Product and Design",,"London, UK"
+RadMate AI,W24,https://www.ycombinator.com/companies/radmate-ai,https://www.radmate.ai,Copilot for radiologists,Inactive,Healthcare,2,"San Francisco, CA, USA"
+Lantern,W24,https://www.ycombinator.com/companies/lantern-2,http://lantern.dev,Postgres vector database extension to build AI applications,Inactive,B2B,3,"San Francisco, CA, USA"
+Outerport,S24,https://www.ycombinator.com/companies/outerport,https://outerport.com,"Turn diagrams, technical documents, and CAD into structured data",Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+DreamRP,S24,https://www.ycombinator.com/companies/dreamrp,https://www.dreamrp.com/,Tech and platforms for human creators and the entertainment industry,Active,Consumer,2,"San Francisco, CA, USA"
+Conductor,S24,https://www.ycombinator.com/companies/conductor,https://conductor.build,Run a team of coding agents on your Mac,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Syntra,S24,https://www.ycombinator.com/companies/syntra,https://www.syntra.com,AI chart review for speciality medical clinics.,Active,Healthcare; Healthcare IT,9,"San Francisco, CA, USA"
+PathPilot,S24,https://www.ycombinator.com/companies/pathpilot,https://www.getpathpilot.com/,AI Agents for Lending Operations,Active,B2B,3,"San Jose, CA, USA"
+Bits to Atoms,S24,https://www.ycombinator.com/companies/bits-to-atoms,https://bitstoatoms.com/,Match job seekers to roles at deep technology startups.,Active,Consumer; Job and Career Services,3,
+Midship,S24,https://www.ycombinator.com/companies/midship,https://midship.ai/,AI for SOX testing,Active,B2B; Finance and Accounting,3,
+SimCare,S24,https://www.ycombinator.com/companies/simcare,https://simcare.ai,AI avatars to scale healthcare training.,Active,Healthcare,7,"San Francisco, CA, USA"
+Merlin AI,S24,https://www.ycombinator.com/companies/merlin-ai,https://www.merlinai.co,AI powered ERP for Construction,Active,B2B,28,"Los Angeles, CA, USA"
+Freestyle,S24,https://www.ycombinator.com/companies/freestyle,https://www.freestyle.sh,We run and deploy code your AI wrote,Active,B2B; Infrastructure,5,"San Francisco, CA, USA"
+Arva AI,S24,https://www.ycombinator.com/companies/arva-ai,https://www.arva.ai,"AI Agents to scale AML, KYB and KYC operations",Active,B2B,14,
+Affil.ai,S24,https://www.ycombinator.com/companies/affil-ai,https://affil.ai/,AI Affiliate Network For Financial Companies,Active,B2B; Marketing,4,"San Francisco, CA, USA"
+OrgOrg,S24,https://www.ycombinator.com/companies/orgorg,https://orgorg.com,Organizational productivity suite for companies,Active,B2B; Productivity,2,"Los Altos, CA, USA"
+Patched,S24,https://www.ycombinator.com/companies/patched,https://patched.codes,Agentic workflows for Enterprise IT and Ops teams,Active,B2B; Productivity,4,
+Village Labs,S24,https://www.ycombinator.com/companies/village-labs,https://villagelabs.app/,Helping America's businesses become employee owned,Active,B2B; Human Resources,2,"New York, NY, USA"
+Mica AI,S24,https://www.ycombinator.com/companies/mica-ai,https://usemica.com/,Replace the humans fixing bad data,Active,B2B; Operations,3,"San Francisco, CA, USA"
+Formula Insight,S24,https://www.ycombinator.com/companies/formula-insight,https://www.formulainsight.io/,"Help Institutional Investors manage, track & query their Excel models",Active,B2B,2,"New York, NY, USA"
+Overlap,S24,https://www.ycombinator.com/companies/overlap,https://www.overlap.ai,Multimodal AI agents for video,Active,Consumer; Content,6,"San Francisco, CA, USA"
+Capitol AI,S24,https://www.ycombinator.com/companies/capitol-ai,https://www.capitol.ai/,"Model-agnostic AI for enterprises: governed, embedded, decision-grade.",Active,B2B; Productivity,11,"Washington, DC, USA"
+Void,S24,https://www.ycombinator.com/companies/void,https://useglass.ai,The open source Cursor alternative,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Anglera,S24,https://www.ycombinator.com/companies/anglera,https://www.anglera.com/,AI-Powered Product Data Enrichment,Active,B2B; Retail,5,"San Francisco, CA, USA"
+XTraffic,S24,https://www.ycombinator.com/companies/xtraffic,https://XTraffic.com/,Technology for cities to automate and manage their traffic lights.,Active,Government,3,
+BrowserOS,S24,https://www.ycombinator.com/companies/browseros,https://BrowserOS.com/,The Open Source Agentic Browser,Active,Consumer,4,"San Francisco, CA, USA"
+Henry,S24,https://www.ycombinator.com/companies/henry-2,http://www.henry.ai,Automating Deal Decks for Commercial Real Estate Brokers,Active,Real Estate and Construction,3,"New York, NY, USA"
+Ficra,S24,https://www.ycombinator.com/companies/ficra,https://ficra.ai/,"Real time, source of truth for every product screen and user flow",Active,B2B,3,"San Francisco, CA, USA"
+RowBoat Labs,S24,https://www.ycombinator.com/companies/rowboat-labs,https://www.rowboatlabs.com,Open-source AI-assisted agent builder,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Pipeshift,S24,https://www.ycombinator.com/companies/pipeshift,https://pipeshift.com,Inference for real-time production workloads,Active,B2B; Infrastructure,10,"San Francisco, CA, USA"
+Vera Health,S24,https://www.ycombinator.com/companies/vera-health,https://www.vera-health.ai,AI-powered clinical decision support for healthcare providers,Active,Healthcare; Healthcare Services,6,"San Francisco, CA, USA"
+Pharos,S24,https://www.ycombinator.com/companies/pharos,https://pharos.health/,Helping hospitals identify and prevent avoidable harm using AI,Active,Healthcare; Healthcare IT,5,"San Francisco, CA, USA"
+et al.,S24,https://www.ycombinator.com/companies/et-al,https://www.et-al.io,Feed of insights extracted from your go-to sources using LLMs.,Active,Consumer,2,"San Francisco, CA, USA"
+Keet,S24,https://www.ycombinator.com/companies/keet,https://trykeet.com,Authentication for AI Agents,Active,B2B,2,
+Terra,S24,https://www.ycombinator.com/companies/terra-2,https://useterra.com/,Design and sell products in minutes,Active,B2B; Supply Chain and Logistics,6,
+Dayflow,S24,https://www.ycombinator.com/companies/dayflow,https://www.dayflow.so,"Generate a detailed log of everything you've worked on, automatically.",Active,Consumer,2,"San Francisco, CA, USA"
+"Diode Computers, Inc.",S24,https://www.ycombinator.com/companies/diode-computers-inc,https://diode.computer,Automate circuit board design using AI,Active,"B2B; Engineering, Product and Design",3,"New York, NY, USA"
+SureBright,S24,https://www.ycombinator.com/companies/surebright,https://surebright.com/,Apple Care-like warranty program for every retailer ,Active,B2B; Retail,20,
+Usul,S24,https://www.ycombinator.com/companies/usul,https://www.usul.com,AI Platform for Winning Defense & Government Contracts,Active,Government,11,"San Francisco, CA, USA"
+Saldor,S24,https://www.ycombinator.com/companies/saldor,https://saldor.com/,,Active,Consumer,2,"San Francisco, CA, USA"
+Bucket Robotics,S24,https://www.ycombinator.com/companies/bucket-robotics,https://bucket.bot,Defect detection for manufacturing built from CAD and synthetic data.,Active,Industrials; Manufacturing and Robotics,4,
+Oway,S24,https://www.ycombinator.com/companies/oway,https://www.shipoway.com,AI Infrastructure for America’s Empty Truck Space,Active,B2B; Infrastructure,10,"San Francisco, CA, USA"
+Elayne,S24,https://www.ycombinator.com/companies/elayne,https://www.elayne.com/,"AI copilot for growing, organizing, and transferring family estates",Active,Fintech,6,"New York, NY, USA"
+Blaze,S24,https://www.ycombinator.com/companies/blaze-2,https://blaze.money,Global Venmo for cross border payments,Active,Fintech; Payments,5,"Mexico City, CDMX, Mexico"
+pap!,S24,https://www.ycombinator.com/companies/pap,https://joinpap.com/,"Agents that earn consumers dollars when they shop, travel, and live.",Active,Consumer,3,"Berkeley, CA, USA"
+RentFlow,S24,https://www.ycombinator.com/companies/rentflow,https://www.therentflow.com,The first 'Buy Now Pay Later' solution for Commercial Rent,Active,B2B,3,"San Francisco, CA, USA"
+TradeFlow,S24,https://www.ycombinator.com/companies/tradeflow,https://www.tradeflowai.com/,AI-powered settlement for financial securities,Active,Fintech,2,"New York, NY, USA"
+Voker,S24,https://www.ycombinator.com/companies/voker,https://voker.ai,The Agent Analytics Platform,Active,"B2B; Engineering, Product and Design",6,"Los Angeles, CA, USA"
+Rastro,S24,https://www.ycombinator.com/companies/rastro,https://rastro.ai,The fastest way for retailers to launch product catalogs.,Active,B2B; Retail,3,"San Francisco, CA, USA"
+Quetzal,S24,https://www.ycombinator.com/companies/quetzal,https://getquetzal.com/,"Simple, LLM-first translation and internationalization for software",Active,"B2B; Engineering, Product and Design",2,"Oakland, CA, USA"
+Typa,S24,https://www.ycombinator.com/companies/typa,https://typa.ai,The content engine that wins attention and drives growth.,Active,B2B; Marketing,2,"San Francisco, CA, USA"
+Moreta,S24,https://www.ycombinator.com/companies/moreta,https://moretapay.com,Payments made easy for international travelers.,Active,Fintech; Payments,4,"San Francisco, CA, USA"
+"Sterling Labs, Inc",S24,https://www.ycombinator.com/companies/sterling-labs-inc,https://www.focusbuddy.ai/?ref=yc,Currently in stealth - previously FocusBuddy,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Orca,S24,https://www.ycombinator.com/companies/orcaengine,https://orcaengine.ai,Make Minecraft mods and servers in your browser with AI,Active,Consumer,2,"San Francisco, CA, USA"
+Assembly HOA,S24,https://www.ycombinator.com/companies/assembly-hoa,https://assemblyhoa.com,AI-enabled HOA Management Company,Active,Real Estate and Construction; Housing and Real Estate,9,"San Francisco, CA, USA"
+autarc,S24,https://www.ycombinator.com/companies/autarc,https://www.autarc.energy/en,autarc is the OS for Europe's One-Stop Energy Installers,Active,B2B,30,"Berlin, Germany"
+omnidock,S24,https://www.ycombinator.com/companies/omnidock,https://www.omnidock.com,OS for global e-commerce expansion of brands & manufacturers,Active,B2B; Operations,1,
+Polymet,S24,https://www.ycombinator.com/companies/polymet,https://polymet.ai,AI Product Designer,Active,"B2B; Engineering, Product and Design",3,
+Kontigo,S24,https://www.ycombinator.com/companies/kontigo,https://kontigo.lat/,USDC-Smart Neobank for Latinos. ,Active,Fintech; Banking and Exchange,10,
+Weel,S24,https://www.ycombinator.com/companies/weel,https://weel.live/,GPS & dashcam smartphone app,Active,Consumer; Transportation Services,4,"New York, NY, USA"
+Entropy,S24,https://www.ycombinator.com/companies/entropy,https://www.withentropy.ai/,Autonomous intake and RCM for specialty clinics. ,Active,Healthcare,2,"San Francisco, CA, USA"
+Propaya,S24,https://www.ycombinator.com/companies/propaya,https://www.propaya.com,AI commercial lease abstractions and review,Active,Real Estate and Construction; Housing and Real Estate,2,"San Francisco, CA, USA"
+Vendra,S24,https://www.ycombinator.com/companies/vendra,https://vendra-marketplace.io/,"Custom Parts, Manufactured in America 🇺🇸",Active,Industrials,5,"San Francisco, CA, USA"
+Argil,S24,https://www.ycombinator.com/companies/argil,https://www.argil.ai/,The video generation engine for the creator economy ,Active,Consumer,8,"Paris, France"
+ZeroPath,S24,https://www.ycombinator.com/companies/zeropath,https://zeropath.com,Automatically find and fix your software vulnerabilities,Active,B2B; Security,4,"San Francisco, CA, USA"
+Leviathan,S24,https://www.ycombinator.com/companies/leviathan,https://www.leviathanencyclopedia.com/,AI Wikipedia,Active,Consumer; Home and Personal,1,"San Francisco, CA, USA"
+Starcloud,S24,https://www.ycombinator.com/companies/starcloud,https://www.starcloud.com/,Data centers in space,Active,Industrials; Aviation and Space,12,"Redmond, WA, USA"
+Dataleap,S24,https://www.ycombinator.com/companies/dataleap,https://dataleap.ai/,The world's first vibe working platform,Active,B2B,4,"San Francisco, CA, USA"
+Handled,S24,https://www.ycombinator.com/companies/handled,https://www.itshandled.ai,Automating post-order operations for e-commerce brands and 3PLs,Active,B2B; Retail,2,"New York, NY, USA"
+Ionworks,S24,https://www.ycombinator.com/companies/ionworks,https://ionworks.com/,Simulation software used by leading battery and automotive companies,Active,Industrials; Energy,5,
+Rescript,S24,https://www.ycombinator.com/companies/rescript,https://rescript.ai/,AI Regulatory Analyst for Enterprises,Active,B2B; Legal,3,"Washington, DC, USA"
+HeroUI,S24,https://www.ycombinator.com/companies/heroui,https://heroui.com,The UI framework for AI agents and developers to build beautiful apps.,Active,"B2B; Engineering, Product and Design",5,"San Francisco, CA, USA"
+Helium,S24,https://www.ycombinator.com/companies/helium,https://tryhelium.com,Self Improving Software,Active,"B2B; Engineering, Product and Design",7,"San Francisco, CA, USA"
+&AI,S24,https://www.ycombinator.com/companies/ai-2,https://www.tryandai.com/,Collaborative workspace for patent litigators,Active,B2B; Legal,13,"San Francisco, CA, USA"
+Haystack Software,S24,https://www.ycombinator.com/companies/haystack-software,https://haystackeditor.com/,Understand any pull request in under a minute,Active,"B2B; Engineering, Product and Design",2,"New York, NY, USA"
+Finosu,S24,https://www.ycombinator.com/companies/finosu,https://www.finosu.com,AI Native Consumer Loan Servicer,Active,Fintech; Credit and Lending,5,
+Odo,S24,https://www.ycombinator.com/companies/odo,https://useodo.com/,Your email assistant because you deserve a better morning,Active,B2B,2,"San Francisco, CA, USA"
+Baseline AI,S24,https://www.ycombinator.com/companies/baseline-ai,https://www.baselinetrials.com/,AI document creation and data management for clinical trials,Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+Sonatoria,S24,https://www.ycombinator.com/companies/sonatoria,https://sonatoria.com,Helping Startups Grow Organically,Active,B2B,2,
+Cartage,S24,https://www.ycombinator.com/companies/cartage,https://cartage.ai,Autonomous freight coordination,Active,B2B; Supply Chain and Logistics,12,"San Francisco, CA, USA"
+Paasa,S24,https://www.ycombinator.com/companies/paasa,https://paasa.com,Invest in Global Equities from India,Active,Fintech; Asset Management,5,"Gurugram, Haryana, India"
+Refactor,S24,https://www.ycombinator.com/companies/refactor,https://refactor.co,"Deploying secure and reliable AI agents across healthcare, retail,…",Active,B2B,3,"San Francisco, CA, USA"
+Lilac Labs,S24,https://www.ycombinator.com/companies/lilac-labs,https://www.drive-thru.ai/,We automate the person taking orders at drive-thrus with a voice AI,Active,B2B,4,
+Palmier,S24,https://www.ycombinator.com/companies/palmier,https://www.palmier.io,From idea to cinematic videos in seconds,Active,Consumer; Content,2,"San Francisco, CA, USA"
+Simple AI,S24,https://www.ycombinator.com/companies/simple-ai,https://www.usesimple.ai,AI voice that sells,Active,B2B; Sales,11,"San Francisco, CA, USA"
+Sensei,S24,https://www.ycombinator.com/companies/sensei,https://senseirobotics.com,Robotic Training Data at Scale,Active,Industrials; Manufacturing and Robotics,2,"San Francisco, CA, USA"
+Guardian RF,S24,https://www.ycombinator.com/companies/guardian-rf,https://guardianrf.com/,Drone detection for US defense and national security  ,Active,Industrials; Drones,15,
+Laminar,S24,https://www.ycombinator.com/companies/laminar,https://laminar.sh,Understand why your AI agent breaks. Iterate fast to fix it.,Active,"B2B; Engineering, Product and Design",6,"San Francisco, CA, USA"
+Cerulion,S24,https://www.ycombinator.com/companies/cerulion,https://www.cerulion.com,Open source operating system for robots,Active,"B2B; Engineering, Product and Design",2,
+Presti AI,S24,https://www.ycombinator.com/companies/presti-ai,https://www.presti.ai/,Helping furniture companies create product visuals with AI,Active,B2B; Retail,25,
+The Forecasting Company,S24,https://www.ycombinator.com/companies/the-forecasting-company,https://www.theforecastingcompany.com,Foundation models for time series,Active,B2B,7,"Paris, France"
+Praxos,S24,https://www.ycombinator.com/companies/praxos,https://mypraxos.com,Your personal AI companion,Active,Consumer,3,"Miami, FL, USA"
+Zettascale,S24,https://www.ycombinator.com/companies/zettascale,https://zscc.ai,Energy efficient chips for AI,Active,Industrials,4,"San Francisco, CA, USA"
+SchemeFlow,S24,https://www.ycombinator.com/companies/schemeflow,https://www.schemeflow.com,AI Report Generation for Engineering & Environmental Review,Active,Real Estate and Construction,5,
+Brighterway,S24,https://www.ycombinator.com/companies/brighterway,https://www.brighterway.ai/,Streamlining the medical record review process in workers comp,Active,Healthcare; Healthcare IT,14,
+Mineflow,S24,https://www.ycombinator.com/companies/mineflow,http://mineflow.ai/,Mineflow predicts the shape and location of mineral deposits,Active,Industrials,2,
+Soff,S24,https://www.ycombinator.com/companies/soff,https://soff.ai,AI Agents for Distributors,Active,B2B; Supply Chain and Logistics,6,"San Francisco, CA, USA"
+Parley,S24,https://www.ycombinator.com/companies/parley,https://parley.so,"Automating flat-fee legal work, starting with work visas + green cards",Active,B2B; Legal,3,"San Francisco, CA, USA"
+Intryc,S24,https://www.ycombinator.com/companies/intryc,https://intryc.com,Intryc uses AI to automate quality assurance for customer support,Active,B2B; Operations,14,"San Francisco, CA, USA"
+Pinnacle,S24,https://www.ycombinator.com/companies/pinnacle,https://pinnacle.sh/,API & SDK for RCS (the next-generation of texting),Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Ember Robotics,S24,https://www.ycombinator.com/companies/ember-robotics,https://www.emberrobotics.com,Datadog for robots,Active,Industrials; Manufacturing and Robotics,2,"San Francisco, CA, USA"
+Thunder Compute,S24,https://www.ycombinator.com/companies/thunder-compute,https://www.thundercompute.com,The world's cheapest GPU cloud,Active,B2B; Infrastructure,4,"San Francisco, CA, USA"
+Kura AI,S24,https://www.ycombinator.com/companies/kura-ai,https://trykura.com,New State of the Art for Browser Agents,Active,B2B,2,
+Emergent,S24,https://www.ycombinator.com/companies/emergent,https://emergent.sh,AI app builder that turns your ideas into monetizable software.,Active,Consumer,,"San Francisco, CA, USA"
+Zeit AI,S24,https://www.ycombinator.com/companies/zeit-ai,https://zeit-ai.com/,From data to enterprise insights in just a few words.,Active,B2B; Analytics,6,
+Distro,S24,https://www.ycombinator.com/companies/distro,https://distro.app,The AI co-pilot for sales reps at industrial wholesale distributors.,Active,B2B; Supply Chain and Logistics,11,"Palo Alto, CA, USA"
+Mage Legal,S24,https://www.ycombinator.com/companies/mage-legal,https://magelegal.com,Automatic AI Legal Diligence,Active,B2B; Legal,2,"San Francisco, CA, USA"
+David AI,S24,https://www.ycombinator.com/companies/david-ai,https://www.withdavid.ai/,Data for audio AI,Active,B2B,10,
+BeeBettor,S24,https://www.ycombinator.com/companies/beebettor,https://beebettor.com,Robinhood for sports prediction markets,Active,Consumer; Gaming,2,
+Stempad,S24,https://www.ycombinator.com/companies/stempad,https://www.stempad.com,Notion for science,Active,B2B; Productivity,1,
+Pax,S24,https://www.ycombinator.com/companies/pax,https://paxai.com/,AI Broker for Tariff Refunds,Active,B2B; Supply Chain and Logistics,6,"San Francisco, CA, USA"
+Conductor Quantum,S24,https://www.ycombinator.com/companies/conductor-quantum,https://www.conductorquantum.com,AI software for scaling quantum computers,Active,Industrials,3,"San Francisco, CA, USA"
+Autumn Labs,S24,https://www.ycombinator.com/companies/autumn-labs,https://www.autumnlabs.io/,Datadog for industrial robots,Active,Industrials; Manufacturing and Robotics,3,"San Francisco, CA, USA"
+Opslane,S24,https://www.ycombinator.com/companies/opslane,https://opslane.com,Deploy to Kubernetes in minutes,Active,B2B; Infrastructure,1,"San Francisco, CA, USA"
+winfunc,S24,https://www.ycombinator.com/companies/winfunc,https://winfunc.com,ai-native security engineering for mission critical codebases,Active,B2B; Security,2,
+Biocartesian,S24,https://www.ycombinator.com/companies/biocartesian,https://www.biocartesian.com,Converting biology into digital molecular maps,Active,Healthcare; Drug Discovery and Delivery,2,"San Francisco, CA, USA"
+Seals AI,S24,https://www.ycombinator.com/companies/seals-ai,https://www.hireseals.ai/,AI Employees for Wholesalers & Distributors,Active,B2B,4,"San Francisco, CA, USA"
+Drillbit,S24,https://www.ycombinator.com/companies/drillbit,https://www.drillbit.com,Automating Office Work for Residential Contractors.,Active,B2B; Operations,10,"Austin, TX, USA"
+Sharpe,S24,https://www.ycombinator.com/companies/sharpe,https://sharpe.sh,Agents for quantitative research and financial data science.,Active,B2B; Analytics,3,"San Francisco, CA, USA"
+Dimely,S24,https://www.ycombinator.com/companies/dimely,https://dimely.com/,AI-Powered Spreadsheet for Billing Automation,Active,B2B; Finance and Accounting,3,
+Redouble AI,S24,https://www.ycombinator.com/companies/redouble-ai,https://redouble.ai/,Scale human-in-the-loop for AI workflows in regulated industries,Active,B2B,3,"San Francisco, CA, USA"
+Planbase,S24,https://www.ycombinator.com/companies/planbase,https://www.joinplanbase.com/,AI workforce management for healthcare ,Active,Healthcare; Healthcare IT,4,"San Francisco, CA, USA"
+Anara,S24,https://www.ycombinator.com/companies/anara,https://anara.com,AI for researchers,Active,B2B; Productivity,5,"San Francisco, CA, USA"
+"Hestus, Inc.",S24,https://www.ycombinator.com/companies/hestus-inc,https://www.hestus.co,An AI-powered CAD software,Active,"B2B; Engineering, Product and Design",3,
+MagiCode,S24,https://www.ycombinator.com/companies/magicode,https://www.magicode.ai/,A Reliable AI Frontend Engineer,Active,"B2B; Engineering, Product and Design",3,"Stanford, CA, USA"
+FINNY AI,S24,https://www.ycombinator.com/companies/finny-ai,https://www.finnyai.com/,The OS for independent financial advisors ,Active,Fintech; Asset Management,4,"New York, NY, USA"
+Vibe,S24,https://www.ycombinator.com/companies/vibe,https://vibe.codes,Making everyone a software engineer,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+1849 bio,S24,https://www.ycombinator.com/companies/1849-bio,https://www.1849.bio,Engineering microbes for miners to unlock billions in trapped metal,Active,Industrials,3,"San Francisco, CA, USA"
+ReactWise,S24,https://www.ycombinator.com/companies/reactwise,https://www.reactwise.com/,AI Co-Pilot for Chemical Process Optimization,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Zoa Research,S24,https://www.ycombinator.com/companies/zoa-research,https://zoaresearch.com,Powerful quantitative forecasting models,Active,B2B,5,"New York, NY, USA"
+Saturn,S24,https://www.ycombinator.com/companies/saturn,https://www.SaturnOS.com,Compliance and back office workflows for Wealth Managers.,Active,Fintech,18,"London, UK"
+Clearly AI,S24,https://www.ycombinator.com/companies/clearly-ai,https://clearly-ai.com,Automate security and privacy reviews,Active,B2B; Security,12,"Seattle, WA, USA"
+expand.ai,S24,https://www.ycombinator.com/companies/expand-ai,https://expand.ai/,Turn any website into an API.,Active,B2B,2,"San Francisco, CA, USA"
+Promi,S24,https://www.ycombinator.com/companies/promi,https://www.usepromi.com/,"Optimizing ecommerce pricing with dynamic, personalized discounts",Active,B2B; Retail,2,
+Ontra Mobility,S24,https://www.ycombinator.com/companies/ontra-mobility,https://www.ontramobility.com,Platform for cities to optimize transit ,Active,Government,2,"New York, NY, USA"
+Aluna,S24,https://www.ycombinator.com/companies/aluna,https://alunadata.com,Data for biomedical AI,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Panora,S24,https://www.ycombinator.com/companies/panora,https://getpanora.com,Turning messy inboxes into ERP-Ready Data,Active,B2B,1,"San Francisco, CA, USA"
+Manaflow,S24,https://www.ycombinator.com/companies/manaflow,https://www.cmux.dev,Building the open-source terminal for coding agents,Active,B2B,2,"San Francisco, CA, USA"
+Conveo,S24,https://www.ycombinator.com/companies/conveo,https://conveo.ai/,Confident decisions in days with AI-led interviews.,Active,B2B,24,"Antwerp, Belgium"
+CreativeMode,S24,https://www.ycombinator.com/companies/creativemode,https://creativemode.net,Lovable for Minecraft mods,Active,Consumer; Gaming,5,"San Francisco, CA, USA"
+Kastle,S24,https://www.ycombinator.com/companies/kastle,https://kastle.ai/,AI agents for mortgage servicing,Active,B2B,6,
+Kopra Bio,S24,https://www.ycombinator.com/companies/kopra-bio,https://kopra.bio,Genetically engineered viruses that teach your immune system to kill…,Active,Healthcare; Therapeutics,2,"San Francisco, CA, USA"
+Anthrogen,S24,https://www.ycombinator.com/companies/anthrogen,https://anthrogen.com,We're training the next generation of protein foundation models.,Active,Healthcare,6,"San Francisco, CA, USA"
+Benchify,S24,https://www.ycombinator.com/companies/benchify,https://www.benchify.com,Executable healthcare contracts,Active,B2B,4,"San Francisco, CA, USA"
+Fazeshift,S24,https://www.ycombinator.com/companies/fazeshift,https://www.fazeshift.com/,AI agent for Accounts Receivable,Active,B2B; Finance and Accounting,8,"San Francisco, CA, USA"
+TaxGPT,S24,https://www.ycombinator.com/companies/taxgpt,https://www.taxgpt.com,AI tax assistant for professionals and businesses,Active,B2B; Finance and Accounting,28,"San Francisco, CA, USA"
+Substrate,S24,https://www.ycombinator.com/companies/substrate,https://www.substrate.cc/,Artificial Intelligence for your medical billing team,Active,B2B,2,
+The Synthesis Company,S24,https://www.ycombinator.com/companies/the-synthesis-company,https://thesynthesis.company,100x faster scientific evidence synthesis,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Mito Health,S24,https://www.ycombinator.com/companies/mito-health,https://mitohealth.com/,Bloodwork and personalized insights to help you live longer,Active,Healthcare; Consumer Health and Wellness,8,"San Francisco, CA, USA"
+Lighthouz AI,S24,https://www.ycombinator.com/companies/lighthouz-ai,https://lighthouz.ai/,"Freight bill audits, AP, AR automation for freight brokers with…",Active,B2B,8,"San Francisco, CA, USA"
+Modus,S24,https://www.ycombinator.com/companies/modus,https://himodus.com,Unlock revenue per employee with AI-powered headcount management,Active,B2B,3,
+d_model,S24,https://www.ycombinator.com/companies/d_model,https://www.dmodel.ai,Look inside the model,Active,"B2B; Engineering, Product and Design",10,
+LedgerUp,S24,https://www.ycombinator.com/companies/ledgerup,https://ledgerup.ai/,AI agents that handles complex billing and revenue,Active,B2B; Finance and Accounting,5,"San Francisco, CA, USA"
+Plume,S24,https://www.ycombinator.com/companies/plume,http://www.plumefinder.com,Renewable infrastructure deployment at scale.,Active,Industrials; Climate,4,"Paris, France"
+Pulse,S24,https://www.ycombinator.com/companies/pulse-3,https://www.runpulse.com/,Production-grade unstructured document extraction,Active,B2B; Infrastructure,12,
+AutoPallet Robotics,S24,https://www.ycombinator.com/companies/autopallet-robotics,https://autopallet.bot,We make robots that move boxes in warehouses,Active,Industrials; Manufacturing and Robotics,6,"San Francisco, CA, USA"
+Dench.com,S24,https://www.ycombinator.com/companies/dench-com,https://dench.com,AI Workforce that does it all,Active,B2B; Productivity,4,"San Francisco, CA, USA"
+AminoAnalytica,S24,https://www.ycombinator.com/companies/aminoanalytica,https://www.aminoanalytica.com,The AI-Native Operating System for Protein Engineering,Active,Healthcare; Industrial Bio,2,"San Francisco, CA, USA"
+Gauge,S24,https://www.ycombinator.com/companies/gauge,https://withgauge.com,Get your product featured in AI answers.,Active,B2B; Marketing,4,"San Francisco, CA, USA"
+Weave Robotics,S24,https://www.ycombinator.com/companies/weave-robotics,https://www.weaverobots.com,Personal robots for the home--that ship in 2025,Active,Industrials; Manufacturing and Robotics,10,
+Tandem,S24,https://www.ycombinator.com/companies/tandem-2,https://tandem.space/,AI-native office leasing agent,Active,B2B; Office Management,22,
+Kenley,S24,https://www.ycombinator.com/companies/kenley,https://kenley.ai/,AI Agents for Advisory & Financial Services.,Active,B2B; Productivity,6,"San Francisco, CA, USA"
+Tivara,S24,https://www.ycombinator.com/companies/tivara,https://tivara.com,The AI workforce for medical groups,Active,Healthcare,2,
+camfer,S24,https://www.ycombinator.com/companies/camfer,https://www.camfer.dev/,Building the world’s first AI mechanical engineer.,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+MinusX,S24,https://www.ycombinator.com/companies/minusx,https://minusx.ai,AI Data Scientist for Jupyter and Metabase,Active,B2B; Analytics,2,"San Francisco, CA, USA"
+Lore,S24,https://www.ycombinator.com/companies/joinlore,https://joinlore.app/,Transform your iMessage conversations into shareable stories,Active,B2B,2,"San Francisco, CA, USA"
+Parahelp,S24,https://www.ycombinator.com/companies/parahelp,https://parahelp.com/,"The AI agent that resolves complex support tickets, effortlessly",Active,B2B; Operations,7,"San Francisco, CA, USA"
+CodeViz,S24,https://www.ycombinator.com/companies/codeviz,https://www.codeviz.ai/,One living model of your software architecture,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+RunLocal AI,S24,https://www.ycombinator.com/companies/runlocal-ai,https://runlocal.ai,The first AI agent for optimizing ML model inference on edge hardware,Active,"B2B; Engineering, Product and Design",3,"London, UK"
+Ares Industries,S24,https://www.ycombinator.com/companies/ares-industries,https://aresindustries.com,Building low-cost cruise missiles ,Active,Industrials; Aviation and Space,2,"El Segundo, CA, USA"
+Dodo,S24,https://www.ycombinator.com/companies/dodo,https://www.dodo.health/,AI Employees for Specialty Clinics,Active,Healthcare; Healthcare IT,3,
+Lucible,S24,https://www.ycombinator.com/companies/lucible,https://luciblefi.com,Combined checking and investment account,Active,B2B; Operations,2,
+Elevate,S24,https://www.ycombinator.com/companies/elevate-2,https://www.useelevate.dev/,Automated AI data integrations for roll-ups,Active,B2B,3,"New York, NY, USA"
+Offstream,S24,https://www.ycombinator.com/companies/offstream,https://www.useoffstream.com/,Vanta for carbon compliance,Active,B2B,7,
+Storia AI,S24,https://www.ycombinator.com/companies/storia-ai,https://storia.ai,Open source AI copilot that knows your company's code and its context,Active,"B2B; Engineering, Product and Design",2,"Millbrae, CA, USA"
+"DeepSim, Inc.",S24,https://www.ycombinator.com/companies/deepsim-inc,https://www.deepsim.io,An AI physics simulator for AI chip design,Active,"B2B; Engineering, Product and Design",4,"Mountain View, CA, USA"
+Scape,S24,https://www.ycombinator.com/companies/scape,https://scape.app,AI-native CRM that captures all your conversations,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Zuni,S24,https://www.ycombinator.com/companies/zuni,https://zuni.app,AI Assistant that works alongside you in your Chrome browser,Active,B2B; Productivity,2,
+Proxis,S24,https://www.ycombinator.com/companies/proxis,https://www.proxis.ai/,"The platform for enterprise AI agent automations, starting with email.",Active,B2B,3,
+Rewbi,S24,https://www.ycombinator.com/companies/rewbi,https://www.rewbi.com/,Rewbi uses AI to increase grid-connected battery storage revenue 2x,Active,Industrials; Energy,2,
+Cloudglue,S24,https://www.ycombinator.com/companies/cloudglue,https://cloudglue.dev,Developer APIs to let your AI/LLM understand videos and audio.,Active,B2B,3,"San Francisco, CA, USA"
+NetworkOcean,S24,https://www.ycombinator.com/companies/networkocean,https://networkocean.io/,We build and operate underwater data centers.,Active,Industrials; Climate,4,"San Francisco, CA, USA"
+Silurian,S24,https://www.ycombinator.com/companies/silurian,https://silurian.ai/,"Foundation models to simulate Earth, starting with weather.",Active,Industrials; Climate,6,"Kirkland, WA, USA"
+Hyrex,S24,https://www.ycombinator.com/companies/hyrex,https://www.hyrex.io,The COLD Task Framework,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Unbound,S24,https://www.ycombinator.com/companies/unbound,https://getunbound.ai/,Use AI tools without fear of data leakage,Active,B2B; Security,7,"San Francisco, CA, USA"
+RetroFix,S24,https://www.ycombinator.com/companies/retrofix,https://www.retrofix.ai/,Automate any workflow using plain english,Active,B2B,2,"San Francisco, CA, USA"
+Azalea Robotics Corporation,S24,https://www.ycombinator.com/companies/azalea-robotics-corporation,https://azalearobotics.com/,Automating airport baggage handling with robots.,Active,Industrials; Manufacturing and Robotics,2,"Berkeley, CA, USA"
+Decisional AI,S24,https://www.ycombinator.com/companies/decisional-ai,https://www.decisional.com/,Autonomous AI agents for spreadsheet based operations,Active,B2B,3,"San Francisco, CA, USA"
+Stardrift,S24,https://www.ycombinator.com/companies/stardrift,https://stardrift.ai,AI travel search for frequent flyers,Active,"Consumer; Travel, Leisure and Tourism",2,"San Francisco, CA, USA"
+ideate.xyz,S24,https://www.ycombinator.com/companies/ideate-xyz,https://ideate.xyz,ideate.xyz is an AI-powered 3D art suite on the web,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+FirstWork,S24,https://www.ycombinator.com/companies/firstwork,https://firstwork.com,Rippling for seasonal workers,Active,B2B; Human Resources,9,"San Francisco, CA, USA"
+Sorcerer,S24,https://www.ycombinator.com/companies/sorcerer,https://sorcerer.earth,Building a nervous system for the atmosphere,Active,Industrials; Climate,4,"San Francisco, CA, USA"
+Wordware,S24,https://www.ycombinator.com/companies/wordware,https://wordware.ai/,AI agents you can rely on,Active,B2B; Infrastructure,15,"San Francisco, CA, USA"
+Maitai,S24,https://www.ycombinator.com/companies/maitai,https://trymaitai.com,"Reliable, self-improving enterprise AI",Active,"B2B; Engineering, Product and Design",6,
+Corgi Insurance,S24,https://www.ycombinator.com/companies/corgi-insurance,https://corgi.insure,Corgi is building an AI financial infrastructure company,Active,Fintech; Insurance,70,"San Francisco, CA, USA"
+Phonely,S24,https://www.ycombinator.com/companies/phonely,https://phonely.ai,AI call centers ,Active,B2B,10,
+VideoGen,S24,https://www.ycombinator.com/companies/videogen,https://videogen.io,AI that can create and edit professional videos,Active,B2B,5,
+Sage,S24,https://www.ycombinator.com/companies/sagecare,https://sagecare.ai,Automating home care agency operations with AI,Active,Healthcare; Healthcare IT,4,"San Francisco, CA, USA"
+Stack Auth,S24,https://www.ycombinator.com/companies/stack-auth,https://stack-auth.com,The open-source Auth0 alternative,Active,"B2B; Engineering, Product and Design",6,
+Tabula,S24,https://www.ycombinator.com/companies/tabula,https://www.tabula.de,AI Copilot for SMEs & their accountants in Europe,Active,B2B; Finance and Accounting,5,"Berlin, Germany"
+Callback,S24,https://www.ycombinator.com/companies/callback,https://getcallback.ai,AI-native business process outsourcing,Active,B2B; Operations,2,"San Francisco, CA, USA"
+Bayesline,S24,https://www.ycombinator.com/companies/bayesline,https://bayesline.com,Highly customizable and blazingly fast analytics for asset managers.,Active,Fintech; Asset Management,2,"New York, NY, USA"
+DigitalCarbon,S24,https://www.ycombinator.com/companies/digitalcarbon,https://www.digitalcarbon.ai,Transform Images And Videos Into Immersive 3D With AI,Active,B2B,,"San Francisco, CA, USA"
+Random Labs,S24,https://www.ycombinator.com/companies/random-labs,https://randomlabs.ai,Random labs is building long running autonomous coding agents.,Active,"B2B; Engineering, Product and Design",,
+Unsloth AI,S24,https://www.ycombinator.com/companies/unsloth-ai,https://unsloth.ai/,Open-Source Reinforcement Learning (RL) & Fine-tuning for LLMs.,Active,"B2B; Engineering, Product and Design",8,"San Francisco, CA, USA"
+Codes Health,S24,https://www.ycombinator.com/companies/codes-health,https://www.getcodeshealth.com/,Medical Record Retrieval with Zero Human Error,Active,B2B,12,"New York, NY, USA"
+Entangl,S24,https://www.ycombinator.com/companies/entangl,https://www.entangl.com/,Find & resolve issues in data center engineering & operations using AI,Active,"B2B; Engineering, Product and Design",7,"San Francisco, CA, USA"
+ClaimSorted,S24,https://www.ycombinator.com/companies/claimsorted,https://claimsorted.com,Making it easy for insurance companies to process claims,Active,Fintech; Insurance,20,
+mdhub,S24,https://www.ycombinator.com/companies/mdhub,https://www.mdhub.ai/,"AI workers for healthcare clinics, starting with behavioral health",Active,Healthcare,11,
+Hamming AI,S24,https://www.ycombinator.com/companies/hamming-ai,https://hamming.ai/,Complete QA platform for voice agents,Active,"B2B; Engineering, Product and Design",8,
+Pre,S24,https://www.ycombinator.com/companies/pre,https://buildwithpre.com,The AI accountability agent for startup founders,Active,B2B; Operations,2,"Lake Oswego, OR, USA"
+ProhostAI,S24,https://www.ycombinator.com/companies/prohostai,https://www.prohost.ai/,AI Property Manager for Airbnb & Short-Term Rental Hosts,Active,B2B,5,"San Francisco, CA, USA"
+Educato,S24,https://www.ycombinator.com/companies/educato,https://www.educato.com/,Worldwide exam-prep platform,Active,Education,5,"San Francisco, CA, USA"
+Spaceium Inc,S24,https://www.ycombinator.com/companies/spaceium-inc,https://spaceium.com,In-Space Refueling,Active,Industrials; Aviation and Space,,
+Comfy Deploy,S24,https://www.ycombinator.com/companies/comfy-deploy,https://comfydeploy.com,ComfyUI for everyone on your team,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Synnax,S24,https://www.ycombinator.com/companies/synnax,https://www.synnaxlabs.com/,Unified Hardware Control and Data Processing Software,Active,B2B; Infrastructure,5,
+Theseus,S24,https://www.ycombinator.com/companies/theseus,https://theseus.us,GPS Denied Navigation for Drones,Active,Industrials; Drones,3,
+Saphira AI,S24,https://www.ycombinator.com/companies/saphira-ai,https://saphira.ai,Vanta for Hardware,Active,"B2B; Engineering, Product and Design",6,"San Francisco, CA, USA"
+Glasskube,S24,https://www.ycombinator.com/companies/glasskube,https://distr.sh/,"Software Distribution Platform for On-Prem, Kubernetes, Docker & BYOC",Active,B2B; Infrastructure,5,
+Mem0,S24,https://www.ycombinator.com/companies/mem0,https://mem0.ai,The Memory layer for your AI apps,Active,B2B; Infrastructure,4,"San Francisco, CA, USA"
+Cheers,S24,https://www.ycombinator.com/companies/cheers,https://www.cheers.tech,Win local search on ChatGPT & other LLMs,Active,B2B,2,"San Francisco, CA, USA"
+Understood Care,S24,https://www.ycombinator.com/companies/understood-care,https://understoodcare.com,Healthcare personal assistants for Medicare patients.,Active,Healthcare,7,"New York, NY, USA"
+Doublezero,S24,https://www.ycombinator.com/companies/doublezero,https://doublezero.tech,"Platform to build, use, and monetize fully autonomous agents",Active,"B2B; Engineering, Product and Design",2,
+Superunit,S24,https://www.ycombinator.com/companies/superunit,http://superunit.ai,"Faster, more profitable background checks with AI",Active,B2B; Operations,2,"San Francisco, CA, USA"
+Undermind,S24,https://www.ycombinator.com/companies/undermind,https://www.undermind.ai,An AI agent for scientific research,Active,B2B,,"San Francisco, CA, USA"
+Domu Technology Inc.,S24,https://www.ycombinator.com/companies/domu-technology-inc,https://www.domu.ai/,AI Agents for collections,Active,"B2B; Engineering, Product and Design",15,"San Francisco, CA, USA"
+Apten,S24,https://www.ycombinator.com/companies/apten,https://www.apten.ai/,"Omnichannel AI agents that engage leads across SMS, voice, and email",Active,B2B; Marketing,3,"San Francisco, CA, USA"
+Spherecast,S24,https://www.ycombinator.com/companies/spherecast,https://www.spherecast.ai/,AI Supply Chain Manager for CPG,Active,B2B; Supply Chain and Logistics,7,
+Miru,S24,https://www.ycombinator.com/companies/miru-ml,https://www.miruml.com,Config Management for Robotics,Active,B2B; Infrastructure,3,"San Francisco, CA, USA"
+Roger,S24,https://www.ycombinator.com/companies/roger-2,https://hireroger.com,Roger is an AI SDR that automates outbound sales and follows up 24/7.,Active,B2B; Sales,2,
+Abel Police,S24,https://www.ycombinator.com/companies/abel-police,http://abelpolice.com,Automating police paperwork,Active,Government,5,
+Ultra,S24,https://www.ycombinator.com/companies/ultra,https://ultra.tech,"Practical, general-purpose robots for repetitive industrial tasks",Active,Industrials; Manufacturing and Robotics,4,"New York, NY, USA"
+Ångström AI,S24,https://www.ycombinator.com/companies/angstrom-ai,https://www.angstrom-ai.com,Gen AI molecular simulations that reproduce wetlab results,Active,Healthcare; Drug Discovery and Delivery,5,"San Francisco, CA, USA"
+Coval,S24,https://www.ycombinator.com/companies/coval,https://coval.dev,Simulation & Evaluation for Voice and Chat Agents,Active,"B2B; Engineering, Product and Design",5,
+Evolvere BioSciences,S24,https://www.ycombinator.com/companies/evolvere-biosciences,https://www.evolverebiosciences.com/,Making Next-Generation Antibiotics that Outpace Bacterial Evolution,Active,Healthcare; Therapeutics,3,"Oxford, UK"
+Spur,S24,https://www.ycombinator.com/companies/spur,https://www.spurtest.com/,Spur is your AI QA Engineer. Test your websites with natural language.,Active,"B2B; Engineering, Product and Design",8,"San Francisco, CA, USA"
+Ligo Biosciences,S24,https://www.ycombinator.com/companies/ligo-biosciences,https://www.ligo.bio,Enzyme design models.,Active,Healthcare; Industrial Bio,4,"San Francisco, CA, USA"
+ACX,S24,https://www.ycombinator.com/companies/acx,https://www.acxtherapeutics.com/,Next-generation biocides for sustainable agriculture at scale,Active,Healthcare; Industrial Bio,4,"New York, NY, USA"
+Overeasy,S24,https://www.ycombinator.com/companies/overeasy,https://overeasy.sh/,,Active,B2B,2,"San Francisco, CA, USA"
+Fuse,S24,https://www.ycombinator.com/companies/fuse-2,http://www.fuseinsight.com,AI helpers for patient intake and benefits checks,Active,Healthcare,3,"London, UK"
+Central,S24,https://www.ycombinator.com/companies/central,https://centralhq.com,"Payroll, benefits, state compliance & other bullsh*t for startups",Active,B2B; Human Resources,15,"San Francisco, CA, USA"
+Simplex,S24,https://www.ycombinator.com/companies/simplex,https://simplex.sh,Production-grade web agents.,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Poka Labs,S24,https://www.ycombinator.com/companies/poka-labs,https://www.pokalabs.com/,The modern operating system for chemical manufacturing.,Active,B2B; Supply Chain and Logistics,3,"San Francisco, CA, USA"
+Hey Revia,S24,https://www.ycombinator.com/companies/hey-revia,https://heyrevia.ai,Voice AI to automate complex phone calls for healthcare providers,Acquired,B2B,4,
+Sepal AI,S24,https://www.ycombinator.com/companies/sepal-ai,https://www.sepalai.com,Data Development for Advanced AI,Acquired,B2B,15,"San Francisco, CA, USA"
+Thyme,S24,https://www.ycombinator.com/companies/thyme,https://www.meetthyme.com/,The OS for financial advisors,Acquired,B2B; Finance and Accounting,2,"San Francisco, CA, USA"
+Remade,S24,https://www.ycombinator.com/companies/remade,https://www.remade.ai/?utm_source=YC&utm_medium=YC&utm_campaign=YC_profile&utm_content=YC_profile,AI-native canvas for creative workflows.,Acquired,Consumer; Content,4,"San Francisco, CA, USA"
+RiskAngle,S24,https://www.ycombinator.com/companies/riskangle,https://www.riskangle.com/,AI medical summaries in minutes,Inactive,B2B,2,"San Francisco, CA, USA"
+deepsilicon,S24,https://www.ycombinator.com/companies/deepsilicon,https://www.deepsilicon.net/,Software and hardware to run neural networks faster and cheaper,Inactive,Industrials,2,"San Francisco, CA, USA"
+Invaria,S24,https://www.ycombinator.com/companies/invaria,https://invaria.com,The next generation logging and observability platform,Inactive,"B2B; Engineering, Product and Design",3,"London, UK"
+Flyflow,S24,https://www.ycombinator.com/companies/flyflow,https://flyflow.ai,The easiest way to find high-quality sales leads,Inactive,B2B; Sales,2,
+Red Barn Robotics,W25,https://www.ycombinator.com/companies/red-barn-robotics,https://www.redbarnrobotics.com,A Roomba for weeds on a farm. ,Active,Industrials; Agriculture,5,
+Mentra,W25,https://www.ycombinator.com/companies/mentra,https://mentra.glass,Building the open source smart glasses operating system.,Active,Consumer; Virtual and Augmented Reality,12,"San Francisco, CA, USA"
+BlindPay,W25,https://www.ycombinator.com/companies/blindpay,https://blindpay.com/,Stablecoin API for global payments,Active,Fintech; Payments,9,
+Vantel,W25,https://www.ycombinator.com/companies/vantel,https://vantel.com/,AI Platform for Commercial Insurance Brokerages,Active,Fintech; Insurance,4,
+Fira,W25,https://www.ycombinator.com/companies/fira,https://firaresearch.com/,Financial research platform for investment firms,Active,B2B; Finance and Accounting,4,
+assistant-ui,W25,https://www.ycombinator.com/companies/assistant-ui,https://assistant-ui.com,Open Source React.js Library for AI Chat,Active,B2B; Infrastructure,3,"San Francisco, CA, USA"
+Artifact,W25,https://www.ycombinator.com/companies/artifact-2,https://www.artifact.engineer/,"An Collaborative, AI-native IDE for Hardware Engineers",Active,"B2B; Engineering, Product and Design",3,
+Axal,W25,https://www.ycombinator.com/companies/axal,https://www.axal.ai/,Automate Data Entry From Inbox to ERP,Active,B2B,2,"San Francisco, CA, USA"
+Dex,W25,https://www.ycombinator.com/companies/joindex,https://joindex.com,The AI Coworker in Chrome,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+TrainLoop,W25,https://www.ycombinator.com/companies/trainloop,http://trainloop.ai,Reasoning Fine-Tuning,Active,"B2B; Engineering, Product and Design",6,"San Francisco, CA, USA"
+Candid,W25,https://www.ycombinator.com/companies/trycandid,https://trycandid.com,The hiring platform for exceptional talent,Active,B2B,2,
+SAMMY Labs,W25,https://www.ycombinator.com/companies/sammy-labs,https://www.sammylabs.com,"SAMMY Labs, the knowledge layer for your people and AI",Active,B2B,10,
+Instinct,W25,https://www.ycombinator.com/companies/instinct,https://www.instinct-space.com/,Building lunar landers,Active,Industrials; Aviation and Space,4,
+Mercura,W25,https://www.ycombinator.com/companies/mercura,https://www.mercura.ai,AI Quote and Order Automation for Distributors & Manufacturers,Active,B2B; Sales,14,
+Lightbox,W25,https://www.ycombinator.com/companies/lightbox,https://www.lightbox.sh/,Cursor for Content Creation,Active,Consumer,2,"San Francisco, CA, USA"
+Cedar,W25,https://www.ycombinator.com/companies/cedar,https://www.cedarcopilot.com,The open source copilot for any app,Active,"B2B; Engineering, Product and Design",2,
+Browser Use,W25,https://www.ycombinator.com/companies/browser-use,https://browser-use.com,Leading open-source web agent project with 50k stars in 3 months,Active,B2B,7,"San Francisco, CA, USA"
+TamLabs,W25,https://www.ycombinator.com/companies/tamlabs,https://tamlabs.ai,Cursor for Microsoft Word,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Ergo,W25,https://www.ycombinator.com/companies/ergo,https://joinergo.com,AI Agents for Revenue Teams,Active,B2B; Sales,,"San Francisco, CA, USA"
+CopyCat,W25,https://www.ycombinator.com/companies/copycat,https://runcopycat.com,AI-Powered Automation to Transform Your Back Office,Active,B2B; Operations,2,"San Francisco, CA, USA"
+Paratus Health,W25,https://www.ycombinator.com/companies/paratus-health,https://paratushealth.com/,Medical Voice Agents for Patient Management,Active,Healthcare; Healthcare IT,6,"Menlo Park, CA, USA"
+Butter,W25,https://www.ycombinator.com/companies/butter,https://butter.dev,Muscle Memory Cache for Agents,Active,B2B; Infrastructure,2,
+Bluebook,W25,https://www.ycombinator.com/companies/bluebook,https://getbluebook.com,AI for accounting,Active,B2B; Finance and Accounting,4,"San Francisco, CA, USA"
+TensorPool,W25,https://www.ycombinator.com/companies/tensorpool,https://tensorpool.dev,Vercel For GPUs,Active,B2B; Infrastructure,3,
+Dalus,W25,https://www.ycombinator.com/companies/dalus,https://dalus.io,AI-Powered Hardware System Design Software,Active,"B2B; Engineering, Product and Design",3,
+Roark,W25,https://www.ycombinator.com/companies/roark,https://roark.ai,"Test, monitor, and improve your voice agents",Active,B2B; Analytics,3,"San Francisco, CA, USA"
+Rebolt,W25,https://www.ycombinator.com/companies/rebolt,https://rebolt.ai,Build apps and agents by speaking with AI,Active,B2B,3,
+Spott,W25,https://www.ycombinator.com/companies/spott,https://spott.io,AI-native ATS/CRM for recruiting firms,Active,B2B; Recruiting and Talent,20,
+Woz,W25,https://www.ycombinator.com/companies/woz,https://withwoz.com/,AI platform enabling anyone to build and scale software businesses,Active,B2B,6,"San Francisco, CA, USA"
+Proception Inc,W25,https://www.ycombinator.com/companies/proception-inc,https://proception.ai/,Making humanoids dexterous enough to thread a needle,Active,Industrials; Manufacturing and Robotics,10,
+Corsair,W25,https://www.ycombinator.com/companies/corsair,https://www.corsair.dev,Integration Layer for AI Agents 🦞,Active,"B2B; Engineering, Product and Design",2,"New York, NY, USA"
+Wildcard,W25,https://www.ycombinator.com/companies/wildcard,https://wild-card.ai,Sell Products in ChatGPT Shopping,Active,"B2B; Engineering, Product and Design",2,
+Permitify,W25,https://www.ycombinator.com/companies/permitify,https://permitify.com,AI co-pilot for building plan review and building code compliance,Active,Real Estate and Construction; Construction,2,
+Reditus Space,W25,https://www.ycombinator.com/companies/reditus-space,https://www.reditus.space/,Reusable Satellites for zero-g manufacturing,Active,Industrials; Aviation and Space,20,"Atlanta, GA, USA"
+Optifye.ai,W25,https://www.ycombinator.com/companies/optifye-ai,https://www.optifye.ai,AI performance monitoring for factory workers,Active,B2B,3,"San Francisco, CA, USA"
+Pinch,W25,https://www.ycombinator.com/companies/pinch,https://startpinch.com,Real-time AI Voice Translation for Developers,Active,B2B; Productivity,3,
+Retrofit,W25,https://www.ycombinator.com/companies/retrofit,https://www.retrofit.shop/,A vintage marketplace curated by AI,Active,Consumer; Apparel and Cosmetics,2,"New York, NY, USA"
+Archon,W25,https://www.ycombinator.com/companies/archon,https://archon.inc,We help software companies sell to government.,Active,Government,3,"San Francisco, CA, USA"
+Forge Automation,W25,https://www.ycombinator.com/companies/forge-automation,https://www.forgeautomation.ca,Software Enabled CNC Parts Supplier,Active,Industrials; Manufacturing and Robotics,10,"Toronto, ON, Canada"
+Mastra,W25,https://www.ycombinator.com/companies/mastra,https://mastra.ai,"The Javascript framework for building AI agents, from the Gatsby devs",Active,"B2B; Engineering, Product and Design",8,
+AfterQuery,W25,https://www.ycombinator.com/companies/afterquery,https://afterquery.com,Research lab investigating the boundaries of AI capabilities.,Active,B2B; Infrastructure,20,"San Francisco, CA, USA"
+Misprint,W25,https://www.ycombinator.com/companies/misprint,https://www.misprint.com,Misprint is building Robinhood for Pokemon cards,Active,Consumer,5,"New York, NY, USA"
+FuseAI,W25,https://www.ycombinator.com/companies/fuseai,https://tryfuse.ai/,The only sales software you will ever need. ,Active,B2B; Sales,8,
+Miyagi Labs,W25,https://www.ycombinator.com/companies/miyagi-labs,https://miyagilabs.ai,AI tutors for exam prep,Active,Education,2,
+Artificial Societies,W25,https://www.ycombinator.com/companies/artificial-societies,https://societies.io,We use AI to simulate entire human societies,Active,B2B; Analytics,3,"San Francisco, CA, USA"
+OpenIntake,W25,https://www.ycombinator.com/companies/openintake,https://www.openintake.ai/,The AI Front Door For Law Firms,Active,B2B; Legal,2,"New York, NY, USA"
+Peppr AI,W25,https://www.ycombinator.com/companies/peppr-ai,https://www.usepeppr.ai/,Self-improving knowledge base synthesizing scattered company data,Active,"B2B; Engineering, Product and Design",4,
+Infinite,W25,https://www.ycombinator.com/companies/infinite,https://infinite.dev,Global B2B Stablecoin Processor,Active,Fintech; Payments,4,"San Francisco, CA, USA"
+Sennu AI,W25,https://www.ycombinator.com/companies/sennu-ai,https://www.sennu.ai,AI Code Review for Salesforce Development,Active,B2B,2,"San Francisco, CA, USA"
+Orbital Operations,W25,https://www.ycombinator.com/companies/orbital-operations,https://www.orbitalops.tech/,High Thrust Space Vehicles for Satellite Defense,Active,Industrials; Aviation and Space,2,
+Mesh,W25,https://www.ycombinator.com/companies/mesh-2,http://www.usemesh.com,Eliminating accrual spreadsheets for faster month-end,Active,B2B; Finance and Accounting,3,"San Francisco, CA, USA"
+Outlit,W25,https://www.ycombinator.com/companies/outlit,https://outlit.ai/,Customer Context for Agents ,Active,B2B,2,"San Francisco, CA, USA"
+Tire Swing,W25,https://www.ycombinator.com/companies/tire-swing,https://gettireswing.com,AI Powered Affordable Housing Eligibility,Active,B2B; Legal,2,"New York, NY, USA"
+Harper,W25,https://www.ycombinator.com/companies/harper,https://www.harperinsure.com/,AI-native commercial insurance brokerage,Active,Fintech; Insurance,25,"San Francisco, CA, USA"
+Calltree,W25,https://www.ycombinator.com/companies/calltree,https://calltree.ai,Enterprise-grade AI support reps for call centers,Active,B2B,6,"San Francisco, CA, USA"
+Nitrode,W25,https://www.ycombinator.com/companies/nitrode,https://www.nitrode.com,AI game development engine & platform,Active,Consumer; Gaming,4,
+Karsa,W25,https://www.ycombinator.com/companies/karsa,https://gokarsa.com/,Stablecoin neobank for emerging markets,Active,Fintech,2,"New York, NY, USA"
+Exla,W25,https://www.ycombinator.com/companies/exla,https://exla.ai/,An SDK to run transformer models anywhere,Active,"B2B; Engineering, Product and Design",,
+Confident AI,W25,https://www.ycombinator.com/companies/confident-ai,https://confident-ai.com,The LLM Eval and Observability Platform for AI Quality,Active,"B2B; Engineering, Product and Design",7,"San Francisco, CA, USA"
+Riviera,W25,https://www.ycombinator.com/companies/riviera,https://www.withriviera.com,AI Employees for Hotels,Active,B2B,2,"San Francisco, CA, USA"
+Waypoint Transit,W25,https://www.ycombinator.com/companies/waypoint-transit,https://waypointtransit.com,We automate urban planning so cities can build cheaper and faster.,Active,Government,2,
+Bystreet,W25,https://www.ycombinator.com/companies/bystreet,http://www.bystreet.com,Find your next hospitality deal.,Active,B2B,4,"San Francisco, CA, USA"
+Agentin AI,W25,https://www.ycombinator.com/companies/agentin-ai,https://www.agentin.ai,AI Agents that automate enterprise software processes,Active,B2B,2,"San Francisco, CA, USA"
+ReJot,W25,https://www.ycombinator.com/companies/rejot,https://rejot.dev,We turn complex API integrations into drop‑in full‑stack libraries ,Active,"B2B; Engineering, Product and Design",2,"Amsterdam, Netherlands"
+General Trajectory,W25,https://www.ycombinator.com/companies/general-trajectory,https://www.generaltrajectory.com/,AI for the physical world,Active,Industrials; Manufacturing and Robotics,1,"San Francisco, CA, USA"
+Solidroad,W25,https://www.ycombinator.com/companies/solidroad,https://solidroad.com,"AI agents for CX teams, starting with training and QA.",Active,B2B,6,"San Francisco, CA, USA"
+Trata,W25,https://www.ycombinator.com/companies/trata,https://www.trytrata.com/,AI-powered research desk for hedge funds,Active,B2B; Finance and Accounting,5,"New York, NY, USA"
+Haleum,W25,https://www.ycombinator.com/companies/haleum,https://haleum.ai/,Human Risk Intelligence for the AI-era,Active,B2B; Security,3,"San Francisco, CA, USA"
+Lucidic AI,W25,https://www.ycombinator.com/companies/lucidic-ai,https://lucidic.ai,AI Agent Training via Simulations,Active,B2B,4,"San Francisco, CA, USA"
+Mundo AI,W25,https://www.ycombinator.com/companies/mundo-ai,https://mundoai.world,High Quality Multilingual Training Data for AI Models,Active,B2B; Infrastructure,4,"San Francisco, CA, USA"
+G LNK,W25,https://www.ycombinator.com/companies/g-lnk,https://glnkco.com/,Simplifying Collaboration for Healthcare Organizations & Professionals,Active,B2B,2,"New York, NY, USA"
+Pluto,W25,https://www.ycombinator.com/companies/pluto,https://www.pluto.trade,Regulated derivatives exchange,Active,Fintech; Banking and Exchange,5,"New York, NY, USA"
+AthenaHQ,W25,https://www.ycombinator.com/companies/athenahq,https://www.athenahq.ai,"Be the Answer in AI Search - AI SEO across SEO, GEO & AEO",Active,B2B; Marketing,12,"San Francisco, CA, USA"
+Lopus AI,W25,https://www.ycombinator.com/companies/lopus-ai,https://lopus.ai,Data Unification for GTM Analytics ,Active,B2B; Analytics,2,"San Francisco, CA, USA"
+Cenote,W25,https://www.ycombinator.com/companies/cenote,https://www.joincenote.com/,AI agents that convert and retain patients for digital clinics,Active,Healthcare,3,"San Francisco, CA, USA"
+Harbera,W25,https://www.ycombinator.com/companies/harbera,https://harbera.com/,AI Healthcare Provider Credentialing Software,Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+Stillwind,W25,https://www.ycombinator.com/companies/stillwind,https://stillwind.ai,Autonomous Electrical Engineering,Active,"B2B; Engineering, Product and Design",4,"Zürich, Switzerland"
+Bindwell,W25,https://www.ycombinator.com/companies/bindwell,https://www.bindwell.ai/,Discovering new pesticides with AI,Active,Industrials; Agriculture,4,"San Francisco, CA, USA"
+Pickle,W25,https://www.ycombinator.com/companies/pickle-2,https://www.pickle.com,Where your life context becomes understanding.,Active,Consumer; Consumer Electronics,15,"San Francisco, CA, USA"
+Lucid,W25,https://www.ycombinator.com/companies/lucid,https://lucid.ai,interactive video models,Active,Consumer,3,
+Macadamia,W25,https://www.ycombinator.com/companies/macadamia,https://macadamialabs.com,AI Agents for Complex Engineering Projects,Active,"B2B; Engineering, Product and Design",2,
+Asteroid,W25,https://www.ycombinator.com/companies/asteroid,https://asteroid.ai,AI Browser Agents for the Back-Office,Active,B2B,4,"San Francisco, CA, USA"
+Gale,W25,https://www.ycombinator.com/companies/gale,https://galevisa.com,Fast and Data-Driven Immigration Platform,Active,B2B; Legal,3,"San Francisco, CA, USA"
+Pave Robotics,W25,https://www.ycombinator.com/companies/pave-robotics,https://pave-robotics.com,Robots that repair roads,Active,Industrials; Manufacturing and Robotics,3,
+PAX Markets,W25,https://www.ycombinator.com/companies/pax-markets,https://pax.markets/,"More 𝛼, less latency: exchange and HFT on one chip.",Active,Fintech; Banking and Exchange,6,"Redwood City, CA, USA"
+Olive,W25,https://www.ycombinator.com/companies/olive,https://fromolive.com,The context layer for your team,Active,B2B; Recruiting and Talent,2,"San Francisco, CA, USA"
+hud,W25,https://www.ycombinator.com/companies/hud,https://www.hud.so,Platform for building RL environments and evals ,Active,"B2B; Engineering, Product and Design",5,"San Francisco, CA, USA"
+finbar,W25,https://www.ycombinator.com/companies/finbar,https://finbar.com,The AI investment analyst,Active,Fintech,4,
+Cuckoo Labs,W25,https://www.ycombinator.com/companies/cuckoo-labs,https://www.cuckoo.so/,Real-time AI translator for global sales and marketing,Active,B2B,2,
+Mecha Health,W25,https://www.ycombinator.com/companies/mecha-health,https://www.mecha-health.ai/,Foundation models to automate x-ray analysis for radiologists,Active,Healthcare,4,"San Francisco, CA, USA"
+GradeWiz,W25,https://www.ycombinator.com/companies/gradewiz,https://www.gradewiz.ai/,AI Grading for Teachers,Active,Education,2,"San Francisco, CA, USA"
+HealthKey,W25,https://www.ycombinator.com/companies/healthkey,https://gethealthkey.com/,AI-powered Patient Identification for Clinical Trials,Active,Healthcare; Healthcare IT,10,"Austin, TX, USA"
+Operand,W25,https://www.ycombinator.com/companies/operand,https://www.operand.com/,AI to run Business Strategy,Active,B2B; Analytics,5,"San Francisco, CA, USA"
+Osmosis,W25,https://www.ycombinator.com/companies/osmosis,https://osmosis.ai/,Reinforcement Learning for AI Agents,Active,B2B,6,
+Swerve,W25,https://www.ycombinator.com/companies/swerve,https://www.getswerve.com/,Chat with AI Characters,Active,Consumer,2,"San Francisco, CA, USA"
+Mosaic,W25,https://www.ycombinator.com/companies/mosaic-2,https://mosaic.so,Agentic video editing,Active,Consumer; Content,3,"San Francisco, CA, USA"
+Cifrato,W25,https://www.ycombinator.com/companies/cifrato,https://cifrato.ai,AI Accountant for Accounting Firms,Active,B2B; Operations,13,"Bogotá, Bogota, Colombia"
+Oki,W25,https://www.ycombinator.com/companies/oki,https://www.okiapplications.com/,Personalized Updates on Company Progress,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+ZeroEntropy,W25,https://www.ycombinator.com/companies/zeroentropy,https://www.zeroentropy.dev,High accuracy search API over unstructured data.,Active,B2B; Infrastructure,2,
+Bezel,W25,https://www.ycombinator.com/companies/bezel,https://www.trybezel.com/,Digital AI humans that model clothes for e-commerce brands.,Active,B2B,1,"New York, NY, USA"
+Cardamon,W25,https://www.ycombinator.com/companies/cardamon,https://cardamon.ai/,AI compliance co-pilot for regulated financial businesses,Active,B2B; Finance and Accounting,2,"San Francisco, CA, USA"
+Amby Health,W25,https://www.ycombinator.com/companies/amby-health,https://tryamby.com,AI Copilot for Ambulance Agencies (EMS),Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+Trim,W25,https://www.ycombinator.com/companies/trim,https://trimresearch.com,A foundation model for physics.,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Tergle,W25,https://www.ycombinator.com/companies/tergle,https://tergle.com,AI Agents for Audit,Active,B2B,,"San Francisco, CA, USA"
+Rally,W25,https://www.ycombinator.com/companies/rally-3,https://www.getrally.com/,Financial OS for Modern Fleets,Active,Fintech,5,"Berlin, Germany"
+Adam,W25,https://www.ycombinator.com/companies/adam,https://adam.new/,AI Powered CAD,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Inversion Semiconductor,W25,https://www.ycombinator.com/companies/inversion-semiconductor,https://www.inversionsemi.com,"Manufacturing the most powerful chips, 15x faster",Active,Industrials; Manufacturing and Robotics,5,"San Francisco, CA, USA"
+careCycle,W25,https://www.ycombinator.com/companies/carecycle,https://www.careCycle.ai,Voice AI teams for medicare agencies.,Active,B2B,4,"San Mateo, CA, USA"
+Paragon,W25,https://www.ycombinator.com/companies/deployparagon,https://www.runparagon.com,The AI Growth Engine for Industrials,Active,B2B; Operations,2,"San Francisco, CA, USA"
+SalesPatriot,W25,https://www.ycombinator.com/companies/salespatriot,https://www.salespatriot.com/,We help defense firms win more contracts with the Pentagon,Active,B2B; Operations,13,"San Francisco, CA, USA"
+Maive,W25,https://www.ycombinator.com/companies/maive,https://maive.ai,AI for Home Services,Active,B2B,2,"San Francisco, CA, USA"
+Weave,W25,https://www.ycombinator.com/companies/weave-3,https://workweave.dev,AI to understand engineering work,Active,"B2B; Engineering, Product and Design",9,"San Francisco, CA, USA"
+Caseflood.ai,W25,https://www.ycombinator.com/companies/caseflood-ai,https://caseflood.ai,How elite law firms do intake,Active,B2B; Legal,2,"San Francisco, CA, USA"
+Tejas AI,W25,https://www.ycombinator.com/companies/tejas-ai,https://www.trytejas.ai/,Risk Decisioning Platform for Banks,Active,B2B,2,"San Francisco, CA, USA"
+Trava,W25,https://www.ycombinator.com/companies/trava,https://www.usetrava.com/,AI agents for global trade compliance,Active,B2B; Supply Chain and Logistics,1,"San Francisco, CA, USA"
+Maritime Fusion,W25,https://www.ycombinator.com/companies/maritime-fusion,https://maritimefusion.com,Fusion reactors for ships,Active,Industrials; Energy,6,
+a0.dev,W25,https://www.ycombinator.com/companies/a0-dev,https://a0.dev,We make mobile apps using AI.,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Altrina,W25,https://www.ycombinator.com/companies/altrina,https://altrina.com,The SOP Automation Platform,Active,B2B; Productivity,4,"Menlo Park, CA, USA"
+A1Base,W25,https://www.ycombinator.com/companies/a1base,https://www.a1base.com/,Twilio for AI Agents,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Verbiflow,W25,https://www.ycombinator.com/companies/verbiflow,https://verbiflow.com,People search that works,Active,B2B,2,"San Francisco, CA, USA"
+Toothy AI,W25,https://www.ycombinator.com/companies/toothy-ai,https://www.toothy.ai/,AI for insurance verification & billing at dental clinics,Active,Healthcare; Healthcare IT,15,"San Francisco, CA, USA"
+Rocketable,W25,https://www.ycombinator.com/companies/rocketable,https://www.rocketable.com,The AI Maximalist Software Holding Company,Active,B2B,2,
+Contrario,W25,https://www.ycombinator.com/companies/contrario,https://contrario.ai,Fill critical roles faster with AI-empowered recruiters,Active,B2B; Recruiting and Talent,10,"San Francisco, CA, USA"
+Ovlo,W25,https://www.ycombinator.com/companies/ovlo,https://ovlo.ai,AI agents for supply chain workflow automation,Active,B2B; Supply Chain and Logistics,2,"San Francisco, CA, USA"
+Truffle AI,W25,https://www.ycombinator.com/companies/truffle-ai,https://www.trytruffle.ai/,AWS for AI Agents,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+superglue,W25,https://www.ycombinator.com/companies/superglue,https://superglue.ai/,AI that fixes enterprise glue,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Conntour,W25,https://www.ycombinator.com/companies/conntour,https://www.conntour.com/,AI to monitor thousands of security cameras.,Active,Industrials; Defense,6,
+Closure,W25,https://www.ycombinator.com/companies/closure,https://closure-intel.com/,We help law enforcement solve crime,Active,Government,4,"New York, NY, USA"
+Promptless,W25,https://www.ycombinator.com/companies/promptless,https://promptless.ai/,An AI teammate that automatically updates your customer-facing docs,Active,"B2B; Engineering, Product and Design",5,"San Francisco, CA, USA"
+Scout,W25,https://www.ycombinator.com/companies/scout-4,https://scoutforschools.com/,AI-powered student information system for K-12 schools,Active,Education,8,"New York, NY, USA"
+Subtrace,W25,https://www.ycombinator.com/companies/subtrace,https://subtrace.dev,Zero code network tracer,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Vocality Health,W25,https://www.ycombinator.com/companies/vocality-health,https://www.vocalityhealth.com,Voice AI for medical language translation,Active,Healthcare; Healthcare Services,2,
+Astro,W25,https://www.ycombinator.com/companies/astro,https://www.astroenergy.ai/,The world’s first AI energy developer,Active,Industrials; Energy,1,
+Dartboard Energy,W25,https://www.ycombinator.com/companies/dartboard-energy,https://dartboardenergy.com,AI Analyst for Electricity Markets,Active,Industrials; Energy,2,"San Francisco, CA, USA"
+Karoo,W25,https://www.ycombinator.com/companies/karoo,https://www.karoo.ca,Canadian neobank focused on lending,Active,Fintech; Consumer Finance,3,"Toronto, ON, Canada"
+awen,W25,https://www.ycombinator.com/companies/awen,https://www.awen.ai/,We are rebuilding photoshop with an AI-voice interface.,Active,B2B,3,
+Dollyglot,W25,https://www.ycombinator.com/companies/dollyglot,https://www.dollyglot.com/,Character.AI with real time video avatars,Active,Consumer,2,"San Francisco, CA, USA"
+Alice.tech,W25,https://www.ycombinator.com/companies/alice-tech,https://www.alice.tech/,AI-driven exam prep,Active,Education,5,"Copenhagen, Denmark"
+Stamp,W25,https://www.ycombinator.com/companies/stamp,https://www.stampmail.ai/,The AI Native Email Client,Active,B2B; Productivity,1,
+Splash Inc.,W25,https://www.ycombinator.com/companies/splash-inc,https://splash9.com/,Autonomous patrol-boats for National Security ,Active,Industrials; Drones,7,"El Segundo, CA, USA"
+Orchids,W25,https://www.ycombinator.com/companies/orchids,https://www.orchids.app/,AI App Builder,Active,B2B,6,
+Axiom,W25,https://www.ycombinator.com/companies/axiom,https://axiom.trade,"Trade memecoins, perpetuals, and earn yield.",Active,Fintech; Consumer Finance,2,
+Steinmetz,W25,https://www.ycombinator.com/companies/steinmetz,https://steinmetzmotors.com/,Hardware for Electric Vehicles.,Active,Industrials,2,"San Francisco, CA, USA"
+SubImage,W25,https://www.ycombinator.com/companies/subimage,https://subimage.io,Software that maps your infrastructure. Open core alternative to Wiz,Active,B2B; Security,5,
+Hey Telo,W25,https://www.ycombinator.com/companies/hey-telo,https://www.heytelo.com,Voice AI for Home Services,Active,B2B,2,
+Praxim,W25,https://www.ycombinator.com/companies/praxim,https://www.praxim.ai/,The agentic AI Word editor,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Excellence Learning,W25,https://www.ycombinator.com/companies/excellence-learning,https://excellence-ai.com/,AI tutor starting with maths and science,Active,Education,4,"Stanford, CA, USA"
+Tweeks.io,W25,https://www.ycombinator.com/companies/tweeksio,https://tweeks.io,Lovable for Chrome Plugins,Active,B2B; Recruiting and Talent,2,"San Francisco, CA, USA"
+Flowtel,W25,https://www.ycombinator.com/companies/flowtel,https://flowtel.ai,The AI Voice agents for hotels,Active,B2B; Infrastructure,5,"San Francisco, CA, USA"
+Leaping AI,W25,https://www.ycombinator.com/companies/leaping-ai,https://www.leapingai.com,Voice AI agents to automate call centers (digital call center workers),Active,B2B,8,"San Francisco, CA, USA"
+Vetnio,W25,https://www.ycombinator.com/companies/vetnio,https://vetnio.com/,AI Copilot that automates admin work for veterinary professionals,Active,B2B; Productivity,6,
+Candor,W25,https://www.ycombinator.com/companies/candor,https://www.usecandor.ai,We help companies win government funding with AI,Active,Government,2,"San Francisco, CA, USA"
+Bild AI,W25,https://www.ycombinator.com/companies/bild-ai,https://www.bild.ai,AI that understands construction blueprints,Active,Real Estate and Construction; Construction,5,"San Francisco, CA, USA"
+Trace,W25,https://www.ycombinator.com/companies/trace,http://tracetec.co,Voice AI Customer Support for Financial Services,Active,B2B,3,"San Francisco, CA, USA"
+Revise Robotics,W25,https://www.ycombinator.com/companies/revise-robotics,https://www.reviserobotics.com/,Automating refurbishment of $1T in consumer electronics,Active,Industrials; Manufacturing and Robotics,3,
+Enhanced Radar,W25,https://www.ycombinator.com/companies/enhanced-radar,https://www.enhancedradar.com/,AI for air traffic control,Active,Industrials; Aviation and Space,2,"San Francisco, CA, USA"
+Edexia,W25,https://www.ycombinator.com/companies/edexia,https://www.edexia.com/,AI Teacher Assistant for Grading Essays,Active,Education,4,"San Francisco, CA, USA"
+Quantstruct,W25,https://www.ycombinator.com/companies/quantstruct,https://quantstruct.com,AI documentation engineer – test & autoimprove stale product docs,Active,B2B,2,"San Francisco, CA, USA"
+Invo,W25,https://www.ycombinator.com/companies/invo,https://www.tryinvo.com/,AI-Powered Collections Platform for Food Distributors,Active,Fintech; Credit and Lending,2,
+Onlook,W25,https://www.ycombinator.com/companies/onlook,https://onlook.com/,Cursor for Designers,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Delineate,W25,https://www.ycombinator.com/companies/delineate,https://delineate.pro/,Agents for Accelerated Clinical Trial Design,Active,"B2B; Engineering, Product and Design",20,"Boston, MA, USA"
+Exin Therapeutics,W25,https://www.ycombinator.com/companies/exin-therapeutics,https://www.exintherapeutics.com/,AI drug discovery platform for neurotherapeutics,Active,Healthcare; Therapeutics,3,"San Francisco, CA, USA"
+Uncommon Therapeutics,W25,https://www.ycombinator.com/companies/uncommon-therapeutics,https://uncommontherapeutics.com,"A Disease Focused Biotech, Building Multiple Billion Dollar Drugs",Active,Healthcare; Therapeutics,2,"San Francisco, CA, USA"
+YouShift,W25,https://www.ycombinator.com/companies/youshift,https://www.you-shift.com/,The OS for hospital workforce management,Active,B2B; Human Resources,3,
+Overstand Labs,W25,https://www.ycombinator.com/companies/overstand-labs,https://overstandlabs.com,We help companies find and leverage the needles in their data haystack,Active,B2B; Analytics,4,
+Egress Health,W25,https://www.ycombinator.com/companies/egress-health,https://tryegress.com,"Automated revenue cycle management, starting with dentists",Acquired,Healthcare,2,
+Sublingual,W25,https://www.ycombinator.com/companies/sublingual,https://sublingual.ai/,Daily productivity tracker,Inactive,B2B,2,"San Francisco, CA, USA"
+F2,S25,https://www.ycombinator.com/companies/f2,http://f2.ai,The AI platform for private markets investors,Active,"B2B; Engineering, Product and Design",20,"New York, NY, USA"
+Nox Metals,S25,https://www.ycombinator.com/companies/nox-metals,https://noxmetals.co/,Supplying America's Industrial Base,Active,Industrials; Manufacturing and Robotics,11,"Detroit, MI, USA"
+Blue,S25,https://www.ycombinator.com/companies/blue,https://heyblue.com/,The first voice assistant that can control every app on your iPhone,Active,Consumer,4,
+Paloma,S25,https://www.ycombinator.com/companies/paloma,https://getpaloma.ai/,AI-native CRM for putting post-sales operations on autopilot,Active,B2B,3,"San Francisco, CA, USA"
+Uplift AI,S25,https://www.ycombinator.com/companies/uplift-ai,https://upliftai.org/,Foundational Voice Models for regional languages,Active,B2B,5,
+RealRoots,S25,https://www.ycombinator.com/companies/realroots,http://www.therealroots.com,AI social app for women,Active,Consumer; Social,7,"San Francisco, CA, USA"
+Luminal,S25,https://www.ycombinator.com/companies/luminal,https://luminal.com,Making AI run fast on any hardware.,Active,B2B; Infrastructure,3,
+Freya,S25,https://www.ycombinator.com/companies/freya,https://freyavoice.ai/,Voice AI for Enterprises,Active,Fintech,5,"San Francisco, CA, USA"
+burnt,S25,https://www.ycombinator.com/companies/burnt,https://getburnt.ai/,Agentic Operating System for Food Supply Chain,Active,B2B; Supply Chain and Logistics,3,"San Francisco, CA, USA"
+Avent,S25,https://www.ycombinator.com/companies/avent,https://www.aventindustrial.com,AI agents for industrial commerce,Active,B2B,2,
+Ruvo,S25,https://www.ycombinator.com/companies/ruvo,https://ruvo.com/,The Global Dollar App for Brazil,Active,Fintech,6,"São Paulo, State of São Paulo, Brazil"
+Veritus,S25,https://www.ycombinator.com/companies/veritus,https://www.veritus.com,AI agents for the consumer lending industry,Active,Fintech; Credit and Lending,10,"San Francisco, CA, USA"
+Outrove,S25,https://www.ycombinator.com/companies/outrove,https://www.outrove.ai/,Ultra-realistic AI Recruiter,Active,B2B; Recruiting and Talent,2,"San Francisco, CA, USA"
+NOSO LABS,S25,https://www.ycombinator.com/companies/noso-labs,https://noso.so,Build AI agents for field technicians to diagnose and sell 10x better,Active,Industrials,3,
+Vulcan Technologies,S25,https://www.ycombinator.com/companies/vulcan-technologies,https://www.vulcan-tech.com/,AI regulatory drafting and compliance,Active,B2B; Legal,6,"Austin, TX, USA"
+Bizzy AI,S25,https://www.ycombinator.com/companies/geo-ai,https://www.usebizzy.com/,Bizzy works 24/7 so you never miss a lead.,Active,B2B; Marketing,,"San Francisco, CA, USA"
+Spotlight Realty,S25,https://www.ycombinator.com/companies/spotlight-realty,https://www.spotlight.realty,AI powered brokerage reducing residential rental commissions in NYC…,Active,Real Estate and Construction,4,"New York, NY, USA"
+Interfere,S25,https://www.ycombinator.com/companies/interfere,https://interfere.com,Build software that never breaks,Active,"B2B; Engineering, Product and Design",5,"New York, NY, USA"
+Munify,S25,https://www.ycombinator.com/companies/munify,https://munify.ai,The Cross-Border Neobank for the Middle East,Active,Fintech,4,
+RowFlow,S25,https://www.ycombinator.com/companies/rowflow,https://rowflow.ai,Replacing forms with AI conversations,Active,B2B; Operations,2,"New York, NY, USA"
+TectoAI,S25,https://www.ycombinator.com/companies/tectoai,https://www.tecto.ai/,A Platform for AI Governance,Active,B2B,2,"San Francisco, CA, USA"
+Duranium,S25,https://www.ycombinator.com/companies/duranium,https://www.duranium.co/,Reshoring critical metal production,Active,Industrials; Manufacturing and Robotics,4,"Alameda, CA, USA"
+Perspectives Health,S25,https://www.ycombinator.com/companies/perspectives-health,https://perspectiveshealth.ai/,Automating away admin for behavioral health clinics,Active,Healthcare; Healthcare IT,4,"Chicago, IL, USA"
+Modelence,S25,https://www.ycombinator.com/companies/modelence,https://modelence.com,The full-stack platform for agentic development,Active,B2B; Infrastructure,3,"San Francisco, CA, USA"
+Magnetic,S25,https://www.ycombinator.com/companies/magnetic,https://www.magnetictax.com,AI Tax Preparer for CPA firms,Active,B2B; Productivity,2,
+Fleetline,S25,https://www.ycombinator.com/companies/fleetline,https://fleetline.ai,Optimizing fleet planning with data driven algorithms,Active,B2B; Supply Chain and Logistics,3,"New York, NY, USA"
+Clodo,S25,https://www.ycombinator.com/companies/clodo,https://clodo.ai,Vibe GTM. Execute your outbound ideas with just a prompt,Active,B2B; Sales,2,"San Francisco, CA, USA"
+stagewise,S25,https://www.ycombinator.com/companies/stagewise,https://stagewise.io,The frontend coding agent for real codebases.,Active,"B2B; Engineering, Product and Design",2,
+Flywheel AI,S25,https://www.ycombinator.com/companies/flywheel-ai,https://useflywheel.ai/,Waymo for excavators,Active,Industrials; Manufacturing and Robotics,2,"San Francisco, CA, USA"
+Juxta,S25,https://www.ycombinator.com/companies/juxta,https://juxta.com,Building a GPS alternative 100x more powerful with no hardware needed.,Active,B2B,,
+Okibi,S25,https://www.ycombinator.com/companies/okibi,https://okibi.ai,"Build AI coworkers using natural language, it's Lovable for agents",Active,B2B,2,"San Francisco, CA, USA"
+dScribe AI,S25,https://www.ycombinator.com/companies/dscribe-ai,https://dscribeai.com/,Computer vision for bulk inventory tracking,Active,B2B; Supply Chain and Logistics,2,"Olathe, KS, USA"
+Kernel,S25,https://www.ycombinator.com/companies/kernel,https://www.kernel.sh,"Crazy fast, open source infra for AI agents to use the Internet",Active,B2B; Infrastructure,6,"San Francisco, CA, USA"
+Reacher,S25,https://www.ycombinator.com/companies/reacher,https://reacherapp.com/,We automate creator marketing for the world's largest brands,Active,B2B,15,"San Francisco, CA, USA"
+Certus AI,S25,https://www.ycombinator.com/companies/certus-ai,https://www.certus-ai.com/,Replacing the restaurant phone line with Voice AI,Active,B2B,3,"San Francisco, CA, USA"
+Hera,S25,https://www.ycombinator.com/companies/hera-video,https://hera.video/,AI Motion Designer,Active,"B2B; Engineering, Product and Design",5,
+Notte,S25,https://www.ycombinator.com/companies/notte,https://www.notte.cc/,Reliable Web Agents for Enterprise,Active,B2B,5,"San Francisco, CA, USA"
+Pally,S25,https://www.ycombinator.com/companies/pally,https://pally.com,Intelligent Unified Inbox + Personal CRM,Active,B2B; Productivity,3,"San Francisco, CA, USA"
+Locata,S25,https://www.ycombinator.com/companies/locata,https://www.locatahealth.com/,AI Referral Automation for Primary Care Clinics,Active,Healthcare; Healthcare IT,3,"New York, NY, USA"
+Pleom,S25,https://www.ycombinator.com/companies/pleom,https://pleom.com,Agentic Business Intelligence,Active,B2B; Analytics,,
+Convexia,S25,https://www.ycombinator.com/companies/convexia,https://convexia.bio,The world's first AI-maximalist pharma company,Active,Healthcare; Drug Discovery and Delivery,4,
+SigmanticAI,S25,https://www.ycombinator.com/companies/sigmanticai,https://www.sigmanticai.com,The Cursor for Chip Design - Delivering Silicon-Ready Chip Designs…,Active,"B2B; Engineering, Product and Design",2,"Dublin, CA 94568, USA"
+Opennote,S25,https://www.ycombinator.com/companies/opennote,https://opennote.com,The notebook that thinks with you.,Active,Consumer,3,"San Francisco, CA, USA"
+Sira,S25,https://www.ycombinator.com/companies/sira,https://sira.team,AI Native Rippling for Deskless Workers,Active,B2B; Human Resources,,
+F4,S25,https://www.ycombinator.com/companies/f4,https://f4.dev/,Automating compliance checks for engineering drawings,Active,Industrials,5,"San Francisco, CA, USA"
+Metis,S25,https://www.ycombinator.com/companies/metis,https://withmetis.ai,Infrastructure to build reliable agents,Active,B2B; Infrastructure,13,"San Francisco, CA, USA"
+Eden,S25,https://www.ycombinator.com/companies/tryeden,https://tryeden.ai,Autonomous Marketing AI for Ecommerce Brands,Active,B2B; Marketing,2,"New York, NY, USA"
+Altur,S25,https://www.ycombinator.com/companies/altur,https://altur.io,Voice AI Agents for Debt Collection,Active,B2B,3,"Mexico City, CDMX, Mexico"
+PARES AI,S25,https://www.ycombinator.com/companies/pares-ai,https://www.pares.ai/,Helping commercial real estate brokers find and close more deals.,Active,Real Estate and Construction,3,"San Francisco, CA, USA"
+Avelis Health,S25,https://www.ycombinator.com/companies/avelis-health,https://avelishealth.com,We audit medical claims for self-insured employers and health plans.,Active,Healthcare; Healthcare IT,2,
+Nautilus,S25,https://www.ycombinator.com/companies/nautilus,https://nautilus.co,AI platform to grow and to optimize car washes,Active,B2B; Sales,2,
+Humoniq,S25,https://www.ycombinator.com/companies/humoniq,https://humoniq.ai,AI-Native BPO for travel & transport,Active,B2B,6,"San Francisco, CA, USA"
+Palace,S25,https://www.ycombinator.com/companies/palace,https://www.palace.so,"Palace plans, coordinates, and executes daily ops for trucking fleets",Active,B2B; Supply Chain and Logistics,2,"New York, NY, USA"
+Idler,S25,https://www.ycombinator.com/companies/idler,https://idler.ai/,Reinforcement learning environments. ,Active,"B2B; Engineering, Product and Design",14,"San Francisco, CA, USA"
+Floot,S25,https://www.ycombinator.com/companies/floot,https://floot.com,The easiest way for non-coders to build apps with AI.,Active,"B2B; Engineering, Product and Design",2,
+Alara,S25,https://www.ycombinator.com/companies/alara,http://alaradental.com,Procurement Platform for Dental Offices,Active,B2B,,
+Socratix AI,S25,https://www.ycombinator.com/companies/socratix-ai,https://getsocratix.ai,AI coworkers for fraud and risk teams.,Active,B2B; Operations,3,
+Minimal AI,S25,https://www.ycombinator.com/companies/minimal-ai,https://gominimal.ai/,AI Agents for E-commerce Customer Support,Active,B2B,3,
+Risely AI,S25,https://www.ycombinator.com/companies/risely-ai,https://www.risely.ai/,AI agents that automate administrative work across college campuses. ,Active,Education,9,
+Omnara,S25,https://www.ycombinator.com/companies/omnara,https://omnara.com,Mobile & Web Interface for Claude Code & Codex,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Knowlify,S25,https://www.ycombinator.com/companies/knowlify,https://knowlify.net/,Convert textual content into explainer videos in < 15s,Active,B2B,4,"San Francisco, CA, USA"
+Autosana,S25,https://www.ycombinator.com/companies/autosana,https://autosana.ai,AI Agents for Mobile & Web QA,Active,"B2B; Engineering, Product and Design",3,
+April,S25,https://www.ycombinator.com/companies/april,https://tryapril.com,Voice AI Executive Assistant,Active,Consumer,2,"San Francisco, CA, USA"
+Iron Grid,S25,https://www.ycombinator.com/companies/iron-grid,https://getirongrid.com/,AI Insurance for hardware.,Active,Fintech; Insurance,2,
+Finto,S25,https://www.ycombinator.com/companies/finto-de,https://www.gofinto.com/,AI accounting for enterprise finance teams,Active,B2B; Finance and Accounting,7,"Munich, Germany"
+Motives,S25,https://www.ycombinator.com/companies/motives,https://motives.ai/,Consumer focus groups run by AI,Active,B2B; Marketing,,"London, UK"
+Relling,S25,https://www.ycombinator.com/companies/relling,https://relling.co,RL and Research Infrastructure for Robotics & World Models,Active,B2B; Infrastructure,,"San Francisco, CA, USA"
+Char,S25,https://www.ycombinator.com/companies/char,https://char.com,Open source AI notepad for meetings,Active,B2B; Productivity,4,
+Manufact (formerly mcp-use),S25,https://www.ycombinator.com/companies/manufact,https://manufact.com,Open source SDK & cloud infrastructure for MCP Servers & ChatGPT Apps ,Active,B2B; Infrastructure,3,
+Novaflow,S25,https://www.ycombinator.com/companies/novaflow,https://www.novaflowapp.com/,The AI data analyst for biology labs,Active,Healthcare,2,"San Francisco, CA, USA"
+Perseus Defense,S25,https://www.ycombinator.com/companies/perseus-defense,https://perseusdefense.com,America's Golden Dome for Drones,Active,Industrials; Defense,3,
+Phases,S25,https://www.ycombinator.com/companies/phases,https://phases.ai,"Automating clinical trials, starting with patient recruitment.",Active,Healthcare; Healthcare IT,3,"San Francisco, CA, USA"
+Solva,S25,https://www.ycombinator.com/companies/solva,https://solvatechnology.com,Automates insurance claims and stops incorrect payouts,Active,Fintech; Insurance,15,
+Albacore Inc.,S25,https://www.ycombinator.com/companies/albacore-inc,https://www.albacore.inc,Autonomous undersea vehicles to deter maritime invasions.,Active,Government,15,"Philadelphia, PA, USA"
+GoRiff,S25,https://www.ycombinator.com/companies/goriff,https://goriff.com/,Cursor for music production,Active,Consumer,2,"San Francisco, CA, USA"
+Mimos,S25,https://www.ycombinator.com/companies/mimos,https://www.trymimos.com/,Helping companies rank in AI search,Active,B2B,2,
+Nozomio,S25,https://www.ycombinator.com/companies/nozomio,https://www.nozomio.com/,Context augmentation for agents,Active,"B2B; Engineering, Product and Design",1,
+VibeFlow,S25,https://www.ycombinator.com/companies/vibeflow,https://vibeflow.ai/,"Lovable, n8n and a database all in one platform ",Active,B2B,,
+Comena,S25,https://www.ycombinator.com/companies/comena,https://comena.ai,AI agents for distributors and manufacturers to automate order entry.,Active,B2B; Supply Chain and Logistics,2,
+Normal,S25,https://www.ycombinator.com/companies/normal,https://www.normalfactory.com/,Deploying and integrating useful robots,Active,Industrials,2,"San Francisco, CA, USA"
+GhostEye,S25,https://www.ycombinator.com/companies/ghosteye,https://ghosteye.ai,Vulnerability Management for Human Risk ,Active,B2B; Security,3,"New York, NY, USA"
+Channel3,S25,https://www.ycombinator.com/companies/channel3,https://trychannel3.com,Database of every product on the internet,Active,B2B; Retail,5,"New York, NY, USA"
+Epicenter,S25,https://www.ycombinator.com/companies/epicenter,https://epicenter.md,"ChatGPT's memory feature in an open, portable format",Active,Consumer,1,"San Francisco, CA, USA"
+Costream,S25,https://www.ycombinator.com/companies/costream,https://www.costream.ai,Indexing human dialogue through digital products,Active,Consumer,2,"San Francisco, CA, USA"
+Embedder,S25,https://www.ycombinator.com/companies/embedder,https://www.embedder.com,Cursor for Firmware,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Flai,S25,https://www.ycombinator.com/companies/flai,https://www.useflai.com/,We Bring Customers to Your Dealership,Active,Industrials; Automotive,12,
+b12 Labs,S25,https://www.ycombinator.com/companies/b12-labs,https://b12-labs.com/,Chemical Copilot for Pharma and Biotech,Active,Healthcare; Drug Discovery and Delivery,2,"San Francisco, CA, USA"
+Fulcrum,S25,https://www.ycombinator.com/companies/fulcrum,https://fulcrumresearch.ai,The agentic debugger for AI systems,Active,B2B; Analytics,2,
+Trace,S25,https://www.ycombinator.com/companies/trace-so,https://www.trace.so/,Context-aware orchestration between humans and AI.,Active,B2B; Productivity,3,"San Francisco, CA, USA"
+Interface,S25,https://www.ycombinator.com/companies/theinterface,https://www.theinterface.com,The frontier lab for visual simulation,Active,Consumer,2,"New York, NY, USA"
+IronLedger.ai,S25,https://www.ycombinator.com/companies/ironledger-ai,https://ironledger.ai,AI agents for property accounting,Active,Real Estate and Construction; Housing and Real Estate,2,
+Doe,S25,https://www.ycombinator.com/companies/doe,https://doe.so/,"The boring stuff, handled. Everything else, supercharged.",Active,B2B,4,"San Francisco, CA, USA"
+Louiza Labs,S25,https://www.ycombinator.com/companies/louiza-labs,https://www.louizalabs.co,Hebbia for Pharmaceutical Evidence,Active,B2B; Analytics,2,"San Francisco, CA, USA"
+Parachute,S25,https://www.ycombinator.com/companies/parachute,https://parachute-ai.com,Infrastructure for hospitals to monitor and deploy clinical AI ,Active,Healthcare; Healthcare IT,2,
+Riverbank,S25,https://www.ycombinator.com/companies/riverbank,https://www.riverbank.sh/,AI-native Red Teaming and Offensive Security ,Active,B2B,1,"San Francisco, CA, USA"
+Kalinda,S25,https://www.ycombinator.com/companies/kalinda,https://www.kalinda.ai/,Deep research for class action law firms,Active,B2B; Legal,2,
+Stellon Labs,S25,https://www.ycombinator.com/companies/stellon-labs,https://stellonlabs.com/,Building tiny frontier AI models that run on edge devices,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+BootLoop,S25,https://www.ycombinator.com/companies/bootloop,https://bootloop.ai/,"Firmware in minutes, not months - rigorously tested on real hardware",Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Nexa Labs,S25,https://www.ycombinator.com/companies/nexa-labs,https://nexa.farm/,Implantable microchips and AI for cattle monitoring,Active,Industrials; Agriculture,5,"San Francisco, CA, USA"
+AgentHub,S25,https://www.ycombinator.com/companies/agenthub-2,https://www.agenthublabs.com,The simulation and evaluation engine for AI agents,Active,B2B,2,
+cocreate,S25,https://www.ycombinator.com/companies/cocreate,https://cocreate.so,video production software,Active,Consumer; Content,4,"San Francisco, CA, USA"
+Slashy,S25,https://www.ycombinator.com/companies/slashy,https://www.slashy.com/,Cursor for Email,Active,B2B; Productivity,3,"San Francisco, CA, USA"
+Wedge,S25,https://www.ycombinator.com/companies/wedge,https://www.wedge.health,Palantir for Healthcare AI Agents,Active,Healthcare,2,"San Francisco, CA, USA"
+CareSwift,S25,https://www.ycombinator.com/companies/careswift,https://www.careswift.com/,AI scribe for Ambulance Reports,Active,Healthcare,2,"New York, NY, USA"
+Pangolin,S25,https://www.ycombinator.com/companies/pangolin,https://pangolin.net,"Identity-aware VPN and proxy for remote access to anything, anywhere.",Active,B2B; Infrastructure,2,"San Francisco, CA, USA"
+Kestroll,S25,https://www.ycombinator.com/companies/kestroll,,,Active,B2B; Operations,2,"San Francisco, CA, USA"
+Tesora,S25,https://www.ycombinator.com/companies/tesora,https://tesora.ai,AI-Native Software for Operations and Finance Teams,Active,B2B; Operations,2,
+DeepAware AI,S25,https://www.ycombinator.com/companies/deepaware-ai,https://deepawareai.com/,Help AI data centers unlock more compute and become more efficient,Active,B2B; Infrastructure,2,"San Francisco, CA, USA"
+Stockline,S25,https://www.ycombinator.com/companies/stockline,https://stockline.ai,AI-native ERP for food wholesalers,Active,B2B,2,"San Francisco, CA, USA"
+Sagekit,S25,https://www.ycombinator.com/companies/sagekit,https://sagekit.com,AI workspace for research and writing,Active,B2B; Productivity,2,"San Francisco, CA, USA"
+Proliferate,S25,https://www.ycombinator.com/companies/proliferate,https://proliferate.com?utm_source=yc&utm_medium=referral&utm_campaign=profile,The autonomous engineering organization,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+DeepGrove,S25,https://www.ycombinator.com/companies/deepgrove,https://deepgrove.ai,Frontier Intelligence. On Any Device.,Active,B2B,3,
+Frizzle,S25,https://www.ycombinator.com/companies/frizzle,https://www.frizzle.com,AI Grading for Teachers,Active,Education,2,"San Francisco, CA, USA"
+Skope,S25,https://www.ycombinator.com/companies/skope,https://useskope.com,AI Agents for SMB Law Firms.,Active,B2B,2,"San Francisco, CA, USA"
+OnDeck AI,S25,https://www.ycombinator.com/companies/ondeck-ai,https://www.ondeckai.com,"Analyze any footage, without training a model",Active,B2B; Analytics,5,"Vancouver, BC, Canada"
+Alter,S25,https://www.ycombinator.com/companies/alter,https://alterai.dev,Secure access control and authorization platform for agent workflows,Active,B2B; Security,2,"New York, NY, USA"
+Imprezia,S25,https://www.ycombinator.com/companies/imprezia,https://imprezia.ai,The World's First AI Ad Network.,Active,B2B; Infrastructure,3,
+Lilac,S25,https://www.ycombinator.com/companies/lilac,https://getlilac.com,Spot GPUs that use idle GPUs from enterprises,Active,B2B,2,"San Francisco, CA, USA"
+Janet AI,S25,https://www.ycombinator.com/companies/tryjanet,https://janet.ai,The AI-Native Jira,Active,B2B,2,"San Francisco, CA, USA"
+Cyberdesk,S25,https://www.ycombinator.com/companies/cyberdesk,https://www.cyberdesk.io,Self learning computer use agent for developers,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Panels,S25,https://www.ycombinator.com/companies/panels,https://www.usepanels.com/,Audio Data for AI Labs,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Wafer,S25,https://www.ycombinator.com/companies/wafer,https://www.wafer.ai,AI that makes AI fast,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+Orange Slice,S25,https://www.ycombinator.com/companies/orange-slice,https://orangeslice.ai,Agentic sales enrichment spreadsheet,Active,B2B; Sales,2,
+Monarcha,S25,https://www.ycombinator.com/companies/monarcha,https://monarcha.ai,An expert for your spatial data,Active,B2B,2,"San Francisco, CA, USA"
+Lotas,S25,https://www.ycombinator.com/companies/lotas,https://www.lotas.ai,AI for Data Science and 3D,Active,B2B; Analytics,2,"San Francisco, CA, USA"
+Design Arena,S25,https://www.ycombinator.com/companies/design-arena,https://www.designarena.ai/,World's largest crowdsourced benchmark for AI-generated design,Active,Consumer,3,"San Francisco, CA, USA"
+EffiGov,S25,https://www.ycombinator.com/companies/effigov,https://effigov.com,The AI OS for Cities,Active,Government,3,"San Francisco, CA, USA"
+bitrig,S25,https://www.ycombinator.com/companies/bitrig,https://bitrig.com,"Vibe code, test, and deploy Swift apps. All from your iPhone.",Active,"B2B; Engineering, Product and Design",3,
+Lark,S25,https://www.ycombinator.com/companies/lark,https://getlark.ai/,The E2E testing layer for AI-driven development,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Topological,S25,https://www.ycombinator.com/companies/topological,https://www.topological.com,Physics-based foundation models for CAD optimization.,Active,"B2B; Engineering, Product and Design",2,
+datafruit,S25,https://www.ycombinator.com/companies/datafruit,https://datafruit.dev/,AI DevOps Engineer,Active,"B2B; Engineering, Product and Design",4,"San Francisco, CA, USA"
+ContextFort,S25,https://www.ycombinator.com/companies/contextfort,https://contextfort.ai/,Visibility and Controls for Browser Agents,Active,B2B; Security,2,"San Francisco, CA, USA"
+ZeroEval,S25,https://www.ycombinator.com/companies/zeroeval,https://zeroeval.com,Auto-optimizer for AI agents,Active,B2B,2,"New York, NY, USA"
+Verne Robotics,S25,https://www.ycombinator.com/companies/verne-robotics,https://vernerobotics.com/,AI models that teach robots new skills in hours,Active,Industrials; Manufacturing and Robotics,4,"San Francisco, CA, USA"
+Playgent,S25,https://www.ycombinator.com/companies/playgent,https://useplaygent.com,Sandboxes for AI agents,Active,Healthcare; Healthcare IT,2,"San Francisco, CA, USA"
+Liva AI,S25,https://www.ycombinator.com/companies/liva-ai,https://www.theliva.ai,Audio & Video Data,Active,B2B,2,"San Francisco, CA, USA"
+Tidy,S25,https://www.ycombinator.com/companies/tidy,https://withtidy.com,Does anything you can imagine with a text,Active,Consumer,2,"San Francisco, CA, USA"
+Shor,S25,https://www.ycombinator.com/companies/shor,https://www.tryshor.com,"The fastest, most affordable payroll for global teams",Active,Fintech; Payments,4,"San Francisco, CA, USA"
+Golpo,S25,https://www.ycombinator.com/companies/golpo,https://video.golpoai.com/,Most Powerful AI Video Gen Model for Explainer Videos From Documents,Active,B2B; Productivity,4,"San Francisco, CA, USA"
+gitdot,S25,https://www.ycombinator.com/companies/gitdot,https://www.gitdot.io/,A better GItHub,Active,B2B; Productivity,2,
+Lanesurf,S25,https://www.ycombinator.com/companies/lanesurf,https://www.lanesurf.com/,Voice AI for booking freight,Active,B2B,4,"San Francisco, CA, USA"
+Astor,S25,https://www.ycombinator.com/companies/astor,https://astor.app/,AI advisor for retail investors,Active,Fintech; Consumer Finance,5,"San Francisco, CA, USA"
+Blank Bio,S25,https://www.ycombinator.com/companies/blank-bio,http://blank.bio/,RNA-based AI for better drugs and smarter clinical trials.,Active,Healthcare; Therapeutics,3,"San Francisco, CA, USA"
+truthsystems,S25,https://www.ycombinator.com/companies/truthsystems,https://www.truthsystems.ai,Automatically blocking risky behavior with real-time governance agents,Active,B2B; Infrastructure,3,"San Francisco, CA, USA"
+AgentMail,S25,https://www.ycombinator.com/companies/agentmail,https://agentmail.to,Email Inboxes for AI Agents,Active,B2B; Infrastructure,6,"San Francisco, CA, USA"
+TraceRoot.AI,S25,https://www.ycombinator.com/companies/traceroot-ai,https://traceroot.ai,Open source AI agents auto-fix your production bugs,Active,"B2B; Engineering, Product and Design",2,
+Halluminate,S25,https://www.ycombinator.com/companies/halluminate,https://halluminate.ai/,Data and RL environments to automate knowledge work,Active,B2B,2,"San Francisco, CA, USA"
+MangoDesk,S25,https://www.ycombinator.com/companies/mangodesk,https://www.mangodesk.com/,RL environments for software engineering,Active,B2B,2,"San Francisco, CA, USA"
+The Prompting Company,S25,https://www.ycombinator.com/companies/the-prompting-company,https://www.promptingcompany.com,We help products get mentioned in ChatGPT.,Active,B2B; Marketing,4,
+Acrely,S25,https://www.ycombinator.com/companies/acrely,https://www.acrely.ai,Enterprise Voice Agents,Active,B2B,6,
+Dedalus Labs,S25,https://www.ycombinator.com/companies/dedalus-labs,https://www.dedaluslabs.ai/,Connect any LLM to any MCP tools and create complex agents in minutes.,Active,B2B,9,"San Francisco, CA, USA"
+Closera,S25,https://www.ycombinator.com/companies/closera,https://closera.com,AI employees for commercial real estate,Active,B2B,2,"San Francisco, CA, USA"
+Meteor,S25,https://www.ycombinator.com/companies/meteor,https://browse.dev,An AI-Native Browser,Active,Consumer,2,"San Francisco, CA, USA"
+GETASAP,S25,https://www.ycombinator.com/companies/getasap,https://www.getasap.us,8-hour Produce Distribution for Retailers of Any Size,Active,B2B; Supply Chain and Logistics,17,"San Francisco, CA, USA"
+Adaptional,S25,https://www.ycombinator.com/companies/adaptional,https://www.adaptional.com/,AI underwriting for insurance,Active,B2B,,"San Francisco, CA, USA"
+Pingo AI,S25,https://www.ycombinator.com/companies/pingo-ai,https://pingo.ai,AI companion that helps you learn languages,Active,Consumer,5,
+Rid,S25,https://www.ycombinator.com/companies/rid,https://rid.me,Sell with a text.,Active,Consumer,2,"San Francisco, CA, USA"
+Synthetic Society,S25,https://www.ycombinator.com/companies/synthetic-society,https://syntheticsociety.ai/,Synthetic Users to Simulate Real Users,Active,"B2B; Engineering, Product and Design",2,"San Francisco, CA, USA"
+Cactus,S25,https://www.ycombinator.com/companies/cactus,https://www.cactuscompute.com/,Low-latency AI engine for mobile devices & wearables,Active,"B2B; Engineering, Product and Design",8,"San Francisco, CA, USA"
+Nixo,S25,https://www.ycombinator.com/companies/nixo,https://withnixo.com/,The first ops platform for forward deployed engineers,Active,B2B,4,
+Serafis,S25,https://www.ycombinator.com/companies/serafis,https://serafis.ai,The AI knowledge graph for institutional investors,Active,B2B,4,"San Francisco, CA, USA"
+Wayline,S25,https://www.ycombinator.com/companies/wayline,https://wayline.com,AI voice for property managers,Active,Real Estate and Construction,2,
+Ambral,S25,https://www.ycombinator.com/companies/ambral,https://www.ambral.com/,AI Account Managers,Active,B2B; Sales,2,
+Fluidize,S25,https://www.ycombinator.com/companies/fluidize,https://fluidize.ai,Helping scientists and engineers run experiments with AI. ,Active,"B2B; Engineering, Product and Design",3,"San Francisco, CA, USA"
+Autumn,S25,https://www.ycombinator.com/companies/autumn,https://useautumn.com,Billing infrastructure for AI,Active,B2B,2,
+Stormy AI,S25,https://www.ycombinator.com/companies/stormy-ai,https://stormy.ai,Al platform that makes social marketing as easy as running a Google…,Active,B2B; Marketing,5,"San Francisco, CA, USA"
+Nuntius,S25,https://www.ycombinator.com/companies/nuntius,https://www.nuntius.ai,Making Models Follow Rules.,Inactive,B2B; Infrastructure,2,"San Francisco, CA, USA"
